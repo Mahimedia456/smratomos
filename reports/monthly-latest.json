@@ -6,7 +6,7 @@
   "snapshots": 5,
   "archived_findings": 16,
   "dated_findings": 21,
-  "unverified_leads": 4,
+  "unverified_leads": 3,
   "platform_counts": {
     "Facebook": 0,
     "Instagram": 1,
@@ -44,7 +44,7 @@
     "post": 6
   },
   "platform_discovery_leads": {
-    "Facebook": 1,
+    "Facebook": 0,
     "Instagram": 0,
     "X / Twitter": 0,
     "LinkedIn": 2,
@@ -61,7 +61,7 @@
     "embedded_verified": 7,
     "linked_verified": 7,
     "embedded_leads": 0,
-    "linked_leads": 1,
+    "linked_leads": 0,
     "missing_media_verified": 14
   },
   "retail_observations_count": 0,
@@ -180,11 +180,11 @@
     [
       "Facebook",
       0,
-      1,
-      1,
       0,
       0,
-      2
+      0,
+      0,
+      0
     ],
     [
       "Instagram",
@@ -259,9 +259,12 @@
       0
     ]
   ],
+  "rejected_synthetic_example_urls": [
+    "https://www.facebook.com/AtomosTech/posts/1234567890"
+  ],
   "overall_kpi": {
     "dated_records": 21,
-    "pending_leads": 4,
+    "pending_leads": 3,
     "metrics": {
       "views": 6337,
       "likes": 153,

@@ -1,0 +1,19 @@
+{
+  "scope": "editorial",
+  "model": "gpt-4.1-mini",
+  "search_events": 1,
+  "usage": {
+    "input_tokens": 9763,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 900,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10663
+  },
+  "response_id": "resp_07c0f392377a913d006ae506502ef887d1a8b6142bcfbefd01",
+  "pricing": "OpenAI account usage dashboard; dollar cap not guaranteed"
+}

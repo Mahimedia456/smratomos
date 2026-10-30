@@ -1,0 +1,31 @@
+{
+  "report_date": "2026-10-10",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "complete",
+  "headline": "Atomos Brand Monitoring Report for October 10, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Newsshooter",
+      "summary": "Article detailing Atomos firmware update for Shinobi II and Shinobi 7 RX monitors.",
+      "checked": true
+    },
+    {
+      "platform": "CineD",
+      "summary": "Article discussing Atomos firmware update expanding camera control for Shinobi II and Shinobi 7 RX monitors.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related news, firmware updates, and product announcements dated October 10, 2026. Sources were verified by direct access to original articles."
+}

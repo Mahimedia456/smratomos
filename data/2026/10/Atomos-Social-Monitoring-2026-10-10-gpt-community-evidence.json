@@ -1,0 +1,101 @@
+{
+  "report_date": "2026-10-10",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for October 10, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Shogun Firmware Updates",
+      "platform": "Atomos Official Website",
+      "url": "https://www.atomos.com/product-support/?parent=shogun",
+      "author": "Atomos Support",
+      "published_date": "",
+      "date_evidence": "2026-10-10",
+      "summary": "Atomos has released AtomOS 11.19.00 for the Shogun series, introducing raw support for Panasonic DC-S1M2NT and enhancements in EL Zone performance and Log handling for various formats.",
+      "sentiment": "Positive",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Shogun",
+      "details": "",
+      "source_excerpt": "Current Firmware\nAtomOS 11.19.00\nDownload Firmware update Download Release Notes\n\nUpgrading to AtomOS 11.19.00\n\nImprovements:\n\nRaw support for Panasonic DC-S1M2NT\nImprove EL Zone performance\nImproved Log handling for HLG, FLog, FLog2, and FLog2-C",
+      "response_action": "informational",
+      "impact": "high",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "article",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Shinobi Firmware Updates",
+      "platform": "Atomos Official Website",
+      "url": "https://www.atomos.com/product-support/?parent=shinobi",
+      "author": "Atomos Support",
+      "published_date": "",
+      "date_evidence": "2026-10-10",
+      "summary": "The latest firmware for the Shinobi monitor is AtomOS 10.11, with previous versions 10.1 and 10.02 also available for download.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Shinobi",
+      "details": "",
+      "source_excerpt": "Shinobi\n5” HDR Photo & Video Monitor\n\nFirmware\nShinobi AtomOS 10.11\nDownload Release Notes\n\nPrevious Firmware\n\nShinobi AtomOS 10.1\nDownload Release Notes\n\nShinobi AtomOS 10.02\nDownload Release Notes",
+      "response_action": "informational",
+      "impact": "medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "article",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Atomos Official Website",
+      "summary": "Firmware updates for Shogun and Shinobi series.",
+      "checked": true
+    },
+    {
+      "platform": "Newsshooter",
+      "summary": "Article on firmware update adding camera control support for Shinobi II & Shinobi 7 RX.",
+      "checked": true
+    },
+    {
+      "platform": "DV Info Net Forum",
+      "summary": "Forum discussion on SSD formatting issues with Shogun.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related content dated October 10, 2026, focusing on official sources and reputable forums to gather the latest information on firmware updates, product support, and user experiences."
+}

@@ -86,6 +86,23 @@
       "content_type": "comment",
       "verification_note": "Historical thread with exact-date October comment; original thread itself predates October.",
       "engagement": {}
+    },
+    {
+      "title": "Lumix filmmaker describes Atomos UltraSync Blue for two external recorder timecode workflow",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
+      "author": "r/Lumix commenter",
+      "published_date": "2026-10-14",
+      "date_evidence": "Original Reddit thread shows comment dated Wednesday October 14 2026; original top-level post October 13, 2026",
+      "summary": "A commenter describes long-form 8K 30p anamorphic recording workflow and using Atomos UltraSync Blue to keep two external recorders in timecode sync. This is a dated public comment about product use, not a new post.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "older",
+      "content_type": "comment",
+      "product": "Atomos UltraSync Blue",
+      "source_excerpt": "2 external recorders timecode via Atomos UltraSync Blue",
+      "verification_note": "Dated nested comment within 2026-10-13 Reddit thread; do not count as an Atomos-authored post. Engagement metrics not independently captured.",
+      "engagement": {}
     }
   ]
 }

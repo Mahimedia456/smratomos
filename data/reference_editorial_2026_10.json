@@ -1,0 +1,56 @@
+{
+  "source": "Original public editorial and regional manufacturer pages; research on 2026-10-30",
+  "findings": [
+    {
+      "title": "Best External Monitor for Canon EOS R5 Mark II lists Atomos Shinobi II and Shinobi GO",
+      "platform": "Google / News / Articles",
+      "url": "https://www.cameraegg.org/camerareview/best-external-monitor-for-canon-eos-r5-mark-ii/",
+      "author": "Photographer / CameraEgg",
+      "published_date": "2026-10-27",
+      "date_evidence": "Original article byline: October 27, 2026, and updated October 27, 2026",
+      "summary": "External monitor comparison recommends considering Shinobi II for supported USB-C camera control and Shinobi GO for simpler bright monitoring. Comparison is editorial/affiliate content, not a firsthand product test.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "older",
+      "source_excerpt": "compare the Atomos Shinobi II for supported USB-C control, or choose the Atomos Shinobi GO for a simpler bright preview",
+      "product": "Shinobi II; Shinobi GO",
+      "content_type": "article",
+      "verification_note": "Exact-date original editorial page. No public engagement metrics available.",
+      "engagement": {}
+    },
+    {
+      "title": "Atomos Sumo PRO-19 showcased at NAB New York 2026",
+      "platform": "Google / News / Articles",
+      "url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/",
+      "author": "Larry Jordan",
+      "published_date": "2026-10-20",
+      "date_evidence": "Original event roundup gives Atomos entry dated 10/20/2026",
+      "summary": "Industry event coverage lists the Sumo PRO-19 monitor-recorder-switcher at NAB NY, discussing multi-camera SDI inputs, ISO/program recording, NDI HX3, AirGlu timecode and cloud uploads.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "older",
+      "source_excerpt": "(10/20/2026) At NAB-NY, Atomos will debut the Atomos Sumo PRO-19",
+      "product": "Sumo PRO-19",
+      "content_type": "article",
+      "verification_note": "Date refers to the dated Atomos entry inside a multi-company roundup; not confirmed as the whole article's publish date.",
+      "engagement": {}
+    },
+    {
+      "title": "Atomos Japan October promotional sale announcement",
+      "platform": "Google / News / Articles",
+      "url": "https://www.atomos-japan.com/category/news",
+      "author": "Atomos Japan",
+      "published_date": "2026-10-13",
+      "date_evidence": "Original official Japan news archive explicitly lists 2026年10月13日",
+      "summary": "Official regional announcement for Amazon Prime appreciation promotional participation, mentioning supported products including Ninja TX and promotions up to 20 percent. Corporate promotional item, not independent sentiment.",
+      "sentiment": "Not applicable",
+      "priority": "Low",
+      "status": "older",
+      "source_excerpt": "2026年10月13日 Amazon「プライム感謝祭」参加のお知らせ",
+      "product": "Ninja TX",
+      "content_type": "article",
+      "verification_note": "Original dated company announcement index. Retail promotion is not third-party consumer feedback.",
+      "engagement": {}
+    }
+  ]
+}

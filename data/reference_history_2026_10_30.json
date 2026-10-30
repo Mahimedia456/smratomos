@@ -1,6 +1,6 @@
 {
   "source": "Public original Reddit discussions reviewed 2026-10-30; historical window 2026-10-24 to 2026-10-30",
-  "source_note": "Reddit public posts as dated by source. Original poster alleges mismatch; support assertion reported by customer, not independently authenticated. Cross-posts from one issue are separate URLs but one topic cluster.",
+  "source_note": "Reddit public posts as dated by source. Original poster alleges mismatch; support assertion reported by customer, not independently authenticated. Cross-posts from one issue are separate URLs but one topic cluster. Comment summaries are paraphrases from public threads, not verbatim quotes or complete comment coverage.",
   "findings": [
     {
       "title": "Shinobi 7 II 4K60 packaging versus 4K30 support complaint (r/videography)",
@@ -18,7 +18,24 @@
       "content_type": "post",
       "verification_note": "Original public post date and brand context checked; one issue cross-posted in multiple subreddits.",
       "response_action": "Review customer support case and published technical specifications.",
-      "engagement": {}
+      "engagement": {},
+      "comments": [
+        {
+          "author": "r/videography commenter",
+          "date": "2026-10-24",
+          "text": "Reported that the monitor's image has ghosting and the UI is difficult to use; first-hand assessment from a purchaser, not verified lab testing."
+        },
+        {
+          "author": "r/videography commenter",
+          "date": "2026-10-24",
+          "text": "Tested Shinobi 7 II with Lumix S1II and reported a 4K60 camera output displaying UHD 29.97 on the monitor; discussed HDMI downconversion."
+        },
+        {
+          "author": "r/videography commenter",
+          "date": "2026-10-26",
+          "text": "Discussed historical dissatisfaction with Atomos service and Shogun hardware support."
+        }
+      ]
     },
     {
       "title": "Shinobi 7 II HDMI input limitation complaint (r/Atomos)",
@@ -35,7 +52,19 @@
       "product": "Shinobi 7 II",
       "content_type": "post",
       "verification_note": "Original Reddit post visible, same incident cluster as r/videography.",
-      "engagement": {}
+      "engagement": {},
+      "comments": [
+        {
+          "author": "r/Atomos commenter",
+          "date": "2026-10-24",
+          "text": "Discussed sending receipt and awaiting a support response."
+        },
+        {
+          "author": "r/Atomos commenter",
+          "date": "2026-10-26",
+          "text": "Reported a separate Shogun 7 SDI failure and lack of repair options; anecdotal account."
+        }
+      ]
     },
     {
       "title": "Shinobi 7 II specification complaint and Atomos community reply (r/AtomosCommunity)",
@@ -52,7 +81,14 @@
       "product": "Shinobi 7 II",
       "content_type": "post",
       "verification_note": "Visible public community reply from Atomos-labeled account; cannot establish resolution.",
-      "engagement": {}
+      "engagement": {},
+      "comments": [
+        {
+          "author": "Atomos-labeled account",
+          "date": "2026-10-24",
+          "text": "Public reply acknowledged the concern and offered to review the customer case via direct message."
+        }
+      ]
     }
   ]
 }

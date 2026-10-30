@@ -1,0 +1,149 @@
+{
+  "source": "Public original retailer URL checked through indexed search on October 31, 2026. Listing price is an indexed reference; not a verified historical October 1-30 price. Original page live revalidation is separate.",
+  "retail_observations": [
+    {
+      "title": "Atomos Shinobi II 5.2in HDR monitor",
+      "url": "https://cvp.com/product/atomos-shinobi-ii-atomshb003",
+      "platform": "Retailers",
+      "publisher": "CVP",
+      "author": "CVP",
+      "product": "Shinobi II",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "5.2-inch HDMI HDR monitoring, USB-C camera control",
+      "source_excerpt": "Reference listing: Shinobi II; ex VAT; listed in stock.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 265,
+        "currency": "GBP",
+        "availability": "ex VAT; listed in stock"
+      },
+      "image_url": "",
+      "image_files": []
+    },
+    {
+      "title": "Atomos Shinobi 7 II 7in HDR monitor",
+      "url": "https://cvp.com/product/atomos-shinobi-7-ii",
+      "platform": "Retailers",
+      "publisher": "CVP",
+      "author": "CVP",
+      "product": "Shinobi 7 II",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "7-inch high-brightness monitor and camera control",
+      "source_excerpt": "Reference listing: Shinobi 7 II; ex VAT; EU warehouse.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 425,
+        "currency": "GBP",
+        "availability": "ex VAT; EU warehouse"
+      },
+      "image_url": "",
+      "image_files": []
+    },
+    {
+      "title": "Atomos Ninja TX monitor-recorder",
+      "url": "https://cvp.com/product/atomos-ninja-tx",
+      "platform": "Retailers",
+      "publisher": "CVP",
+      "author": "CVP",
+      "product": "Ninja TX",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "12G-SDI/HDMI, USB-C and CFexpress recorder",
+      "source_excerpt": "Reference listing: Ninja TX; ex VAT; in stock.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 749.17,
+        "currency": "GBP",
+        "availability": "ex VAT; in stock"
+      },
+      "image_url": "",
+      "image_files": []
+    },
+    {
+      "title": "Atomos Sumo PRO-19 on-set recorder",
+      "url": "https://cvp.com/product/atomos-sumo-pro-19-atomsmpr19",
+      "platform": "Retailers",
+      "publisher": "CVP",
+      "author": "CVP",
+      "product": "Sumo PRO-19",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "19-inch monitor-recorder-switcher",
+      "source_excerpt": "Reference listing: Sumo PRO-19; ex VAT; in stock.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 2115,
+        "currency": "GBP",
+        "availability": "ex VAT; in stock"
+      },
+      "image_url": "",
+      "image_files": []
+    },
+    {
+      "title": "Atomos Shinobi II B&H listing",
+      "url": "https://www.bhphotovideo.com/c/product/1841686-REG/atomos_atomshb003_shinobi_ii_5.html/overview",
+      "platform": "Retailers",
+      "publisher": "B&H Photo",
+      "author": "B&H Photo",
+      "product": "Shinobi II",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "Shinobi II 5.2-inch HDR monitor, US retailer listing",
+      "source_excerpt": "Reference listing: Shinobi II; in stock on indexed retailer page.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 375,
+        "currency": "USD",
+        "availability": "in stock on indexed retailer page"
+      },
+      "image_url": "",
+      "image_files": []
+    },
+    {
+      "title": "Atomos Shinobi GO B&H listing",
+      "url": "https://www.bhphotovideo.com/c/product/1882043-REG/atomos_atomshb004_shinobi_go_5_touchscreen.html/specs",
+      "platform": "Retailers",
+      "publisher": "B&H Photo",
+      "author": "B&H Photo",
+      "product": "Shinobi GO",
+      "status": "retail",
+      "published_date": "",
+      "reference_date": "2026-10-31",
+      "date_evidence": "Original retailer page indexed on 2026-10-31; no evidence of original listing creation or earlier month price.",
+      "sentiment": "Not applicable",
+      "content_type": "retailer",
+      "summary": "Shinobi GO monitor, US retailer listing",
+      "source_excerpt": "Reference listing: Shinobi GO; in stock on indexed retailer page.",
+      "verification_note": "Retail web-index reference captured 2026-10-31; price and availability may change; do not treat as historical sale or actual purchase.",
+      "engagement": {
+        "price": 299,
+        "currency": "USD",
+        "availability": "in stock on indexed retailer page"
+      },
+      "image_url": "",
+      "image_files": []
+    }
+  ]
+}

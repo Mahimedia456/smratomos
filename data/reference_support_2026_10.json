@@ -1,0 +1,91 @@
+{
+  "source": "Original dated Atomos Reddit posts and public comments, October 2026",
+  "scope": "support and device feedback",
+  "findings": [
+    {
+      "title": "Shinobi II touch-to-focus requested for Sony ZV-E1",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
+      "author": "r/Atomos poster",
+      "published_date": "2026-10-03",
+      "date_evidence": "Original public Reddit thread dated Saturday October 03 2026",
+      "summary": "User requests Sony ZV-E1 touch focus support on Shinobi II. Atomos-labeled reply on October 7 confirms feature request recorded, and followups on October 18, 20 and 22 repeat user demand.",
+      "sentiment": "Question",
+      "priority": "Medium",
+      "status": "older",
+      "source_excerpt": "Atomos please add Touch to focus for the Sony ZV-E1",
+      "product": "Shinobi II",
+      "content_type": "post",
+      "verification_note": "Original post date 3 October; subsequent dated comments displayed as linked conversation, not independent original posts.",
+      "comments": [
+        {
+          "author": "Atomos-labeled reply",
+          "date": "2026-10-07",
+          "text": "Acknowledges feature request and says feedback will be shared with the team."
+        },
+        {
+          "author": "Community member",
+          "date": "2026-10-18",
+          "text": "Repeats request to add Sony ZV-E1 touch focus."
+        },
+        {
+          "author": "Atomos-labeled reply",
+          "date": "2026-10-20",
+          "text": "Acknowledges repeat requests for support."
+        },
+        {
+          "author": "Community member",
+          "date": "2026-10-22",
+          "text": "Requests update on long-standing feature request."
+        }
+      ],
+      "engagement": {}
+    },
+    {
+      "title": "Exposure assist blue overlay issue on Atomos Ninja monitor",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
+      "author": "r/Atomos poster",
+      "published_date": "2026-10-08",
+      "date_evidence": "Original Reddit post dated Thursday October 08 2026",
+      "summary": "User describes persistent blue exposure assist overlay despite firmware update and factory reset. Public replies troubleshoot multiple cameras, HDMI and firmware, with Atomos reply on October 9 advising checks and support ticket.",
+      "sentiment": "Negative",
+      "priority": "Medium",
+      "status": "older",
+      "source_excerpt": "I've been getting this off blue exposure assist on mine monitor",
+      "product": "Atomos Ninja",
+      "content_type": "post",
+      "verification_note": "Recorder-specific identification inferred from reply asking about Ninja firmware; user video shows Shogun unaffected.",
+      "comments": [
+        {
+          "author": "Community member",
+          "date": "2026-10-08",
+          "text": "Suggests HDMI camera configuration and testing an alternate monitor."
+        },
+        {
+          "author": "Atomos-labeled reply",
+          "date": "2026-10-09",
+          "text": "Requests camera information display test, firmware 11.19 check, and support ticket."
+        }
+      ],
+      "engagement": {}
+    },
+    {
+      "title": "Sony ZV-E1 Shinobi II touch-focus compatibility follow-up",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Atomos/comments/1sc2jl4/atomos_shinobi_ii_sony_zve1/",
+      "author": "r/Atomos commenter",
+      "published_date": "2026-10-12",
+      "date_evidence": "October 12 2026 is the public comment date on an older original thread, not the original post date.",
+      "summary": "A new October 12 comment asks if Sony ZV-E1 touch focus is now supported. Treat as an October comment mention, not a new October thread.",
+      "sentiment": "Question",
+      "priority": "Low",
+      "status": "older",
+      "source_excerpt": "just wondering if zve1 can be supported to touch focus now?",
+      "product": "Shinobi II",
+      "content_type": "comment",
+      "verification_note": "Historical thread with exact-date October comment; original thread itself predates October.",
+      "engagement": {}
+    }
+  ]
+}

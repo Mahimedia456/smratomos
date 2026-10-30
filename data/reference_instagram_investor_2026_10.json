@@ -1,0 +1,57 @@
+{
+  "source": "Independent public indexed Instagram mirror and official Atomos investor release checked 2026-10-30",
+  "findings": [
+    {
+      "title": "Wedding filmmaker Greg Burnett tags Atomos in monitor recommendation",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/p/Dej_LfMuqD7/",
+      "author": "@gbweddingfilms (Greg Burnett)",
+      "published_date": "2026-10-16",
+      "date_evidence": "Third-party Imginn mirror lists October 16, 2026 at 04:43 pm; original Instagram inaccessible without login",
+      "summary": "Creator promotes use of an external monitor and tags @atomos.global and @holdannews. Visible comments contain positive monitor feedback and a Ninja V power-consumption question.",
+      "sentiment": "Positive",
+      "priority": "Medium",
+      "status": "older",
+      "content_type": "post",
+      "source_excerpt": "@atomos.global bringing the best as usual",
+      "product": "Atomos external monitors; Ninja V discussed in comments",
+      "engagement": {
+        "likes": 143,
+        "comments": 33
+      },
+      "engagement_source": "Third-party mirror snapshot, not original Instagram API",
+      "verification_note": "Publication date and engagement from third-party mirror https://imginn.com/p/Dej_LfMuqD7/; direct original post not accessible. Source is not independently verified through Instagram.",
+      "comments": [
+        {
+          "author": "@marcestrellamedia",
+          "text": "Creator reports owning and loving a monitor (summary of indexed comment)."
+        },
+        {
+          "author": "@mox.visuals",
+          "text": "Praises Atomos monitors and says the breakdown helped (summary)."
+        },
+        {
+          "author": "@joerowlands_films",
+          "text": "Mentions Ninja V high power consumption and asks how Shinobi compares (summary)."
+        }
+      ]
+    },
+    {
+      "title": "Atomos Q1 FY27 quarterly activity update references Shinobi II and Sumo PRO-19 demand",
+      "platform": "Google / News / Articles",
+      "url": "https://investors.atomos.com/announcements/JnKoqE-quarterly-activities-appendix-4c-cash-flow-report",
+      "author": "Atomos Limited (investor announcement)",
+      "published_date": "2026-10-29",
+      "date_evidence": "Official investor announcement released 29 October 2026 at 10:13 AM",
+      "summary": "Official market update describes continued demand for Shinobi II, early uptake of Sumo PRO-19, Shinobi 7 II shipment and ATOMOSphere integrations. Corporate announcement, not independent creator sentiment.",
+      "sentiment": "Not applicable",
+      "priority": "Low",
+      "status": "older",
+      "content_type": "article",
+      "source_excerpt": "Q1 FY27 sales of $9.2m, driven by continued demand for Shinobi II",
+      "product": "Shinobi II; Sumo PRO-19; Shinobi 7 II",
+      "engagement": {},
+      "verification_note": "Original issuer statement. Do not count as social engagement."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "report_date": "2026-10-30",
+  "generated_at_pkt": "2026-10-30 19:59 PKT",
+  "research_as_of_pkt": "2026-10-30 19:15 PKT",
+  "status": "PARTIAL DAY | original-source research remains time-limited until midnight PKT",
+  "headline": "2 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-30. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
+  "today_findings": [
+    {
+      "title": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y",
+      "author": "YobelPrize",
+      "published_date": "2026-10-30",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT menu is hidden behind one unlabeled icon, and I couldn't find a single ...",
+      "sentiment": "Question",
+      "priority": "Medium",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/roEMkfDDC0Y/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me",
+      "details": "",
+      "source_excerpt": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT menu is hidden behind one unlabeled icon, and I couldn't find a single ...",
+      "response_action": "Optional review.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "engagement": {
+        "views": 25,
+        "likes": 1,
+        "comments": 1
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-30/source_005.jpg"
+      ],
+      "comments": [
+        {
+          "author": "@YobelPrize",
+          "text": "The fix, if you just want the steps: tap the empty rectangle on the bottom bar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+          "date": "2026-10-30",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "title": "Comment on: I Finally Got the LUT Output on the Atomos Ninja RAW to Work",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg",
+      "author": "@YobelPrize",
+      "published_date": "2026-10-30",
+      "date_evidence": "YouTube Data API original comment publishedAt converted to PKT",
+      "summary": "ar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/roEMkfDDC0Y/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "AtomOS 12",
+      "details": "",
+      "source_excerpt": "ar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube API original public comment",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "",
+      "engagement": {
+        "likes": 0,
+        "replies": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-30/source_006.jpg"
+      ],
+      "comments": []
+    }
+  ],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "2026-10-30",
+  "report_period_end": "2026-10-30",
+  "coverage": [
+    {
+      "platform": "Reddit",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "YouTube",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 1 original source fetch(es), 0 inaccessible; 6 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Facebook",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "X / Twitter",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Camera forums",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Industry articles",
+      "summary": "3 indexed query attempt(s), 3 index response(s), 6 original source fetch(es), 5 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Retailers",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "Reviewed recent posts and updates related to Atomos Technologies on LinkedIn.",
+      "checked": true
+    },
+    {
+      "platform": "DPReview",
+      "summary": "No new discussions or reviews on Atomos products on DPReview for October 30, 2026.",
+      "checked": true
+    },
+    {
+      "platform": "ASX Announcement",
+      "summary": "Official announcement regarding proposed capital consolidation.",
+      "checked": true
+    },
+    {
+      "platform": "Atomos Product Support",
+      "summary": "Firmware update details for Shogun device.",
+      "checked": true
+    },
+    {
+      "platform": "Atomos Official Website",
+      "summary": "Product listing for Atomos RX 4K/HD Receiver.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "Reddit: alternate public index HTTP 202",
+    "YouTube: alternate public index HTTP 202",
+    "Facebook: alternate public index HTTP 202",
+    "Instagram: alternate public index HTTP 202",
+    "LinkedIn: alternate public index HTTP 202",
+    "X / Twitter: alternate public index HTTP 202",
+    "Camera forums: alternate public index HTTP 202",
+    "Industry articles: alternate public index HTTP 202",
+    "Retailers: alternate public index HTTP 202",
+    "GDELT free news index: HTTP 429",
+    "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
+    "No result does not establish no brand activity on a platform.",
+    "Facebook",
+    "Instagram",
+    "X/Twitter",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions.",
+    "Reddit",
+    "YouTube",
+    "Blackmagic Design Forums",
+    "RED Camera Forums",
+    "Sony Camera Forums",
+    "Social Media",
+    "Independent News Outlets",
+    "Retailer Listings",
+    "Precision filter excluded 4 irrelevant same-name posts before publication."
+  ],
+  "methodology": "Python collector: 16 public search query attempts, 7 original-page attempts, 7 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+}

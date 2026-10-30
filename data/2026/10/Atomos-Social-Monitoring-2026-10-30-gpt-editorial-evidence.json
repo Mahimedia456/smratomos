@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-10-30",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "Completed",
+  "headline": "Atomos Brand Monitoring Report for October 30, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Shogun Firmware Updates",
+      "platform": "Atomos Product Support",
+      "url": "https://www.atomos.com/product-support/?parent=shogun",
+      "author": "Atomos Limited",
+      "published_date": "",
+      "date_evidence": "2026-10-30",
+      "summary": "Atomos released AtomOS 11.19.00 for Shogun, enhancing raw support for Panasonic DC-S1M2NT and improving EL Zone performance and log handling for various formats.",
+      "sentiment": "Positive",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Shogun",
+      "details": "",
+      "source_excerpt": "Current Firmware: AtomOS 11.19.00. Improvements: Raw support for Panasonic DC-S1M2NT, Improved EL Zone performance, Improved Log handling for HLG, FLog, FLog2, and FLog2-C.",
+      "response_action": "Encourage users to update firmware for improved performance.",
+      "impact": "Medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos Limited",
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Atomos RX 4K/HD Receiver – Wireless Video Monitoring",
+      "platform": "Atomos Official Website",
+      "url": "https://www.atomos.com/product/atomos-rx-4k-hd-receiver-wireless-video-monitoring/",
+      "author": "Atomos Limited",
+      "published_date": "",
+      "date_evidence": "2026-10-30",
+      "summary": "Atomos RX 4K/HD Receiver is available for $269.00, offering wireless video monitoring with up to 4Kp30 support and 5GHz Wi-Fi transmission.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos RX 4K/HD Receiver",
+      "details": "",
+      "source_excerpt": "Price: $269.00 ex. TAX. In stock. Compact and portable. Receives up to 4Kp30 video from Atomos TX. 5GHz Wi-Fi transmission, strong anti-interference.",
+      "response_action": "Monitor sales performance and customer feedback.",
+      "impact": "Low",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos Limited",
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "ASX Announcement",
+      "summary": "Official announcement regarding proposed capital consolidation.",
+      "checked": true
+    },
+    {
+      "platform": "Atomos Product Support",
+      "summary": "Firmware update details for Shogun device.",
+      "checked": true
+    },
+    {
+      "platform": "Atomos Official Website",
+      "summary": "Product listing for Atomos RX 4K/HD Receiver.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "Social Media",
+    "Independent News Outlets",
+    "Retailer Listings",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on October 30, 2026, focusing on official announcements, firmware updates, and product listings. Verified findings through official Atomos channels and reputable sources."
+}

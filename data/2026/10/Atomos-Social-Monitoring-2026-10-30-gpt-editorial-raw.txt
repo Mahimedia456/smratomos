@@ -1,0 +1,104 @@
+```json
+{
+  "report_date": "2026-10-30",
+  "status": "Completed",
+  "headline": "Atomos Brand Monitoring Report for October 30, 2026",
+  "today_findings": [
+    {
+      "url": "https://investors.atomos.com/announcements/3DaZMB-proposed-consolidation-of-capital",
+      "platform": "ASX Announcement",
+      "title": "Proposed Consolidation of Capital",
+      "author": "Atomos Limited",
+      "publisher": "Atomos Limited",
+      "published_date": "2026-10-19",
+      "date_evidence": "2026-10-19",
+      "source_excerpt": "Atomos Limited (ASX:AMS) advises it intends to undertake a consolidation of its issued capital at a ratio of 20:1 (Consolidation), subject to receiving shareholder approval at the Company’s Annual General Meeting to be held at 11am (AEDT) on Thursday, 19 November 2026.",
+      "summary": "Atomos Limited announced a proposed 20:1 consolidation of its issued capital, pending shareholder approval at the Annual General Meeting on November 19, 2026.",
+      "sentiment": "Neutral",
+      "priority": "High",
+      "status": "Verified",
+      "image_url": null,
+      "image_credit_url": null,
+      "image_context": null,
+      "product": null,
+      "impact": "High",
+      "response_action": "Monitor shareholder response and AGM outcomes.",
+      "engagement": null,
+      "engagement_source": null,
+      "comments": [],
+      "verification_note": "Verified through official ASX announcement."
+    },
+    {
+      "url": "https://www.atomos.com/product-support/?parent=shogun",
+      "platform": "Atomos Product Support",
+      "title": "Shogun Firmware Updates",
+      "author": "Atomos Limited",
+      "publisher": "Atomos Limited",
+      "published_date": "2026-10-30",
+      "date_evidence": "2026-10-30",
+      "source_excerpt": "Current Firmware: AtomOS 11.19.00. Improvements: Raw support for Panasonic DC-S1M2NT, Improved EL Zone performance, Improved Log handling for HLG, FLog, FLog2, and FLog2-C.",
+      "summary": "Atomos released AtomOS 11.19.00 for Shogun, enhancing raw support for Panasonic DC-S1M2NT and improving EL Zone performance and log handling for various formats.",
+      "sentiment": "Positive",
+      "priority": "Medium",
+      "status": "Verified",
+      "image_url": null,
+      "image_credit_url": null,
+      "image_context": null,
+      "product": "Shogun",
+      "impact": "Medium",
+      "response_action": "Encourage users to update firmware for improved performance.",
+      "engagement": null,
+      "engagement_source": null,
+      "comments": [],
+      "verification_note": "Verified through official Atomos product support page."
+    }
+  ],
+  "unverified_leads": [],
+  "older_leads": [],
+  "retail_observations": [
+    {
+      "url": "https://www.atomos.com/product/atomos-rx-4k-hd-receiver-wireless-video-monitoring/",
+      "platform": "Atomos Official Website",
+      "title": "Atomos RX 4K/HD Receiver – Wireless Video Monitoring",
+      "author": "Atomos Limited",
+      "publisher": "Atomos Limited",
+      "published_date": "2026-10-30",
+      "date_evidence": "2026-10-30",
+      "source_excerpt": "Price: $269.00 ex. TAX. In stock. Compact and portable. Receives up to 4Kp30 video from Atomos TX. 5GHz Wi-Fi transmission, strong anti-interference.",
+      "summary": "Atomos RX 4K/HD Receiver is available for $269.00, offering wireless video monitoring with up to 4Kp30 support and 5GHz Wi-Fi transmission.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "Verified",
+      "image_url": null,
+      "image_credit_url": null,
+      "image_context": null,
+      "product": "Atomos RX 4K/HD Receiver",
+      "impact": "Low",
+      "response_action": "Monitor sales performance and customer feedback.",
+      "engagement": null,
+      "engagement_source": null,
+      "comments": [],
+      "verification_note": "Verified through official Atomos product page."
+    }
+  ],
+  "coverage": [
+    {
+      "platform": "ASX Announcement",
+      "checked": true,
+      "summary": "Official announcement regarding proposed capital consolidation."
+    },
+    {
+      "platform": "Atomos Product Support",
+      "checked": true,
+      "summary": "Firmware update details for Shogun device."
+    },
+    {
+      "platform": "Atomos Official Website",
+      "checked": true,
+      "summary": "Product listing for Atomos RX 4K/HD Receiver."
+    }
+  ],
+  "visibility_gaps": ["Social Media", "Independent News Outlets", "Retailer Listings"],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on October 30, 2026, focusing on official announcements, firmware updates, and product listings. Verified findings through official Atomos channels and reputable sources."
+}
+``` 

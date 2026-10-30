@@ -134,7 +134,7 @@ def main():
                 story.extend([pdf.P('PUBLISHED '+str(item.published_date)+'  |  '+('ARCHIVED ORIGINAL SOURCE | ' if item in reference_findings else 'VERIFIED | ')+content_type(item).upper(),'caption'),Spacer(1,5)])
                 story.extend(continuous_card(item,'W'+str(i)))
         else:
-            story.extend([pdf.P('NOT VERIFIED IN SAVED SOURCES. Platform activity and engagement were not measured for the full week; zero activity is NOT established.','small'),Spacer(1,7)])
+            story.extend([pdf.P('NOT VERIFIED IN SAVED SOURCES. Platform activity and engagement were not measured for the full month; zero activity is NOT established.','small'),Spacer(1,7)])
         if uncertain.get(platform):
             story.append(pdf.P('UNVERIFIED / UNDATED SOURCE LEADS (EXCLUDED FROM KPI COUNTS)','caption'))
             for i,item in enumerate(uncertain[platform],1):story.extend(continuous_card(item,'U'+str(i)))
@@ -143,7 +143,7 @@ def main():
             for i,item in enumerate(offers,1):story.extend(continuous_card(item,'R'+str(i)))
     story.extend([Spacer(1,9),pdf.P(f'Auxiliary source leads surfaced: {len(undated_leads)} undated and {len(leads)} date-attributed; all excluded from verified post KPIs. An unobserved public metric is N/A, not a confirmed zero.','small')])
     story.extend([Spacer(1,10),pdf.band('MONTHLY COVERAGE AND VERIFICATION NOTES'),Spacer(1,9),
-                  pdf.P('This is a one-time manual monthly compilation. The 7-day window is not a claim that seven daily scans were completed. Missing metrics are unavailable, not zero. The saved evidence may contain inaccessible Instagram Stories or other platforms; URLs alone are never proof of content, media or publication date.','small'),
+                  pdf.P('This is a one-time manual monthly compilation. The 30-day window is not a claim that thirty daily scans were completed. Missing metrics are unavailable, not zero. The saved evidence may contain inaccessible Instagram Stories or other platforms; URLs alone are never proof of content, media or publication date.','small'),
                   Spacer(1,8),pdf.P('No monthly schedule, cron trigger, research API call or modifications to daily reports are introduced.','small')])
     doc.build(story,onFirstPage=pdf.footer,onLaterPages=pdf.footer)
     manifest=ROOT/'monthly-reports-index.json'

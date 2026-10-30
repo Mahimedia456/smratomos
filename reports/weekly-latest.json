@@ -1,0 +1,521 @@
+{
+  "period": "weekly",
+  "start": "2026-10-24",
+  "end": "2026-10-30",
+  "path": "reports/2026/10/Atomos-Social-Monitoring-Weekly-2026-10-24_to_2026-10-30.pdf",
+  "snapshots": 7,
+  "archived_findings": 8,
+  "dated_findings": 16,
+  "unverified_leads": 7,
+  "platform_counts": {
+    "Facebook": 0,
+    "Instagram": 0,
+    "X / Twitter": 0,
+    "LinkedIn": 0,
+    "Reddit": 3,
+    "YouTube": 9,
+    "Camera Forums": 0,
+    "Google / News / Articles": 4,
+    "Retailers": 0
+  },
+  "sentiment_counts": {
+    "Question": 2,
+    "Neutral": 6,
+    "Not applicable": 1,
+    "Positive": 4,
+    "Negative": 3
+  },
+  "observed_product_labels": {
+    "Shinobi 7 II": 3,
+    "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me": 1,
+    "AtomOS 12": 1,
+    "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
+    "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
+    "Atomos sees Shinobi 7 II demand build as cash flow turns positive Consu": 1,
+    "Atomos Ninja TX GO 5": 1,
+    "Shinobi II; Shinobi GO": 1,
+    "Ninja RAW": 1,
+    "Atomos Sumo PRO-19 in the Real World | On Location with Dan Flinter See the Atom": 1
+  },
+  "record_type_counts": {
+    "video": 8,
+    "comment": 1,
+    "article": 4,
+    "post": 3
+  },
+  "platform_discovery_leads": {
+    "Facebook": 0,
+    "Instagram": 0,
+    "X / Twitter": 0,
+    "LinkedIn": 2,
+    "Reddit": 0,
+    "YouTube": 0,
+    "Camera Forums": 0,
+    "Google / News / Articles": 3,
+    "Retailers": 0
+  },
+  "unique_social_url_groups": 13,
+  "linked_reply_excerpts": 7,
+  "daily_coverage_percent": 100.0,
+  "source_media": {
+    "embedded_verified": 10,
+    "linked_verified": 10,
+    "embedded_leads": 0,
+    "linked_leads": 0,
+    "missing_media_verified": 6
+  },
+  "retail_observations_count": 0,
+  "official_catalog_items": 0,
+  "official_catalog_pages": 0,
+  "brand_scope_mode": "brand_wide_all_products_services_and_mentions",
+  "retailer_store_counts": {},
+  "retailer_price_reference_count": 0,
+  "retail_unique_urls": 0,
+  "post_analytics_rows": [
+    [
+      "Facebook",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Instagram",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "X / Twitter",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "LinkedIn",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Reddit",
+      3,
+      0,
+      0,
+      0,
+      0,
+      6,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "YouTube",
+      0,
+      8,
+      0,
+      0,
+      1,
+      1,
+      "1866",
+      "17",
+      "1"
+    ],
+    [
+      "Camera Forums",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Google / News / Articles",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "Retailers",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "N/A",
+      "N/A",
+      "N/A"
+    ]
+  ],
+  "platform_kpi_rows": [
+    [
+      "Facebook",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Instagram",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "X / Twitter",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "LinkedIn",
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      "Reddit",
+      3,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      "YouTube",
+      9,
+      0,
+      9,
+      9,
+      9,
+      0
+    ],
+    [
+      "Camera Forums",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Google / News / Articles",
+      4,
+      3,
+      7,
+      1,
+      1,
+      0
+    ],
+    [
+      "Retailers",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "kpi_card_groups": [
+    [
+      "SOURCE COVERAGE",
+      [
+        [
+          "Dated sources",
+          16
+        ],
+        [
+          "Pending leads",
+          7
+        ],
+        [
+          "Unique source URLs",
+          21
+        ],
+        [
+          "Days captured",
+          "7/7"
+        ]
+      ]
+    ],
+    [
+      "OBSERVED ENGAGEMENT",
+      [
+        [
+          "Views",
+          1866
+        ],
+        [
+          "Likes",
+          17
+        ],
+        [
+          "Comments",
+          1
+        ],
+        [
+          "Shares",
+          null
+        ]
+      ]
+    ],
+    [
+      "OVERALL SENTIMENT",
+      [
+        [
+          "Positive",
+          4
+        ],
+        [
+          "Negative",
+          3
+        ],
+        [
+          "Neutral",
+          6
+        ],
+        [
+          "Questions",
+          2
+        ]
+      ]
+    ],
+    [
+      "POST FORMATS",
+      [
+        [
+          "Posts",
+          3
+        ],
+        [
+          "Videos",
+          8
+        ],
+        [
+          "Reels",
+          0
+        ],
+        [
+          "Stories",
+          0
+        ]
+      ]
+    ],
+    [
+      "ADDITIONAL ENGAGEMENT AND EVIDENCE",
+      [
+        [
+          "Reactions",
+          null
+        ],
+        [
+          "Reposts",
+          null
+        ],
+        [
+          "Linked replies",
+          7
+        ],
+        [
+          "Cached images",
+          10
+        ]
+      ]
+    ],
+    [
+      "SUPPORTING RECORDS",
+      [
+        [
+          "Retail entries",
+          0
+        ],
+        [
+          "Articles",
+          4
+        ],
+        [
+          "Comment findings",
+          1
+        ],
+        [
+          "Not classified",
+          1
+        ]
+      ]
+    ],
+    [
+      "OFFICIAL PRODUCT CATALOG | SEPARATE SNAPSHOT",
+      [
+        [
+          "Catalog products",
+          0
+        ],
+        [
+          "Catalog pages",
+          0
+        ],
+        [
+          "Listing access errors",
+          1
+        ],
+        [
+          "Catalog source",
+          "Manufacturer"
+        ]
+      ]
+    ]
+  ],
+  "pending_reference_metrics": {},
+  "rejected_synthetic_example_urls": [
+    "https://www.facebook.com/AtomosTech/posts/1234567890"
+  ],
+  "overall_kpi": {
+    "dated_records": 16,
+    "pending_leads": 7,
+    "metrics": {
+      "views": 1866,
+      "likes": 17,
+      "comments": 1,
+      "shares": null,
+      "reactions": null,
+      "reposts": null
+    },
+    "metric_source_counts": {
+      "views": 8,
+      "likes": 9,
+      "comments": 8,
+      "shares": 0,
+      "reactions": 0,
+      "reposts": 0
+    },
+    "sentiment": {
+      "positive": 4,
+      "negative": 3,
+      "neutral": 6,
+      "question": 2,
+      "not_applicable": 1
+    }
+  },
+  "platform_sentiment_rows": [
+    [
+      "Facebook",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Instagram",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "X / Twitter",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "LinkedIn",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Reddit",
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      "YouTube",
+      3,
+      0,
+      4,
+      2,
+      0
+    ],
+    [
+      "Camera Forums",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Google / News / Articles",
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      "Retailers",
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
+}

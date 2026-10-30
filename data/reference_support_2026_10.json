@@ -103,6 +103,23 @@
       "source_excerpt": "2 external recorders timecode via Atomos UltraSync Blue",
       "verification_note": "Dated nested comment within 2026-10-13 Reddit thread; do not count as an Atomos-authored post. Engagement metrics not independently captured.",
       "engagement": {}
+    },
+    {
+      "title": "AtomOS 11.08.01 Shinobi 7 II Ethernet camera control firmware update comment",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
+      "author": "Atomos-labeled r/AtomosCommunity commenter",
+      "published_date": "2026-10-19",
+      "date_evidence": "Original comment in older thread marked Monday October 19 2026",
+      "summary": "Community reply reports AtomOS 11.08.01 released for Shinobi 7 II with Ethernet control improvements for Canon EOS C50/C80/C400 and Z CAM E2/E2-M4/E2-F6, and links firmware download and setup guide.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "older",
+      "content_type": "comment",
+      "product": "Shinobi 7 II; AtomOS 11.08.01",
+      "source_excerpt": "AtomOS 11.08.01 is now available for the Shinobi 7 II",
+      "verification_note": "Publication date applies to the 19 Oct comment, not the older thread itself. Product support/update mention, no confirmed views or reach.",
+      "engagement": {}
     }
   ]
 }

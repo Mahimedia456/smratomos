@@ -1,0 +1,19 @@
+{
+  "brand": "Atomos",
+  "source": "Official manufacturer public category/shop pages",
+  "observed_at_pkt": "2026-10-31T02:45:33+05:00",
+  "historical_price_assertion": false,
+  "official_catalog_items": 0,
+  "list_pages_checked": 0,
+  "indexed_fallback_items": 0,
+  "original_shop_accessible": false,
+  "truncated_page_budget": false,
+  "pages": [],
+  "errors": [
+    {
+      "url": "https://www.atomos.com/shop/",
+      "status": 403
+    }
+  ],
+  "products": []
+}

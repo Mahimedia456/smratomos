@@ -1,0 +1,573 @@
+[
+  {
+    "scope": "Python public source audit",
+    "data": [
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/posts/ \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/p/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/status/ \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Reddit",
+        "stage": "search",
+        "query": "site:reddit.com/r/ \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "YouTube",
+        "stage": "search",
+        "query": "site:youtube.com/watch \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:dpreview.com/forums \"Atomos\" 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "site:newsshooter.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Retailers",
+        "stage": "search",
+        "query": "site:bhphotovideo.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Atomos\" camera creator tagged mentions October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/reel/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/feed/update/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:twitter.com \"Atomos\" review mention October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Reddit",
+        "stage": "search",
+        "query": "site:reddit.com/r/ \"Atomos\" camera product problems October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "\"Atomos\" hands-on camera production forum October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "site:cined.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Retailers",
+        "stage": "search",
+        "query": "site:cvp.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/reel/ \"Atomos\" video production October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/stories/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:forum.blackmagicdesign.com \"Atomos\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "\"Atomos\" video production review article 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Shinobi II\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com \"Atomos\" hashtag mention tagged creator 2026-10-02",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Shogun\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/ \"Ninja V\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:dpreview.com/forums \"Shinobi\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Shogun Ultra\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/p/ \"Ninja V\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:twitter.com/ \"Shogun\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:reddit.com/r/videography \"Atomos\" \"support\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/groups/ \"Atomos\" \"firmware\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/reel/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:forum.blackmagicdesign.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/ \"Shinobi 7 II\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com \"atomos.global\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:dpreview.com/forums \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/ \"Shinobi II\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/p/ \"Atomos\" creator October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:reddit.com/r/cinematography \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/ \"Ninja RAW\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/reel/ \"Atomos\" filmmaker October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/ \"Shogun Ultra\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/ \"Atomos\" \"camera\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/ \"Sumo PRO 19\" \"Atomos\" October 2026",
+        "results": 5,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "stage": "free-news-search",
+        "provider": "GDELT",
+        "state": "HTTP 429",
+        "source_verified": false
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/videography/comments/1xegbe9/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "YouTube",
+        "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y",
+        "result": "OK",
+        "final_url": "https://www.youtube.com/watch?v=roEMkfDDC0Y"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1xeaj0n/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "YouTube",
+        "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg",
+        "result": "OK",
+        "final_url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.com/explore/ninja-series/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1xeal8o/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://my.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.cameraegg.org/camerareview/best-external-monitor-for-canon-eos-r5-mark-ii/",
+        "result": "OK",
+        "final_url": "https://www.cameraegg.org/camerareview/best-external-monitor-for-canon-eos-r5-mark-ii/"
+      },
+      {
+        "stage": "unverified-date",
+        "group": "Industry articles",
+        "url": "https://www.cameraegg.org/camerareview/best-external-monitor-for-canon-eos-r5-mark-ii/",
+        "source_date": "",
+        "title": "Best External Monitor for Canon EOS R5 Mark II"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/",
+        "result": "OK",
+        "final_url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/"
+      },
+      {
+        "stage": "unverified-date",
+        "group": "Industry articles",
+        "url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/",
+        "source_date": "",
+        "title": "Latest News from NAB-NY 2026 for Media Creators"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints",
+        "result": "OK",
+        "final_url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints"
+      },
+      {
+        "stage": "unverified-date",
+        "group": "Industry articles",
+        "url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints",
+        "source_date": "2026-10-28",
+        "title": "Atomos sees Shinobi 7 II demand build as cash flow turns positive"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://investors.atomos.com/announcements/JnKoqE-quarterly-activities-appendix-4c-cash-flow-report",
+        "result": "HTTP 429",
+        "final_url": null
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/ykIAaEXk0f8/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/10/2026-10-02/source_001.jpg"
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/NbtzVnbq2JQ/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/10/2026-10-02/source_002.jpg"
+      }
+    ],
+    "counts": {
+      "YouTube.api_searches": 1,
+      "YouTube.verified": 2,
+      "YouTube.statistics_calls": 1,
+      "YouTube.comments_calls": 2,
+      "Facebook.wrong_source_domain": 96,
+      "Facebook.successful_queries": 11,
+      "Facebook.brave_not_configured": 11,
+      "Facebook.fallback_attempts": 1,
+      "Facebook.queries": 11,
+      "Instagram.wrong_source_domain": 79,
+      "Instagram.successful_queries": 10,
+      "Instagram.brave_not_configured": 10,
+      "Instagram.fallback_attempts": 1,
+      "Instagram.queries": 10,
+      "LinkedIn.wrong_source_domain": 37,
+      "LinkedIn.successful_queries": 4,
+      "LinkedIn.brave_not_configured": 4,
+      "LinkedIn.fallback_attempts": 1,
+      "LinkedIn.queries": 4,
+      "X / Twitter.wrong_source_domain": 47,
+      "X / Twitter.successful_queries": 5,
+      "X / Twitter.brave_not_configured": 5,
+      "X / Twitter.fallback_attempts": 1,
+      "X / Twitter.queries": 5,
+      "Reddit.wrong_source_domain": 17,
+      "Reddit.successful_queries": 2,
+      "Reddit.brave_not_configured": 2,
+      "Reddit.fallback_attempts": 1,
+      "Reddit.queries": 2,
+      "YouTube.wrong_source_domain": 10,
+      "YouTube.successful_queries": 1,
+      "YouTube.brave_not_configured": 1,
+      "YouTube.fallback_attempts": 1,
+      "YouTube.queries": 1,
+      "Camera forums.wrong_source_domain": 62,
+      "Camera forums.successful_queries": 8,
+      "Camera forums.brave_not_configured": 8,
+      "Camera forums.fallback_attempts": 1,
+      "Camera forums.queries": 8,
+      "Industry articles.candidates": 7,
+      "Industry articles.irrelevant_index_hits": 19,
+      "Industry articles.wrong_source_domain": 3,
+      "Industry articles.successful_queries": 3,
+      "Industry articles.queries": 3,
+      "Retailers.wrong_source_domain": 14,
+      "Retailers.successful_queries": 2,
+      "Retailers.brave_not_configured": 2,
+      "Retailers.fallback_attempts": 1,
+      "Retailers.queries": 2,
+      "Industry articles.brave_not_configured": 2,
+      "Industry articles.fallback_attempts": 1,
+      "Reddit.candidates": 7,
+      "YouTube.candidates": 2,
+      "Reddit.irrelevant_index_hits": 1,
+      "Reddit.source_attempts": 7,
+      "Reddit.fetch_failed": 7,
+      "Reddit.index_only_leads": 3,
+      "YouTube.source_attempts": 2,
+      "YouTube.no_brand_original": 2,
+      "Industry articles.source_attempts": 7,
+      "Industry articles.fetch_failed": 4,
+      "Industry articles.not_dated_today": 3
+    },
+    "search_queries": 46,
+    "original_pages_attempted": 16,
+    "cached_images": 2,
+    "undated_brand_sources": 5,
+    "previous_five_day_brand_sources": 0
+  },
+  {
+    "scope": "Historical source image cache",
+    "data": {
+      "cached_report_images": 0,
+      "original_post_preview_checks": 5,
+      "image_audit": [
+        {
+          "stage": "post-image-discovery",
+          "url": "https://www.reddit.com/r/videography/comments/1xegbe9/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+          "status": "HTTP 403"
+        },
+        {
+          "stage": "post-image-discovery",
+          "url": "https://www.reddit.com/r/Atomos/comments/1xeaj0n/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+          "status": "HTTP 403"
+        },
+        {
+          "stage": "post-image-discovery",
+          "url": "https://www.reddit.com/r/AtomosCommunity/comments/1xeal8o/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+          "status": "HTTP 403"
+        }
+      ]
+    }
+  }
+]

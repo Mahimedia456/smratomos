@@ -1,0 +1,87 @@
+{
+  "source": "Recovered from previously verified GitHub historical daily JSON commit 653c5d9a805f6a3dc7fe70e3ac2419981eec2305; YouTube API original evidence archived 2026-10-30",
+  "findings": [
+    {
+      "title": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y",
+      "author": "YobelPrize",
+      "published_date": "2026-10-30",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT menu is hidden behind one unlabeled icon, and I couldn't find a single ...",
+      "sentiment": "Question",
+      "priority": "Medium",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/roEMkfDDC0Y/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me",
+      "details": "",
+      "source_excerpt": "I Finally Got the LUT Output on the Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT menu is hidden behind one unlabeled icon, and I couldn't find a single ...",
+      "response_action": "Optional review.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata Recovered from archived GitHub commit; original publication evidence was in the earlier daily report.",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 25,
+        "likes": 1,
+        "comments": 1
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-30/source_005.jpg"
+      ],
+      "comments": [
+        {
+          "author": "@YobelPrize",
+          "text": "The fix, if you just want the steps: tap the empty rectangle on the bottom bar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+          "date": "2026-10-30",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "title": "Comment on: I Finally Got the LUT Output on the Atomos Ninja RAW to Work",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg",
+      "author": "@YobelPrize",
+      "published_date": "2026-10-30",
+      "date_evidence": "YouTube Data API original comment publishedAt converted to PKT",
+      "summary": "ar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/roEMkfDDC0Y/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "AtomOS 12",
+      "details": "",
+      "source_excerpt": "ar, swipe to the last icon (the onion with a line through it) and tap it. The LUT bar shows up. Double-tap your LUT, then turn on LUT Out under settings > Output. I'm on AtomOS 12.7.3, so if yours looks different, tell me your version and whether it moved.",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube API original public comment Recovered from archived GitHub commit; original publication evidence was in the earlier daily report.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "likes": 0,
+        "replies": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-30/source_006.jpg"
+      ],
+      "comments": []
+    }
+  ]
+}

@@ -51,6 +51,23 @@
       "content_type": "article",
       "verification_note": "Original dated company announcement index. Retail promotion is not third-party consumer feedback.",
       "engagement": {}
+    },
+    {
+      "title": "Independent coverage of Atomos cash flow and Shinobi 7 II supply constraints",
+      "platform": "Google / News / Articles",
+      "url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints",
+      "author": "Victor Sage, Middle News",
+      "published_date": "2026-10-29",
+      "date_evidence": "Article header labels publication approximately 10am on 29 October 2026",
+      "summary": "Independent industry/business analysis describes A$0.9m positive operating cash flow, A$9.2m quarterly sales, and Shinobi 7 II backlog constrained by component shortages. Relies on financial disclosures, not social user engagement.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "older",
+      "content_type": "article",
+      "product": "Shinobi 7 II; Sumo PRO-19",
+      "source_excerpt": "Demand for Shinobi II and the recently released Sumo PRO 19 supported the quarter",
+      "verification_note": "Original independent article page shows 29 October date; distinct link from official Atomos investor filing.",
+      "engagement": {}
     }
   ]
 }

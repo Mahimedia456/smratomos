@@ -181,7 +181,7 @@ def main():
            'source_titles_missing_from_pdf':missing_titles,
            'daily_snapshots':saved_dates,
            'warning':'Platform 0 means no saved dated entries, not zero real-world activity.'}
-    (ROOT/'monthly-report-audit.json').write_text(json.dumps(audit,indent=2)+'\\n')
+    (ROOT/'monthly-report-audit.json').write_text(json.dumps(audit,indent=2)+chr(10))
     print('AUDIT',json.dumps(audit))
     manifest=ROOT/'monthly-reports-index.json'
     manifest.write_text(json.dumps([{'brand':BRAND,'start':START.isoformat(),'end':END.isoformat(),'path':dest.relative_to(ROOT).as_posix(),

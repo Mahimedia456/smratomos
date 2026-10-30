@@ -1,0 +1,100 @@
+{
+  "audit_version": 1,
+  "project": "smratomos",
+  "brand": "ATOMOS",
+  "platform": "Facebook",
+  "research_period": {
+    "start": "2026-10-01",
+    "end": "2026-10-31"
+  },
+  "researched_on": "2026-10-31",
+  "purpose": "One-time brand-wide Facebook evidence search after archival reset; no automated schedule or PDF publication",
+  "scope": "All Atomos products, services, accessories and brand mentions. Includes official, distributor, retailer, creator and community post/comment/reel/story candidates where public source evidence permits.",
+  "verification_rules": [
+    "A Facebook finding requires an original Facebook post, comment, Reel or Story permalink, attributable page/author and source text or a reliable original-source capture.",
+    "Published date must be shown by source evidence to include in October.",
+    "Engagement, sentiment, images and type must not be invented. Missing data remain null.",
+    "Off-platform manufacturer news and LinkedIn posts are not evidence that a Facebook post exists.",
+    "An inaccessible page or nonindexed post is an access gap, not evidence of zero posts."
+  ],
+  "verified_facebook_items": [],
+  "verified_facebook_count": 0,
+  "status": "SOURCE_ACCESS_INCOMPLETE_NOT_ZERO_POSTS",
+  "official_page": {
+    "url": "https://www.facebook.com/AtomosGlobal/",
+    "identity_supporting_url": "https://www.atomos.com/",
+    "original_page_outcome": "Direct public access returned Facebook temporary-block/login content; original feed, dates, authors, comments and metrics unavailable.",
+    "verified_original_post_or_comment": false
+  },
+  "research_attempts": [
+    {
+      "method": "Direct official page",
+      "target": "https://www.facebook.com/AtomosGlobal/",
+      "result": "Facebook temporary block; no post-level evidence"
+    },
+    {
+      "method": "Direct official posts",
+      "target": "https://www.facebook.com/AtomosGlobal/posts/",
+      "result": "Could not retrieve original posts"
+    },
+    {
+      "method": "Direct official videos",
+      "target": "https://www.facebook.com/AtomosGlobal/videos/",
+      "result": "Could not retrieve original videos"
+    },
+    {
+      "method": "Cross-index query",
+      "query": "site:facebook.com/AtomosGlobal/posts/ Shinobi 2026",
+      "result": "No original October Facebook post with verified publication date"
+    },
+    {
+      "method": "Cross-index query",
+      "query": "site:facebook.com Atomos Ninja Shogun Sumo October 2026",
+      "result": "No attributable October Facebook post with original-source verification"
+    },
+    {
+      "method": "Cross-index query",
+      "query": "site:facebook.com/reel Atomos Ninja TX GO October 2026",
+      "result": "No attributable October Facebook Reel with original-source verification"
+    },
+    {
+      "method": "Cross-index query",
+      "query": "site:facebook.com/groups/ Atomos October 2026",
+      "result": "No attributable October Facebook group post/comment with original-source verification"
+    },
+    {
+      "method": "Cross-index query",
+      "query": "AtomosGlobal Facebook October 2026",
+      "result": "Results were off-platform or Facebook login screens"
+    }
+  ],
+  "related_off_platform_evidence_not_facebook_findings": [
+    {
+      "topic": "Shinobi 7 II launch",
+      "source_url": "https://www.atomos.com/2026/09/11/atomos-introduces-shinobi-7-ii/",
+      "source_date": "2026-09-11",
+      "why_not_counted": "Manufacturer press release, not an October Facebook post"
+    },
+    {
+      "topic": "Japan promotion mentioning Ninja TX",
+      "source_url": "https://www.atomos-japan.com/category/news",
+      "source_date": "2026-10-13",
+      "why_not_counted": "Manufacturer Japanese news listing, not an original Facebook post"
+    },
+    {
+      "topic": "Shinobi 7 II first look",
+      "source_url": "https://www.cined.com/atomos-shinobi-7-ii-shogun-av-19m-introduced-first-look/",
+      "source_date": "2026-09-18",
+      "why_not_counted": "Industry article, not Facebook content"
+    }
+  ],
+  "source_text_captured_count": 0,
+  "verified_engagement_records_count": 0,
+  "verified_source_images_count": 0,
+  "pending_evidence_requirements": [
+    "Original public Facebook post or Reel URLs, with visible date, author, caption, images and metrics",
+    "Approved Meta API or authorized first-party exports if legally accessible; do not assume public page content is available without platform permissions",
+    "Manual verification of Facebook Stories before expiry when accessible"
+  ],
+  "note": "No social finding or PDF is manufactured from blocked results. Research audit intentionally lives under data/facebook rather than reports/."
+}

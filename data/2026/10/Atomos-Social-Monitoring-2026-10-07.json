@@ -1,0 +1,204 @@
+{
+  "report_date": "2026-10-07",
+  "generated_at_pkt": "2026-10-31 00:32 PKT",
+  "research_as_of_pkt": "2026-10-31 00:32 PKT",
+  "status": "Completed calendar day | coverage limited to accessible public sources",
+  "headline": "3 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-07. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
+  "today_findings": [
+    {
+      "title": "Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype?",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=YV3_ZDZEi44",
+      "author": "Tech Compass K7",
+      "published_date": "2026-10-07",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype? Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype? ▻ Latest Price & AMZN link here ...",
+      "sentiment": "Question",
+      "priority": "Medium",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/YV3_ZDZEi44/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype? Atomos Shinobi",
+      "details": "",
+      "source_excerpt": "Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype? Atomos Shinobi II The Ultimate Touchscreen Monitor or Just Hype? ▻ Latest Price & AMZN link here ...",
+      "response_action": "Optional review.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 7,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-07/source_001.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "title": "Atomos Shinobi GO: The Only Monitor You Actually Need?",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=SWUujPMgLT4",
+      "author": "Top Tech Pulse",
+      "published_date": "2026-10-07",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Atomos Shinobi GO: The Only Monitor You Actually Need? Atomos Shinobi GO: The Only Monitor You Actually Need? ▻ Latest Price & AMZN link here ...",
+      "sentiment": "Question",
+      "priority": "Medium",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/SWUujPMgLT4/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi GO: The Only Monitor You Actually Need? Atomos Shinobi GO: The On",
+      "details": "",
+      "source_excerpt": "Atomos Shinobi GO: The Only Monitor You Actually Need? Atomos Shinobi GO: The Only Monitor You Actually Need? ▻ Latest Price & AMZN link here ...",
+      "response_action": "Optional review.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 24,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-07/source_002.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "title": "Inside the New Atomos Shinobi 7 II, Ninja &amp; Shogun AV Lineup | Videoguys",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=MZ1HHBuN3Lo",
+      "author": "Videoguys",
+      "published_date": "2026-10-07",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Inside the New Atomos Shinobi 7 II, Ninja & Shogun AV Lineup | Videoguys Take a closer look at the latest Atomos video production solutions with Videoguys, including the new Shinobi 7 II, Ninja ...",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/MZ1HHBuN3Lo/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi 7 II",
+      "details": "",
+      "source_excerpt": "Inside the New Atomos Shinobi 7 II, Ninja & Shogun AV Lineup | Videoguys Take a closer look at the latest Atomos video production solutions with Videoguys, including the new Shinobi 7 II, Ninja ...",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 4994,
+        "likes": 1,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-07/source_003.jpg"
+      ],
+      "comments": []
+    }
+  ],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "2026-10-07",
+  "report_period_end": "2026-10-07",
+  "coverage": [
+    {
+      "platform": "Facebook",
+      "summary": "6 indexed query attempt(s), 6 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "7 indexed query attempt(s), 7 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "4 indexed query attempt(s), 4 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "X / Twitter",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Reddit",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "YouTube",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 3 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Camera forums",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Industry articles",
+      "summary": "3 indexed query attempt(s), 3 index response(s), 3 original source fetch(es), 3 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Retailers",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "DPReview",
+      "summary": "DPReview articles discuss Nikon Z8 firmware updates and compatibility issues with third-party lenses.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "Facebook: alternate public index HTTP 202",
+    "Instagram: alternate public index HTTP 202",
+    "LinkedIn: alternate public index HTTP 202",
+    "X / Twitter: alternate public index HTTP 202",
+    "Reddit: alternate public index HTTP 202",
+    "YouTube: alternate public index HTTP 202",
+    "Camera forums: alternate public index HTTP 202",
+    "Industry articles: alternate public index HTTP 202",
+    "Retailers: alternate public index HTTP 202",
+    "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
+    "No result does not establish no brand activity on a platform.",
+    "social research unavailable; API attempt guarded against repeat billing.",
+    "Reddit",
+    "YouTube",
+    "Blackmagic Design",
+    "RED",
+    "Sony Camera Forums",
+    "Videography Discussions",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Python collector: 36 public search query attempts, 3 original-page attempts, 3 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+}

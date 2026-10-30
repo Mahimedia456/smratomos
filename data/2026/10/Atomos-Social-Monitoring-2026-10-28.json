@@ -1,0 +1,132 @@
+{
+  "report_date": "2026-10-28",
+  "generated_at_pkt": "2026-10-31 00:34 PKT",
+  "research_as_of_pkt": "2026-10-31 00:34 PKT",
+  "status": "Completed calendar day | coverage limited to accessible public sources",
+  "headline": "1 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-28. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
+  "today_findings": [
+    {
+      "title": "Unboxing the Atomos Shinobi II 🎬🔥",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=tpgpKeJ9GCA",
+      "author": "Edwing Quispe Garnique",
+      "published_date": "2026-10-28",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Unboxing the Atomos Shinobi II 🎬🔥 This isn't an accessory... it's a key tool. See your shots with precision, control the exposure, and never reshoot in the dark again.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/tpgpKeJ9GCA/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi II 🎬🔥 This isn't an accessory",
+      "details": "",
+      "source_excerpt": "Unboxing the Atomos Shinobi II 🎬🔥 This isn't an accessory... it's a key tool. See your shots with precision, control the exposure, and never reshoot in the dark again.",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 1268,
+        "likes": 7,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-28/source_001.jpg"
+      ],
+      "comments": []
+    }
+  ],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "2026-10-28",
+  "report_period_end": "2026-10-28",
+  "coverage": [
+    {
+      "platform": "Facebook",
+      "summary": "6 indexed query attempt(s), 6 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "7 indexed query attempt(s), 7 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "4 indexed query attempt(s), 4 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "X / Twitter",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Reddit",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "YouTube",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 1 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Camera forums",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Industry articles",
+      "summary": "3 indexed query attempt(s), 3 index response(s), 3 original source fetch(es), 3 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Retailers",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Facebook",
+      "summary": "Verified a post from Atomos Technologies announcing a firmware update for the Ninja V2.",
+      "checked": true
+    },
+    {
+      "platform": "DPReview",
+      "summary": "DPReview has covered various firmware updates and compatibility issues related to Nikon cameras, including the Z8 and ZR models.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "Facebook: alternate public index HTTP 202",
+    "Instagram: alternate public index HTTP 202",
+    "LinkedIn: alternate public index HTTP 202",
+    "X / Twitter: alternate public index HTTP 202",
+    "Reddit: alternate public index HTTP 202",
+    "YouTube: alternate public index HTTP 202",
+    "Camera forums: alternate public index HTTP 202",
+    "Industry articles: alternate public index HTTP 202",
+    "Retailers: alternate public index HTTP 202",
+    "GDELT free news index: HTTP 429",
+    "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
+    "No result does not establish no brand activity on a platform.",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions.",
+    "YouTube",
+    "Reddit",
+    "Blackmagic Design Forums",
+    "RED Camera Forums",
+    "Sony Camera Forums"
+  ],
+  "methodology": "Python collector: 36 public search query attempts, 3 original-page attempts, 1 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+}

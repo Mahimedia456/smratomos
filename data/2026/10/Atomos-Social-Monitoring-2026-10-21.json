@@ -1,0 +1,128 @@
+{
+  "report_date": "2026-10-21",
+  "generated_at_pkt": "2026-10-31 00:33 PKT",
+  "research_as_of_pkt": "2026-10-31 00:33 PKT",
+  "status": "Completed calendar day | coverage limited to accessible public sources",
+  "headline": "1 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-21. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
+  "today_findings": [
+    {
+      "title": "Unboxing Atomos Shinobi II 🔥🎬 | El monitor que todo filmmaker necesita",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=tYzaUbYrdCI",
+      "author": "Edwing Quispe Garnique",
+      "published_date": "2026-10-21",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Unboxing Atomos Shinobi II 🔥🎬 | El monitor que todo filmmaker necesita Un buen plano empieza con un buen control. El Atomos Shinobi II te permite monitorear tus tomas con precisión, controlar la ...",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/tYzaUbYrdCI/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi II 🔥🎬 | El monitor que todo filmmaker necesita Un buen plano empi",
+      "details": "",
+      "source_excerpt": "Unboxing Atomos Shinobi II 🔥🎬 | El monitor que todo filmmaker necesita Un buen plano empieza con un buen control. El Atomos Shinobi II te permite monitorear tus tomas con precisión, controlar la ...",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 19,
+        "likes": 1,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-21/source_001.jpg"
+      ],
+      "comments": []
+    }
+  ],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "2026-10-21",
+  "report_period_end": "2026-10-21",
+  "coverage": [
+    {
+      "platform": "Facebook",
+      "summary": "6 indexed query attempt(s), 6 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "7 indexed query attempt(s), 7 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "4 indexed query attempt(s), 4 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "X / Twitter",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Reddit",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "YouTube",
+      "summary": "1 indexed query attempt(s), 1 index response(s), 0 original source fetch(es), 0 inaccessible; 1 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Camera forums",
+      "summary": "5 indexed query attempt(s), 5 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Industry articles",
+      "summary": "3 indexed query attempt(s), 3 index response(s), 3 original source fetch(es), 3 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": true
+    },
+    {
+      "platform": "Retailers",
+      "summary": "2 indexed query attempt(s), 2 index response(s), 0 original source fetch(es), 0 inaccessible; 0 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "checked": false
+    },
+    {
+      "platform": "Atomos Official Website",
+      "summary": "Firmware updates for Atomos devices, including Shogun, Sumo, and Shinobi series, were released on October 21, 2026. These updates address various improvements and fixes for the devices.",
+      "checked": true
+    },
+    {
+      "platform": "Newsshooter",
+      "summary": "An article published on October 21, 2026, discusses the latest firmware updates for Atomos devices, highlighting new features and enhancements.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "Facebook: alternate public index HTTP 202",
+    "Instagram: alternate public index HTTP 202",
+    "LinkedIn: alternate public index HTTP 202",
+    "X / Twitter: alternate public index HTTP 202",
+    "Reddit: alternate public index HTTP 202",
+    "YouTube: alternate public index HTTP 202",
+    "Camera forums: alternate public index HTTP 202",
+    "Industry articles: alternate public index HTTP 202",
+    "Retailers: alternate public index HTTP 202",
+    "GDELT free news index: HTTP 429",
+    "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
+    "No result does not establish no brand activity on a platform.",
+    "No relevant posts found on Facebook, Instagram, X/Twitter, or LinkedIn for Atomos brand on October 21, 2026.",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Python collector: 36 public search query attempts, 3 original-page attempts, 1 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+}

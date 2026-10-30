@@ -1,0 +1,378 @@
+[
+  {
+    "scope": "Python public source audit",
+    "data": [
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/posts/ \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Atomos\" camera creator tagged mentions October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/reel/ \"Atomos\" video production October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Shinobi II\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com \"Shogun Ultra\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Facebook",
+        "stage": "search",
+        "query": "site:facebook.com/groups/ \"Atomos\" \"firmware\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/p/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/reel/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/stories/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com \"Atomos\" hashtag mention tagged creator 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/p/ \"Ninja V\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com/reel/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Instagram",
+        "stage": "search",
+        "query": "site:instagram.com \"atomos.global\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/feed/update/ \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "LinkedIn",
+        "stage": "search",
+        "query": "site:linkedin.com/posts/ \"Shogun\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/status/ \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:twitter.com \"Atomos\" review mention October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/ \"Shinobi\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:x.com/ \"Ninja V\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "X / Twitter",
+        "stage": "search",
+        "query": "site:twitter.com/ \"Shogun\" \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Reddit",
+        "stage": "search",
+        "query": "site:reddit.com/r/ \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Reddit",
+        "stage": "search",
+        "query": "site:reddit.com/r/ \"Atomos\" camera product problems October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "YouTube",
+        "stage": "search",
+        "query": "site:youtube.com/watch \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:dpreview.com/forums \"Atomos\" 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "\"Atomos\" hands-on camera production forum October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:forum.blackmagicdesign.com \"Atomos\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:dpreview.com/forums \"Shinobi\" \"October\" \"2026\"",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Camera forums",
+        "stage": "search",
+        "query": "site:reddit.com/r/videography \"Atomos\" \"support\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "site:newsshooter.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "site:cined.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "search",
+        "query": "\"Atomos\" video production review article 2026-10-21",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Retailers",
+        "stage": "search",
+        "query": "site:bhphotovideo.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Retailers",
+        "stage": "search",
+        "query": "site:cvp.com \"Atomos\" October 2026",
+        "results": 10,
+        "index": "Bing public RSS, optional DDG fallback"
+      },
+      {
+        "group": "Industry articles",
+        "stage": "candidate",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeDE0Z0tkQTZRQ2dGWExJY2Zianh6MTBuZXBtRUh4OENPSENOQXNFdC1mUzFNTVc0aExTYkNhckJpU0ZBR1pVQnZ5alJTWVhDY2k3bmU1b1VHT083ekltTDctcE8zTE1hV3NobE9ibldhWVd4SjUwZUk4OVFzWnVicjkxTVFSbUhlX3ZXWERsYXloclVnWjhYVjh6THFwWHNacllkX0VBSC1WZm9rUkNON2ZORkM4czRsYkpJbThIZEtGcXZqN1N1cUVmdnI4Qmt1Rk12dzRZQ3d5cFFIaHhFelBpNmt0NXhyc2ZMZUFhWHRaVTdsWlE?oc=5",
+        "outcome": "unresolved Google News redirect"
+      },
+      {
+        "stage": "free-news-search",
+        "provider": "GDELT",
+        "state": "HTTP 429",
+        "source_verified": false
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.com/explore/ninja-series/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://my.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/tYzaUbYrdCI/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/10/2026-10-21/source_001.jpg"
+      }
+    ],
+    "counts": {
+      "YouTube.api_searches": 1,
+      "YouTube.verified": 1,
+      "YouTube.statistics_calls": 1,
+      "YouTube.comments_calls": 1,
+      "Facebook.wrong_source_domain": 60,
+      "Facebook.successful_queries": 6,
+      "Facebook.fallback_attempts": 1,
+      "Facebook.queries": 6,
+      "Instagram.wrong_source_domain": 70,
+      "Instagram.successful_queries": 7,
+      "Instagram.fallback_attempts": 1,
+      "Instagram.queries": 7,
+      "LinkedIn.wrong_source_domain": 40,
+      "LinkedIn.successful_queries": 4,
+      "LinkedIn.fallback_attempts": 1,
+      "LinkedIn.queries": 4,
+      "X / Twitter.wrong_source_domain": 50,
+      "X / Twitter.successful_queries": 5,
+      "X / Twitter.fallback_attempts": 1,
+      "X / Twitter.queries": 5,
+      "Reddit.wrong_source_domain": 20,
+      "Reddit.successful_queries": 2,
+      "Reddit.fallback_attempts": 1,
+      "Reddit.queries": 2,
+      "YouTube.wrong_source_domain": 10,
+      "YouTube.successful_queries": 1,
+      "YouTube.fallback_attempts": 1,
+      "YouTube.queries": 1,
+      "Camera forums.wrong_source_domain": 50,
+      "Camera forums.successful_queries": 5,
+      "Camera forums.fallback_attempts": 1,
+      "Camera forums.queries": 5,
+      "Industry articles.candidates": 3,
+      "Industry articles.irrelevant_index_hits": 21,
+      "Industry articles.successful_queries": 3,
+      "Industry articles.queries": 3,
+      "Industry articles.fallback_attempts": 1,
+      "Retailers.wrong_source_domain": 14,
+      "Retailers.successful_queries": 2,
+      "Retailers.fallback_attempts": 1,
+      "Retailers.queries": 2,
+      "Industry articles.source_attempts": 3,
+      "Industry articles.fetch_failed": 3
+    },
+    "search_queries": 36,
+    "original_pages_attempted": 3,
+    "cached_images": 1,
+    "undated_brand_sources": 0,
+    "previous_five_day_brand_sources": 0
+  },
+  {
+    "scope": "Scheduled platform-specific GPT web research",
+    "data": [
+      {
+        "scope": "social",
+        "status": "completed",
+        "api_calls": 1,
+        "search_events": 1,
+        "merged": {
+          "today_findings": 0,
+          "unverified_leads": 0,
+          "older_leads": 0,
+          "retail_observations": 0
+        }
+      },
+      {
+        "scope": "community",
+        "status": "completed",
+        "api_calls": 1,
+        "search_events": 1,
+        "merged": {
+          "today_findings": 0,
+          "unverified_leads": 0,
+          "older_leads": 0,
+          "retail_observations": 0
+        }
+      }
+    ]
+  },
+  {
+    "scope": "Historical source image cache",
+    "data": {
+      "cached_report_images": 0,
+      "original_post_preview_checks": 0,
+      "image_audit": []
+    }
+  }
+]

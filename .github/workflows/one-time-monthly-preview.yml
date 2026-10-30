@@ -27,11 +27,18 @@ jobs:
           r=PdfReader(p,strict=True)
           all_text='\n'.join(page.extract_text() or '' for page in r.pages)
           assert len(r.pages)>0 and 'REDDIT' in all_text.upper() and 'YOUTUBE' in all_text.upper()
+          for expected in ['Shinobi 7 II','CameraEgg','Sumo PRO-19','Atomos Japan']:
+              assert expected.casefold() in all_text.casefold(), f'Missing from PDF: {expected}'
+          import json
+          audit=json.loads(Path('monthly-report-audit.json').read_text())
+          assert audit['pdf_pages']==len(r.pages)
+          assert audit['source_record_count']==8, audit
+          assert audit['platform_counts']['Google / News / Articles']==3, audit
           print(f'PDF VALID pages={len(r.pages)} bytes={p.stat().st_size} chars={len(all_text)}')
           PY
       - name: Publish monthly file and report inventory
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/2026/10/*-Monthly-2026-10-01_to_2026-10-30.pdf monthly-reports-index.json
+          git add reports/2026/10/*-Monthly-2026-10-01_to_2026-10-30.pdf monthly-reports-index.json monthly-report-audit.json
           git diff --cached --quiet || (git commit -m 'Publish Atomos October monthly diagnostic PDF' && git pull --rebase origin main && git push origin main)

@@ -126,6 +126,18 @@ def main():
             key=('finding',item.url.rstrip('/').lower())
             if key not in seen:
                 seen.add(key);reference_findings.append(item)
+    cross_audit=ROOT/'data'/'cross_platform_oct_2026_audit.json'
+    social_coverage=[]
+    if cross_audit.exists():
+        from src.schema import Finding
+        supplement=json.loads(cross_audit.read_text(encoding='utf-8'))
+        social_coverage=supplement.get('coverage',[])
+        for obj in supplement.get('leads',[]):
+            try:item=Finding.model_validate(dict(obj,status='unverified'))
+            except Exception:continue
+            key=('lead',item.url.rstrip('/').lower(),item.title.lower())
+            if key not in seen:
+                seen.add(key);undated_leads.append(item)
     findings.sort(key=lambda x:(x.published_date,x.platform,x.url),reverse=True)
     all_findings=findings+reference_findings
     dest=ROOT/'reports'/'2026'/'10'/f'{BRAND.title()}-Social-Monitoring-Monthly-2026-10-01_to_2026-10-30.pdf'
@@ -165,6 +177,10 @@ def main():
             story.extend([pdf.P(f'{len(offers)} dated retailer snapshots; excluded from social post KPIs.','small'),Spacer(1,7)])
             for i,item in enumerate(offers,1):story.extend(continuous_card(item,'R'+str(i)))
     story.extend([Spacer(1,9),pdf.P(f'Auxiliary source leads surfaced: {len(undated_leads)} undated and {len(leads)} date-attributed; all excluded from verified post KPIs. An unobserved public metric is N/A, not a confirmed zero.','small')])
+    story.extend([Spacer(1,10),pdf.band('CROSS-PLATFORM RESEARCH AUDIT'),Spacer(1,8)])
+    for check in social_coverage:
+        story.extend([pdf.P(str(check.get('platform',''))+' | '+str(check.get('status','')),'caption'),
+                      pdf.P(str(check.get('note','')),'small'),Spacer(1,7)])
     story.extend([Spacer(1,10),pdf.band('MONTHLY COVERAGE AND VERIFICATION NOTES'),Spacer(1,9),
                   pdf.P('This is a one-time manual monthly compilation. The 30-day window is not a claim that thirty daily scans were completed. Missing metrics are unavailable, not zero. The saved evidence may contain inaccessible Instagram Stories or other platforms; URLs alone are never proof of content, media or publication date.','small'),
                   Spacer(1,8),pdf.P('No monthly schedule, cron trigger, research API call or modifications to daily reports are introduced.','small')])
@@ -190,7 +206,7 @@ def main():
            'verified_direct':len(findings),'archived':len(reference_findings),
            'platform_counts':{platform:len(grouped[platform]) for platform in PLATFORMS},
            'source_titles_missing_from_pdf':missing_titles,
-           'daily_snapshots':saved_dates,
+           'daily_snapshots':saved_dates,'cross_platform_leads':len([x for x in undated_leads if x.platform=='LinkedIn']),'cross_platform_audit':social_coverage,
            'warning':'Platform 0 means no saved dated entries, not zero real-world activity.'}
     (ROOT/'monthly-report-audit.json').write_text(json.dumps(audit,indent=2)+chr(10))
     print('AUDIT',json.dumps(audit))

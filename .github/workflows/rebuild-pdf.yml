@@ -1,0 +1,54 @@
+name: Atomos PDF Rebuild (No AI Cost)
+on:
+  push:
+    branches: [main]
+    paths: ['config/final_2026_10_30_render.run']
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Existing report date (YYYY-MM-DD)'
+        required: true
+        default: ''
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: atomos-report-main
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - name: Run evidence and history tests
+        run: python -m unittest discover -s tests -v
+      - name: Regenerate latest-date PDF from saved JSON + prior references
+        env:
+          REPORT_ONLY: 'true'
+          FETCH_EVIDENCE_IMAGES: 'true'
+          MAX_REPORT_IMAGES: '10'
+          REPORT_DATE: ${{ inputs.report_date }}
+        run: python -m src.main
+      - name: Verify PDF contains each source link under its platform
+        env:
+          REPORT_DATE: ${{ inputs.report_date || '2026-10-30' }}
+        run: |
+          DAY="${REPORT_DATE:-$(TZ=Asia/Karachi date +%F)}"
+          python -m src.verify_pdf "$DAY"
+      - name: Refresh public website reports index
+        run: python scripts/update_report_index.py
+      - name: Commit regenerated PDF and cumulative JSON
+        run: |
+          git config user.name 'atomos-report-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/ data/ assets/ reports-index.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild Atomos PDF ${{ inputs.report_date }} (without AI)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "${GITHUB_REF_NAME}"
+          fi

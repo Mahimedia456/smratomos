@@ -33,14 +33,14 @@ class TestRealSourceSearch(unittest.TestCase):
         self.assertEqual(len(engine.findings),0)
     def test_real_original_page_date_not_search_crawl_date(self):
         engine=PublicResearch('2026-10-30')
-        html='''<html><head><title>Atomos camera recorder review</title>
+        html='''<html><head><title>Atomos Ninja TX camera recorder review</title>
             <meta property="article:published_time" content="2026-10-30"/></head>
             <body><article><h1>Atomos product test</h1>
-            <p>Field testing the Atomos video camera monitor and recorder.</p></article></body></html>'''
+            <p>Field testing the Atomos Ninja TX video camera monitor and recorder.</p></article></body></html>'''
         response=SimpleNamespace(url='https://example.org/review/atomos-video-monitor',
                                  headers={'content-type':'text/html'},text=html)
         entry=dict(url=response.url,group='Industry articles',
-                   title='Atomos video monitor review',
+                   title='Atomos Ninja TX video monitor review',
                    snippet='Atomos camera monitor recorder review')
         with patch.object(engine,'get',return_value=(response,'OK')):
             engine.page(entry)

@@ -9,3 +9,5 @@ PDF text QA with punctuation-tolerant source-title matching.
 Rebuild strict monthly audit after JSON encoding fix.
 
 Publish validated audit JSON with actual newline.
+
+Add October Atomos support & feature-request coverage from public Reddit discussion.

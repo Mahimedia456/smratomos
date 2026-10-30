@@ -1,13 +1,7 @@
-name: Atomos Vercel Update After Report Publish
+name: Atomos Vercel Manual Publication
+# Research, source collection, media and PDF commits must not deploy Vercel.
+# This workflow runs only when an operator explicitly chooses Run workflow.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'reports/**'
-      - 'reports-index.json'
-      - 'website/**'
-      - 'scripts/build_website.mjs'
-      - '.github/workflows/vercel-report-update.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,13 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Atomos Vercel build when deployment hook configured
+      - name: Publish Atomos website through configured Vercel deploy hook
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         shell: bash
         run: |
           if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
-            echo "::notice::Vercel hook not configured. Link the new Atomos repository to its own Vercel project or set VERCEL_DEPLOY_HOOK."
-            exit 0
+            echo "::error::VERCEL_DEPLOY_HOOK is not configured. Add it to repository Actions secrets before manual website publication."
+            exit 1
           fi
           curl --fail-with-body --silent --show-error --retry 2 --request POST "$VERCEL_DEPLOY_HOOK"

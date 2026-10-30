@@ -138,6 +138,17 @@ def main():
             key=('lead',item.url.rstrip('/').lower(),item.title.lower())
             if key not in seen:
                 seen.add(key);undated_leads.append(item)
+    additional=ROOT/'data'/'reference_instagram_investor_2026_10.json'
+    if additional.exists():
+        from src.schema import Finding
+        archive=json.loads(additional.read_text(encoding='utf-8'))
+        for obj in archive.get('findings',[]):
+            if not inside(obj.get('published_date')):continue
+            try:item=Finding.model_validate(dict(obj,status='older'))
+            except Exception:continue
+            key=('finding',item.url.rstrip('/').lower())
+            if key not in seen:
+                seen.add(key);reference_findings.append(item)
     findings.sort(key=lambda x:(x.published_date,x.platform,x.url),reverse=True)
     all_findings=findings+reference_findings
     dest=ROOT/'reports'/'2026'/'10'/f'{BRAND.title()}-Social-Monitoring-Monthly-2026-10-01_to_2026-10-30.pdf'

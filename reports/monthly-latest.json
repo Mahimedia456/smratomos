@@ -4,8 +4,8 @@
   "end": "2026-10-31",
   "path": "reports/2026/10/Atomos-Social-Monitoring-Monthly-2026-10-01_to_2026-10-31.pdf",
   "snapshots": 31,
-  "archived_findings": 16,
-  "dated_findings": 63,
+  "archived_findings": 18,
+  "dated_findings": 87,
   "unverified_leads": 7,
   "platform_counts": {
     "Facebook": 0,
@@ -13,34 +13,34 @@
     "X / Twitter": 0,
     "LinkedIn": 0,
     "Reddit": 8,
-    "YouTube": 49,
+    "YouTube": 70,
     "Camera Forums": 0,
-    "Google / News / Articles": 5,
+    "Google / News / Articles": 8,
     "Retailers": 0
   },
   "sentiment_counts": {
-    "Question": 10,
-    "Neutral": 42,
+    "Question": 14,
+    "Neutral": 59,
     "Not applicable": 2,
-    "Positive": 4,
+    "Positive": 7,
     "Negative": 5
   },
   "observed_product_labels": {
     "Shinobi 7 II": 3,
+    "Sumo PRO-19": 2,
     "Shinobi II": 2,
     "Atomos Ninja V \u2013 Unboxing Deschidem cutia \u0219i descoperim Atomos Ninja V": 2,
     "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me": 1,
     "AtomOS 12": 1,
-    "Shinobi 7 II; Sumo PRO-19": 1,
     "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
     "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
-    "Atomos Ninja TX GO 5": 1,
-    "Shinobi II; Shinobi GO": 1
+    "Atomos sees Shinobi 7 II demand build as cash flow turns positive Consu": 1,
+    "Atomos Ninja TX GO 5": 1
   },
   "record_type_counts": {
-    "video": 46,
+    "video": 67,
     "comment": 6,
-    "article": 5,
+    "article": 8,
     "post": 6
   },
   "platform_discovery_leads": {
@@ -54,17 +54,20 @@
     "Google / News / Articles": 3,
     "Retailers": 0
   },
-  "unique_social_url_groups": 55,
-  "linked_reply_excerpts": 47,
+  "unique_social_url_groups": 80,
+  "linked_reply_excerpts": 63,
   "daily_coverage_percent": 100.0,
   "source_media": {
-    "embedded_verified": 49,
-    "linked_verified": 49,
+    "embedded_verified": 71,
+    "linked_verified": 71,
     "embedded_leads": 0,
     "linked_leads": 0,
-    "missing_media_verified": 14
+    "missing_media_verified": 16
   },
   "retail_observations_count": 6,
+  "official_catalog_items": 0,
+  "official_catalog_pages": 0,
+  "brand_scope_mode": "brand_wide_all_products_services_and_mentions",
   "retailer_store_counts": {
     "CVP": 4,
     "B&H Photo": 2
@@ -135,14 +138,14 @@
     [
       "YouTube",
       0,
-      46,
+      67,
       0,
       0,
       3,
-      32,
-      "72477",
-      "1603",
-      "112"
+      48,
+      "101474",
+      "3243",
+      "143"
     ],
     [
       "Camera Forums",
@@ -229,11 +232,11 @@
     ],
     [
       "YouTube",
-      49,
+      70,
       0,
-      49,
-      49,
-      49,
+      70,
+      70,
+      70,
       0
     ],
     [
@@ -247,11 +250,11 @@
     ],
     [
       "Google / News / Articles",
-      5,
-      3,
       8,
-      0,
-      0,
+      3,
+      11,
+      1,
+      1,
       0
     ],
     [
@@ -270,7 +273,7 @@
       [
         [
           "Dated sources",
-          63
+          87
         ],
         [
           "Pending leads",
@@ -278,7 +281,7 @@
         ],
         [
           "Unique source URLs",
-          68
+          92
         ],
         [
           "Days captured",
@@ -291,15 +294,15 @@
       [
         [
           "Views",
-          72477
+          101474
         ],
         [
           "Likes",
-          1746
+          3386
         ],
         [
           "Comments",
-          145
+          176
         ],
         [
           "Shares",
@@ -312,7 +315,7 @@
       [
         [
           "Positive",
-          4
+          7
         ],
         [
           "Negative",
@@ -320,11 +323,11 @@
         ],
         [
           "Neutral",
-          42
+          59
         ],
         [
           "Questions",
-          10
+          14
         ]
       ]
     ],
@@ -337,7 +340,7 @@
         ],
         [
           "Videos",
-          46
+          67
         ],
         [
           "Reels",
@@ -362,11 +365,11 @@
         ],
         [
           "Linked replies",
-          47
+          63
         ],
         [
           "Cached images",
-          49
+          71
         ]
       ]
     ],
@@ -379,7 +382,7 @@
         ],
         [
           "Articles",
-          5
+          8
         ],
         [
           "Comment findings",
@@ -390,6 +393,27 @@
           2
         ]
       ]
+    ],
+    [
+      "OFFICIAL PRODUCT CATALOG | SEPARATE SNAPSHOT",
+      [
+        [
+          "Catalog products",
+          0
+        ],
+        [
+          "Catalog pages",
+          0
+        ],
+        [
+          "Listing access errors",
+          1
+        ],
+        [
+          "Catalog source",
+          "Manufacturer"
+        ]
+      ]
     ]
   ],
   "pending_reference_metrics": {},
@@ -397,29 +421,29 @@
     "https://www.facebook.com/AtomosTech/posts/1234567890"
   ],
   "overall_kpi": {
-    "dated_records": 63,
+    "dated_records": 87,
     "pending_leads": 7,
     "metrics": {
-      "views": 72477,
-      "likes": 1746,
-      "comments": 145,
+      "views": 101474,
+      "likes": 3386,
+      "comments": 176,
       "shares": null,
       "reactions": null,
       "reposts": null
     },
     "metric_source_counts": {
-      "views": 46,
-      "likes": 50,
-      "comments": 47,
+      "views": 67,
+      "likes": 71,
+      "comments": 67,
       "shares": 0,
       "reactions": 0,
       "reposts": 0
     },
     "sentiment": {
-      "positive": 4,
+      "positive": 7,
       "negative": 5,
-      "neutral": 42,
-      "question": 10,
+      "neutral": 59,
+      "question": 14,
       "not_applicable": 2
     }
   },
@@ -468,8 +492,8 @@
       "YouTube",
       3,
       1,
-      37,
-      8,
+      54,
+      12,
       0
     ],
     [
@@ -482,7 +506,7 @@
     ],
     [
       "Google / News / Articles",
-      0,
+      3,
       0,
       3,
       0,

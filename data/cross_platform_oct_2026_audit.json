@@ -1,0 +1,76 @@
+{
+  "research_window": "2026-10-01 through 2026-10-30",
+  "checked_on": "2026-10-30",
+  "methodology": "Public indexed platform pages; no authenticated/private content access. Exact original post URL/date required to promote to verified KPI.",
+  "leads": [
+    {
+      "title": "ATOMOS LinkedIn: Shinobi used by Monnelle Britt for live events and music videos",
+      "platform": "LinkedIn",
+      "url": "https://au.linkedin.com/company/atomos",
+      "author": "ATOMOS",
+      "published_date": "",
+      "date_evidence": "Public ATOMOS LinkedIn Updates displayed relative age 3d when checked Oct 30 2026; exact timestamp and post permalink not exposed.",
+      "summary": "Official ATOMOS page describes creator using Shinobi LUT previews and focus assist, including spotting subtle color differences on music-video shoots.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "content_type": "post",
+      "source_excerpt": "Monnelle Britt shoots live events, music videos and everything in between, and Shinobi is always there for her.",
+      "verification_note": "Company feed visible; original individual post permalink/date not verified. Do not count as exact-dated post."
+    },
+    {
+      "title": "ATOMOS LinkedIn: NAB New York Post Production World meetup",
+      "platform": "LinkedIn",
+      "url": "https://au.linkedin.com/company/atomos",
+      "author": "ATOMOS",
+      "published_date": "",
+      "date_evidence": "Public official feed labels item 1w; event scheduled October 21 2026, event date is not necessarily post publication date.",
+      "summary": "Official ATOMOS feed describes the brand as a co-sponsor of the Post Production World Meetup and Adobe Mini-Expo at NAB New York.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "content_type": "post",
+      "source_excerpt": "We're proud to be one of the co-sponsors!",
+      "verification_note": "Page and content verified, individual post permalink and exact creation date not available."
+    },
+    {
+      "title": "Holdan LinkedIn mentions Atomos monitors and recording solutions",
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/holdan/",
+      "author": "Holdan",
+      "published_date": "",
+      "date_evidence": "Public LinkedIn company feed returned relative 1w, not an exact timestamp.",
+      "summary": "Distributor content highlights Atomos monitors and recorder workflow applications in professional podcast production.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "content_type": "post",
+      "source_excerpt": "The Monitors & Recording section of the Holdan Podcast Portal showcases solutions from Atomos",
+      "verification_note": "Source company feed accessible; original post URL and timestamp not confirmed."
+    }
+  ],
+  "coverage": [
+    {
+      "platform": "Facebook",
+      "status": "searched_unverified",
+      "note": "Original October 2026 dated post and direct permalink not established from public indexed search."
+    },
+    {
+      "platform": "Instagram",
+      "status": "searched_unverified",
+      "note": "Exact-date October post/story evidence not retrieved. Story URLs alone are insufficient."
+    },
+    {
+      "platform": "LinkedIn",
+      "status": "public_company_feed_checked",
+      "note": "ATOMOS and Holdan company-feed content found; individual post URLs/dates not accessible."
+    },
+    {
+      "platform": "X / Twitter",
+      "status": "searched_unverified",
+      "note": "No source-verified exact-date Atomos status URI established."
+    },
+    {
+      "platform": "Camera Forums",
+      "status": "searched_unverified",
+      "note": "No October-dated directly attributable post URI established from public search."
+    }
+  ]
+}

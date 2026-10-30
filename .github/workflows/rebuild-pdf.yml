@@ -46,7 +46,7 @@ jobs:
           path: .
       - name: Filter homonyms and restore single-day evidence
         if: ${{ env.REPORT_DATE == '2026-10-30' }}
-        run: python scripts/recover_saved_evidence.py "$REPORT_DATE"
+        run: python -m scripts.recover_saved_evidence "$REPORT_DATE"
       - name: Validate real Atomos equipment filtering
         run: python -m unittest discover -s tests -v
       - name: Generate corrected original-source PDF from saved JSON, not paid GPT

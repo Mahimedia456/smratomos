@@ -127,6 +127,7 @@ def main():
            Spacer(1,8),pdf.P(f'Daily source files available: {len(saved_dates)} of 30 ({", ".join(saved_dates) or "none"}). Missing days are incomplete coverage, NOT zero brand mentions.','small'),Spacer(1,12)]
     story.extend([pdf.P('KPI interpretation: counts describe source records captured, not total platform activity. Reddit cross-posts cover one issue cluster. Blank engagement means not measured.','small'),Spacer(1,8)])
     story.extend(pdf.engagement_overview(all_findings))
+    story.extend([pdf.P('IMPORTANT: A platform row showing 0 sourced posts means zero items in this incomplete archive, NOT zero posts on the platform. Report coverage is only 1 daily collector snapshot out of 30 days.','small'),Spacer(1,9)])
     counts=Counter(x.sentiment for x in all_findings)
     story.extend([pdf.P(f'Direct verified: {len(findings)} | Dated archival source posts: {len(reference_findings)}  |  Retail snapshots: {len(offers)}  |  Positive: {counts["Positive"]}  |  Neutral: {counts["Neutral"]}  |  Negative: {counts["Negative"]}  |  Questions: {counts["Question"]}','small'),Spacer(1,10),
                   pdf.band('MONTHLY PLATFORM KPIS AND INDIVIDUAL EVIDENCE','POST / COMMENT / STORY / VIDEO / ARTICLE')])
@@ -157,6 +158,25 @@ def main():
                   pdf.P('This is a one-time manual monthly compilation. The 30-day window is not a claim that thirty daily scans were completed. Missing metrics are unavailable, not zero. The saved evidence may contain inaccessible Instagram Stories or other platforms; URLs alone are never proof of content, media or publication date.','small'),
                   Spacer(1,8),pdf.P('No monthly schedule, cron trigger, research API call or modifications to daily reports are introduced.','small')])
     doc.build(story,onFirstPage=pdf.footer,onLaterPages=pdf.footer)
+    # Publication QA audit is persisted and verified by GitHub Actions.
+    from pypdf import PdfReader
+    from src.platform_analytics import category
+    reader=PdfReader(str(dest),strict=True)
+    full_text='\\n'.join(page.extract_text() or '' for page in reader.pages)
+    missing_titles=[x.title for x in all_findings if x.title.lower() not in full_text.lower()]
+    if missing_titles:
+        raise RuntimeError('PDF omitted source titles: '+repr(missing_titles))
+    if len(reader.pages)<1:raise RuntimeError('Monthly PDF missing pages')
+    audit={'report_start':START.isoformat(),'report_end':END.isoformat(),
+           'pdf_pages':len(reader.pages),'pdf_bytes':dest.stat().st_size,
+           'source_record_count':len(all_findings),'unique_urls':len({x.url for x in all_findings}),
+           'verified_direct':len(findings),'archived':len(reference_findings),
+           'platform_counts':{platform:len(grouped[platform]) for platform in PLATFORMS},
+           'source_titles_missing_from_pdf':missing_titles,
+           'daily_snapshots':saved_dates,
+           'warning':'Platform 0 means no saved dated entries, not zero real-world activity.'}
+    (ROOT/'monthly-report-audit.json').write_text(json.dumps(audit,indent=2)+'\\n')
+    print('AUDIT',json.dumps(audit))
     manifest=ROOT/'monthly-reports-index.json'
     manifest.write_text(json.dumps([{'brand':BRAND,'start':START.isoformat(),'end':END.isoformat(),'path':dest.relative_to(ROOT).as_posix(),
                                    'saved_source_dates':saved_dates,'verified_items':len(findings),'dated_archival_posts':len(reference_findings),'undated_leads':len(undated_leads),'dated_unverified_leads':len(leads),'retail_snapshots':len(offers),'platforms_with_dated_sources':represented,'coverage_status':'PARTIAL - only 2026-10-30 saved daily collector snapshot'}],indent=2)+'\n')

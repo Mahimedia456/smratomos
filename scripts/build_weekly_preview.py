@@ -114,22 +114,27 @@ def main():
            Spacer(1,12),pdf.P('7-DAY OBSERVED ENGAGEMENT & SOURCE EVIDENCE','item'),Spacer(1,7),
            pdf.P('Weekly preview: 24-30 October 2026 (Pakistan time). Evidence compiled from saved repository records only; no new research performed.','small'),
            Spacer(1,8),pdf.P(f'Daily source files available: {len(saved_dates)} of 7 ({", ".join(saved_dates) or "none"}). Missing days are incomplete coverage, NOT zero brand mentions.','small'),Spacer(1,12)]
+    story.extend([pdf.P('KPI interpretation: counts describe source records captured, not total platform activity. Reddit cross-posts cover one issue cluster. Blank engagement means not measured.','small'),Spacer(1,8)])
     story.extend(pdf.engagement_overview(all_findings))
     counts=Counter(x.sentiment for x in all_findings)
     story.extend([pdf.P(f'Direct verified: {len(findings)} | Dated archival source posts: {len(reference_findings)}  |  Retail snapshots: {len(offers)}  |  Positive: {counts["Positive"]}  |  Neutral: {counts["Neutral"]}  |  Negative: {counts["Negative"]}  |  Questions: {counts["Question"]}','small'),Spacer(1,10),
                   pdf.band('WEEKLY PLATFORM KPIS AND INDIVIDUAL EVIDENCE','POST / COMMENT / STORY / VIDEO / ARTICLE')])
     grouped=platform_summary(all_findings)
+    represented=sum(bool(records) for records in grouped.values())
+    story.extend([Spacer(1,7),pdf.P(f'Platforms with dated source records: {represented} of {len(PLATFORMS)} | Reddit issue clusters: 1 (3 source posts) | Research coverage: incomplete, 6 days without daily snapshot files.','small'),Spacer(1,7)])
     uncertain=platform_summary(leads+undated_leads)
     for platform in PLATFORMS:
         records=grouped[platform]
         story.append(Spacer(1,13))
         story.extend(pdf.platform_scorecard(platform,records,'24-30 OCTOBER 2026'))
+        if platform=='Reddit' and records:
+            story.extend([pdf.P('CONVERSATION CLUSTERS: Three linked Reddit posts concern one Shinobi 7 II 4K60/4K30 complaint. Comment summaries follow their parent thread and are not extra post counts.','small'),Spacer(1,8)])
         if records:
             for i,item in enumerate(records,1):
                 story.extend([pdf.P('PUBLISHED '+str(item.published_date)+'  |  '+('ARCHIVED ORIGINAL SOURCE | ' if item in reference_findings else 'VERIFIED | ')+content_type(item).upper(),'caption'),Spacer(1,5)])
                 story.extend(continuous_card(item,'W'+str(i)))
         else:
-            story.extend([pdf.P('No date-verified item available in the saved weekly dataset. This does not establish that no posts existed.','small'),Spacer(1,7)])
+            story.extend([pdf.P('NOT VERIFIED IN SAVED SOURCES. Platform activity and engagement were not measured for the full week; zero activity is NOT established.','small'),Spacer(1,7)])
         if uncertain.get(platform):
             story.append(pdf.P('UNVERIFIED / UNDATED SOURCE LEADS (EXCLUDED FROM KPI COUNTS)','caption'))
             for i,item in enumerate(uncertain[platform],1):story.extend(continuous_card(item,'U'+str(i)))
@@ -143,7 +148,7 @@ def main():
     doc.build(story,onFirstPage=pdf.footer,onLaterPages=pdf.footer)
     manifest=ROOT/'weekly-reports-index.json'
     manifest.write_text(json.dumps([{'brand':BRAND,'start':START.isoformat(),'end':END.isoformat(),'path':dest.relative_to(ROOT).as_posix(),
-                                   'saved_source_dates':saved_dates,'verified_items':len(findings),'dated_archival_posts':len(reference_findings),'undated_leads':len(undated_leads),'dated_unverified_leads':len(leads),'retail_snapshots':len(offers)}],indent=2)+'\n')
+                                   'saved_source_dates':saved_dates,'verified_items':len(findings),'dated_archival_posts':len(reference_findings),'undated_leads':len(undated_leads),'dated_unverified_leads':len(leads),'retail_snapshots':len(offers),'platforms_with_dated_sources':represented,'coverage_status':'PARTIAL - only 2026-10-30 saved daily collector snapshot'}],indent=2)+'\n')
     print(f'CREATED {dest} | verified={len(findings)} | source_days={len(saved_dates)} | retail={len(offers)} | unverified_leads={len(undated_leads)+len(leads)}')
 
 if __name__=='__main__':main()

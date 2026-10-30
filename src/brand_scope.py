@@ -17,4 +17,8 @@ def is_atomos_equipment(text:str,*,title:str='',url:str='')->bool:
     host=(urlparse(str(url or '')).hostname or '').lower()
     if host=='atomos.com' or host.endswith('.atomos.com'):return True
     if SPECIFIC.search(raw):return True
-    return bool(PRODUCT.search(raw) and VIDEO.search(raw))
+    # A brand-wide monitoring feed cannot depend on an enumerated device list.
+    # New/legacy products, software, audio, PTZ, service and accessory mentions
+    # are valid candidates even if no classic monitor/recorder term occurs.
+    # Homonyms above remain excluded; original content/date is checked later.
+    return bool(BRAND.search(raw))

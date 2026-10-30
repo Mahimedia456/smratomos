@@ -10,3 +10,7 @@
 .schedule-copy strong{font-size:15px;letter-spacing:.015em}.schedule-copy p{color:#afb8c4;font-size:12px;line-height:1.55;margin-top:4px}.schedule-copy b{color:#fff}
 .schedule-next{border-left:1px solid #424852;padding-left:22px;display:flex;flex-direction:column;gap:3px;min-width:210px}.schedule-next span{font-size:10px;color:#ef9967;font-weight:800;letter-spacing:.1em}.schedule-next strong{font-size:14px;color:#fff}.schedule-next small{font-size:10px;color:#9aa6b1}
 @media(max-width:750px){.schedule-panel{grid-template-columns:36px minmax(0,1fr);gap:10px;padding:15px}.schedule-next{grid-column:1/-1;border-left:0;border-top:1px solid #424852;padding:12px 0 0;min-width:0}}
+.period-filter{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
+.period-filter button{cursor:pointer;border-radius:999px;padding:9px 16px;border:1px solid #777;background:transparent;color:inherit;font:inherit;font-size:13px;font-weight:650}
+.period-filter button[aria-pressed="true"]{background:#253b4c;color:#fff;border-color:#617e91}
+.period-filter button:focus-visible{outline:2px solid #62b2ce;outline-offset:2px}

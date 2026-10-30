@@ -1,0 +1,37 @@
+name: One-time Atomos October monthly PDF diagnostic
+on:
+  push:
+    branches: [main]
+    paths: ['config/monthly_preview_2026_10_30.run']
+permissions:
+  contents: write
+jobs:
+  monthly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt pypdf
+      - name: Generate monthly PDF with unrestricted pagination
+        run: python -m scripts.build_monthly_preview
+      - name: Validate all PDF pages and text
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from pypdf import PdfReader
+          p=Path('reports/2026/10/Atomos-Social-Monitoring-Monthly-2026-10-01_to_2026-10-30.pdf')
+          assert p.exists(), str(p)
+          r=PdfReader(p,strict=True)
+          all_text='\n'.join(page.extract_text() or '' for page in r.pages)
+          assert len(r.pages)>0 and 'REDDIT' in all_text.upper() and 'YOUTUBE' in all_text.upper()
+          print(f'PDF VALID pages={len(r.pages)} bytes={p.stat().st_size} chars={len(all_text)}')
+          PY
+      - name: Publish monthly file and report inventory
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/2026/10/*-Monthly-2026-10-01_to_2026-10-30.pdf monthly-reports-index.json
+          git diff --cached --quiet || (git commit -m 'Publish Atomos October monthly diagnostic PDF' && git pull --rebase origin main && git push origin main)

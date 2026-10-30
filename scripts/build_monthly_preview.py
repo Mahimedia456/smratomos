@@ -8,7 +8,7 @@ from reportlab.lib.pagesizes import A4
 from src.schema import ResearchReport
 from src import pdf_report_v2 as pdf
 from src.platform_analytics import PLATFORMS, platform_summary
-from src.social_content import content_type
+from src.social_content import content_type, content_counts
 
 ROOT=Path(__file__).resolve().parents[1]
 END=date(2026,10,30)
@@ -40,6 +40,9 @@ def continuous_card(item,number):
                          ('Impact',item.impact),('Suggested response',item.response_action),
                          ('Date evidence',item.date_evidence),('Verification',item.verification_note)]:
         if value:parts.extend([Spacer(1,5),pdf.P(f'<b>{escape(label)}:</b> {escape(str(value))}','small',raw=True)])
+    if item.hashtags:parts.extend([Spacer(1,5),pdf.P('Hashtags: '+', '.join(item.hashtags),'small')])
+    if item.mentioned_accounts:parts.extend([Spacer(1,5),pdf.P('Mentions: '+', '.join(item.mentioned_accounts),'small')])
+    if item.tagged_accounts:parts.extend([Spacer(1,5),pdf.P('Tagged accounts: '+', '.join(item.tagged_accounts),'small')])
     if item.engagement:
         parts.extend([Spacer(1,6),pdf.P('Public source metrics: '+', '.join(f'{k}: {v}' for k,v in item.engagement.items()),'small')])
     for i,comment in enumerate(item.comments or [],1):
@@ -161,6 +164,22 @@ def main():
            Spacer(1,8),pdf.P(f'Daily source files available: {len(saved_dates)} of 30 ({", ".join(saved_dates) or "none"}). Missing days are incomplete coverage, NOT zero brand mentions.','small'),Spacer(1,12)]
     story.extend([pdf.P('KPI interpretation: counts describe source records captured, not total platform activity. Reddit cross-posts cover one issue cluster. Blank engagement means not measured.','small'),Spacer(1,8)])
     story.extend(pdf.engagement_overview(all_findings))
+    # Separate format and tagged/mentioned KPI panels. Archived and mirror-derived records
+    # count as observed source records, never as exhaustive platform totals.
+    formats=content_counts(all_findings)
+    linked_comments=sum(len(x.comments or []) for x in all_findings)
+    observed_tags=sum(bool(getattr(x,'tagged_accounts',None)) for x in all_findings)
+    observed_mentions=sum(bool(getattr(x,'mentioned_accounts',None)) for x in all_findings)
+    story.extend([pdf.band('CONTENT KPIS | POSTS, STORIES, COMMENTS, TAGS & MENTIONS'),Spacer(1,8),
+                  pdf.P('Dated source records: '+', '.join(
+                      f'{kind.title()}: {formats.get(kind,0)}' for kind in
+                      ('post','story','reel','video','comment','tagged_post','mention','article')),'small'),
+                  Spacer(1,6),pdf.P(
+                      f'Linked comment excerpts: {linked_comments} (not unique post count) | '
+                      f'Source-confirmed tagged-account records: {observed_tags} | '
+                      f'Source-confirmed mentioned-account records: {observed_mentions}. '
+                      'Unknown tag metrics are unavailable, not zero.','small'),
+                  Spacer(1,10)])
     story.extend([pdf.P('IMPORTANT: A platform row showing 0 sourced posts means zero items in this incomplete archive, NOT zero posts on the platform. Report coverage is only 1 daily collector snapshot out of 30 days.','small'),Spacer(1,9)])
     counts=Counter(x.sentiment for x in all_findings)
     story.extend([pdf.P(f'Direct verified: {len(findings)} | Dated archival source posts: {len(reference_findings)}  |  Retail snapshots: {len(offers)}  |  Positive: {counts["Positive"]}  |  Neutral: {counts["Neutral"]}  |  Negative: {counts["Negative"]}  |  Questions: {counts["Question"]}','small'),Spacer(1,10),
@@ -215,7 +234,7 @@ def main():
            'pdf_pages':len(reader.pages),'pdf_bytes':dest.stat().st_size,
            'source_record_count':len(all_findings),'unique_urls':len({x.url for x in all_findings}),
            'verified_direct':len(findings),'archived':len(reference_findings),
-           'platform_counts':{platform:len(grouped[platform]) for platform in PLATFORMS},
+           'platform_counts':{platform:len(grouped[platform]) for platform in PLATFORMS},'content_counts':formats,'linked_comment_excerpts':linked_comments,'tagged_account_records':observed_tags,'mentioned_account_records':observed_mentions,
            'source_titles_missing_from_pdf':missing_titles,
            'daily_snapshots':saved_dates,'cross_platform_leads':len([x for x in undated_leads if x.platform=='LinkedIn']),'cross_platform_audit':social_coverage,
            'warning':'Platform 0 means no saved dated entries, not zero real-world activity.'}

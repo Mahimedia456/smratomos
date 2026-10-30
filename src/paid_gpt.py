@@ -148,7 +148,7 @@ def supplement(day, existing):
         from openai import OpenAI
         client=OpenAI(timeout=110,max_retries=0)
         prompt=(
-            f'Research Atomos monitor-recorders, Ninja, Shogun, Shinobi and AtomOS firmware on {day} (Asia/Karachi). '
+            f'Research Atomos as an ENTIRE brand across all current and legacy products, any model, variant, service, accessory, firmware, software, partnerships, distributors and company-level discussions on {day} (Asia/Karachi). '
             'Use the available web search tool to locate actual original posts, individual public comments, '
             'camera reviews, indexed social posts, and product-related customer complaints. '
             'Use at most 2 targeted, efficient public web searches focused on ORIGINAL post permalinks, '

@@ -27,12 +27,12 @@ jobs:
           r=PdfReader(p,strict=True)
           all_text='\n'.join(page.extract_text() or '' for page in r.pages)
           assert len(r.pages)>0 and 'REDDIT' in all_text.upper() and 'YOUTUBE' in all_text.upper()
-          for expected in ['Shinobi 7 II','CameraEgg','Sumo PRO-19','Atomos Japan']:
+          for expected in ['Shinobi 7 II','CameraEgg','Sumo PRO-19','Atomos Japan','Exposure assist','Sony ZV-E1']:
               assert expected.casefold() in all_text.casefold(), f'Missing from PDF: {expected}'
           import json
           audit=json.loads(Path('monthly-report-audit.json').read_text())
           assert audit['pdf_pages']==len(r.pages)
-          assert audit['source_record_count']==8, audit
+          assert audit['source_record_count']==11, audit
           assert audit['platform_counts']['Google / News / Articles']==3, audit
           print(f'PDF VALID pages={len(r.pages)} bytes={p.stat().st_size} chars={len(all_text)}')
           PY

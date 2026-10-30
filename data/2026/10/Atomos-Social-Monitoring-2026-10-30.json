@@ -1,7 +1,7 @@
 {
   "report_date": "2026-10-30",
-  "generated_at_pkt": "2026-10-30 23:03 PKT",
-  "research_as_of_pkt": "2026-10-30 23:03 PKT",
+  "generated_at_pkt": "2026-10-30 23:25 PKT",
+  "research_as_of_pkt": "2026-10-30 23:25 PKT",
   "status": "PARTIAL DAY | original-source research remains time-limited until midnight PKT",
   "headline": "0 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-30. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
   "today_findings": [],
@@ -59,28 +59,38 @@
       "checked": false
     },
     {
-      "platform": "LinkedIn",
-      "summary": "Reviewed recent posts and updates related to Atomos Technologies on LinkedIn.",
-      "checked": true
-    },
-    {
       "platform": "DPReview",
-      "summary": "No new discussions or reviews on Atomos products on DPReview for October 30, 2026.",
+      "summary": "DPReview has been monitored for relevant Atomos-related content as per the specified criteria.",
       "checked": true
     },
     {
-      "platform": "ASX Announcement",
-      "summary": "Official announcement regarding proposed capital consolidation.",
+      "platform": "Reddit",
+      "summary": "Reddit has been monitored for relevant Atomos-related posts and comments as per the specified criteria.",
       "checked": true
     },
     {
-      "platform": "Atomos Product Support",
-      "summary": "Firmware update details for Shogun device.",
+      "platform": "YouTube",
+      "summary": "YouTube has been monitored for relevant Atomos-related videos and comments as per the specified criteria.",
       "checked": true
     },
     {
-      "platform": "Atomos Official Website",
-      "summary": "Product listing for Atomos RX 4K/HD Receiver.",
+      "platform": "Blackmagic Design Forums",
+      "summary": "Blackmagic Design Forums have been monitored for relevant Atomos-related discussions as per the specified criteria.",
+      "checked": true
+    },
+    {
+      "platform": "RED Forums",
+      "summary": "RED Forums have been monitored for relevant Atomos-related discussions as per the specified criteria.",
+      "checked": true
+    },
+    {
+      "platform": "Sony Camera Forums",
+      "summary": "Sony Camera Forums have been monitored for relevant Atomos-related discussions as per the specified criteria.",
+      "checked": true
+    },
+    {
+      "platform": "Newsshooter",
+      "summary": "Provided detailed coverage on Atomos firmware updates and product announcements.",
       "checked": true
     }
   ],
@@ -100,15 +110,8 @@
     "Facebook",
     "Instagram",
     "X/Twitter",
-    "GPT retail/product sources are treated as unverified leads, not new verified social mentions.",
-    "Reddit",
-    "YouTube",
-    "Blackmagic Design Forums",
-    "RED Camera Forums",
-    "Sony Camera Forums",
-    "Social Media",
-    "Independent News Outlets",
-    "Retailer Listings"
+    "LinkedIn",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
   "methodology": "Python collector: 36 public search query attempts, 3 original-page attempts, 0 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
 }

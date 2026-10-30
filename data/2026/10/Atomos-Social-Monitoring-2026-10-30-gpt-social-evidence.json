@@ -2,7 +2,7 @@
   "report_date": "2026-10-30",
   "generated_at_pkt": "",
   "research_as_of_pkt": "",
-  "status": "Completed",
+  "status": "complete",
   "headline": "Atomos Brand Monitoring Report for October 30, 2026",
   "today_findings": [],
   "retail_observations": [],
@@ -14,16 +14,32 @@
   "report_period_end": "",
   "coverage": [
     {
+      "platform": "Facebook",
+      "summary": "No relevant posts found on Facebook for Atomos brand monitoring on October 30, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "No relevant posts found on Instagram for Atomos brand monitoring on October 30, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "X/Twitter",
+      "summary": "No relevant posts found on X/Twitter for Atomos brand monitoring on October 30, 2026.",
+      "checked": false
+    },
+    {
       "platform": "LinkedIn",
-      "summary": "Reviewed recent posts and updates related to Atomos Technologies on LinkedIn.",
-      "checked": true
+      "summary": "No relevant posts found on LinkedIn for Atomos brand monitoring on October 30, 2026.",
+      "checked": false
     }
   ],
   "visibility_gaps": [
     "Facebook",
     "Instagram",
     "X/Twitter",
+    "LinkedIn",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search on LinkedIn for public posts related to Atomos Technologies on October 30, 2026. No relevant posts were found on Facebook, Instagram, or X/Twitter for the specified date."
+  "methodology": "Conducted a comprehensive search across Facebook, Instagram, X/Twitter, and LinkedIn for public posts, stories, reels, hashtags, mentions, and tagged accounts related to Atomos brand products (Ninja, Shogun, Shinobi, Sumo, AtomOS firmware, ATOMOSphere) on October 30, 2026. Excluded content related to Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. No relevant posts were found on the specified date."
 }

@@ -34,7 +34,7 @@
         "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com \"Shogun Ultra\" \"Atomos\" October 2026",
-        "results": 7,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -118,7 +118,7 @@
         "group": "LinkedIn",
         "stage": "search",
         "query": "site:linkedin.com/posts/ \"Shogun\" \"Atomos\" October 2026",
-        "results": 7,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -153,7 +153,7 @@
         "group": "X / Twitter",
         "stage": "search",
         "query": "site:twitter.com/ \"Shogun\" \"Atomos\" October 2026",
-        "results": 7,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -289,7 +289,7 @@
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "Facebook.wrong_source_domain": 57,
+      "Facebook.wrong_source_domain": 60,
       "Facebook.successful_queries": 6,
       "Facebook.fallback_attempts": 1,
       "Facebook.queries": 6,
@@ -297,11 +297,11 @@
       "Instagram.successful_queries": 7,
       "Instagram.fallback_attempts": 1,
       "Instagram.queries": 7,
-      "LinkedIn.wrong_source_domain": 37,
+      "LinkedIn.wrong_source_domain": 40,
       "LinkedIn.successful_queries": 4,
       "LinkedIn.fallback_attempts": 1,
       "LinkedIn.queries": 4,
-      "X / Twitter.wrong_source_domain": 47,
+      "X / Twitter.wrong_source_domain": 50,
       "X / Twitter.successful_queries": 5,
       "X / Twitter.fallback_attempts": 1,
       "X / Twitter.queries": 5,
@@ -318,12 +318,13 @@
       "Camera forums.fallback_attempts": 1,
       "Camera forums.queries": 5,
       "Industry articles.candidates": 3,
-      "Industry articles.irrelevant_index_hits": 18,
-      "Industry articles.wrong_source_domain": 3,
+      "Industry articles.irrelevant_index_hits": 15,
+      "Industry articles.wrong_source_domain": 6,
       "Industry articles.successful_queries": 3,
       "Industry articles.queries": 3,
       "Industry articles.fallback_attempts": 1,
-      "Retailers.wrong_source_domain": 14,
+      "Retailers.wrong_source_domain": 12,
+      "Retailers.irrelevant_index_hits": 2,
       "Retailers.successful_queries": 2,
       "Retailers.fallback_attempts": 1,
       "Retailers.queries": 2,
@@ -341,8 +342,9 @@
     "data": [
       {
         "scope": "social",
-        "status": "cached_evidence",
-        "api_calls": 0,
+        "status": "completed",
+        "api_calls": 1,
+        "search_events": 1,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -352,8 +354,9 @@
       },
       {
         "scope": "community",
-        "status": "cached_evidence",
-        "api_calls": 0,
+        "status": "completed",
+        "api_calls": 1,
+        "search_events": 1,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -363,11 +366,12 @@
       },
       {
         "scope": "editorial",
-        "status": "cached_evidence",
-        "api_calls": 0,
+        "status": "completed",
+        "api_calls": 1,
+        "search_events": 1,
         "merged": {
           "today_findings": 0,
-          "unverified_leads": 2,
+          "unverified_leads": 0,
           "older_leads": 0,
           "retail_observations": 0
         }

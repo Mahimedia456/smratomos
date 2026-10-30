@@ -1,10 +1,10 @@
 {
   "date": "2026-10-30",
-  "pages": 7,
+  "pages": 6,
   "dated_posts_checked": 2,
   "report_scope": "single-day",
-  "instagram_story_lead_links_checked": 11,
-  "source_hyperlinks": 14,
+  "instagram_story_lead_links_checked": 0,
+  "source_hyperlinks": 3,
   "platform_sections": 9,
   "unicode_text_extraction_warnings": 0,
   "result": "passed"

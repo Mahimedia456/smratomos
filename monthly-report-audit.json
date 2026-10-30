@@ -1,8 +1,8 @@
 {
   "report_start": "2026-10-01",
   "report_end": "2026-10-30",
-  "pdf_pages": 9,
-  "pdf_bytes": 115890,
+  "pdf_pages": 10,
+  "pdf_bytes": 120834,
   "source_record_count": 11,
   "unique_urls": 11,
   "verified_direct": 2,
@@ -21,6 +21,34 @@
   "source_titles_missing_from_pdf": [],
   "daily_snapshots": [
     "2026-10-30"
+  ],
+  "cross_platform_leads": 3,
+  "cross_platform_audit": [
+    {
+      "platform": "Facebook",
+      "status": "searched_unverified",
+      "note": "Original October 2026 dated post and direct permalink not established from public indexed search."
+    },
+    {
+      "platform": "Instagram",
+      "status": "searched_unverified",
+      "note": "Exact-date October post/story evidence not retrieved. Story URLs alone are insufficient."
+    },
+    {
+      "platform": "LinkedIn",
+      "status": "public_company_feed_checked",
+      "note": "ATOMOS and Holdan company-feed content found; individual post URLs/dates not accessible."
+    },
+    {
+      "platform": "X / Twitter",
+      "status": "searched_unverified",
+      "note": "No source-verified exact-date Atomos status URI established."
+    },
+    {
+      "platform": "Camera Forums",
+      "status": "searched_unverified",
+      "note": "No October-dated directly attributable post URI established from public search."
+    }
   ],
   "warning": "Platform 0 means no saved dated entries, not zero real-world activity."
 }

@@ -1,15 +1,15 @@
 {
   "period": "monthly",
   "report": "reports/2026/10/Atomos-Social-Monitoring-Monthly-2026-10-01_to_2026-10-30.pdf",
-  "pages": 15,
-  "pdf_bytes": 239043,
-  "expected_dated_records": 21,
-  "expected_leads": 3,
-  "original_source_links_in_pdf": 62,
-  "embedded_pdf_image_xobjects": 9,
-  "images_reported_in_manifest": 7,
+  "pages": 17,
+  "pdf_bytes": 337551,
+  "expected_dated_records": 27,
+  "expected_leads": 7,
+  "original_source_links_in_pdf": 94,
+  "embedded_pdf_image_xobjects": 15,
+  "images_reported_in_manifest": 13,
   "required_sections_checked": [
-    "OVERALL KPI",
+    "EXECUTIVE KPI DASHBOARD",
     "OVERALL SENTIMENT",
     "SOCIAL MEDIA SENTIMENT",
     "POST ANALYTICS",
@@ -27,5 +27,5 @@
   "missing_sections": [],
   "synthetic_placeholder_urls_found": false,
   "no_page_cap": true,
-  "source_dated_coverage_percent": 16.7
+  "source_dated_coverage_percent": 30.0
 }

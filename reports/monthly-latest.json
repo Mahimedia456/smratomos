@@ -3,27 +3,27 @@
   "start": "2026-10-01",
   "end": "2026-10-30",
   "path": "reports/2026/10/Atomos-Social-Monitoring-Monthly-2026-10-01_to_2026-10-30.pdf",
-  "snapshots": 5,
+  "snapshots": 9,
   "archived_findings": 16,
-  "dated_findings": 21,
-  "unverified_leads": 3,
+  "dated_findings": 27,
+  "unverified_leads": 7,
   "platform_counts": {
     "Facebook": 0,
     "Instagram": 1,
     "X / Twitter": 0,
     "LinkedIn": 0,
     "Reddit": 8,
-    "YouTube": 7,
+    "YouTube": 13,
     "Camera Forums": 0,
     "Google / News / Articles": 5,
     "Retailers": 0
   },
   "sentiment_counts": {
     "Question": 5,
-    "Neutral": 9,
+    "Neutral": 12,
     "Not applicable": 2,
-    "Negative": 4,
-    "Positive": 1
+    "Positive": 4,
+    "Negative": 4
   },
   "observed_product_labels": {
     "Shinobi 7 II": 3,
@@ -34,11 +34,11 @@
     "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
     "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
     "Shinobi II; Shinobi GO": 1,
-    "Atomos Shinobi II \ud83d\udd25\ud83c\udfac | El monitor que todo filmmaker necesita Un buen plano empi": 1,
-    "Sumo PRO-19": 1
+    "Atomos Shinobi II Bundle with Watson NP-F770 Lithium-Ion Battery Pack (7": 1,
+    "Atomos Shinobi II HDMI 4K Monitor with HDR Touchscreen": 1
   },
   "record_type_counts": {
-    "video": 6,
+    "video": 12,
     "comment": 4,
     "article": 5,
     "post": 6
@@ -51,15 +51,15 @@
     "Reddit": 0,
     "YouTube": 0,
     "Camera Forums": 0,
-    "Google / News / Articles": 0,
+    "Google / News / Articles": 3,
     "Retailers": 0
   },
-  "unique_social_url_groups": 15,
+  "unique_social_url_groups": 21,
   "linked_reply_excerpts": 16,
-  "daily_coverage_percent": 16.7,
+  "daily_coverage_percent": 30.0,
   "source_media": {
-    "embedded_verified": 7,
-    "linked_verified": 7,
+    "embedded_verified": 13,
+    "linked_verified": 13,
     "embedded_leads": 0,
     "linked_leads": 0,
     "missing_media_verified": 14
@@ -130,12 +130,12 @@
     [
       "YouTube",
       0,
-      6,
+      12,
       0,
       0,
       1,
       1,
-      "6337",
+      "6555",
       "10",
       "1"
     ],
@@ -224,11 +224,11 @@
     ],
     [
       "YouTube",
-      7,
+      13,
       0,
-      7,
-      7,
-      7,
+      13,
+      13,
+      13,
       0
     ],
     [
@@ -243,8 +243,8 @@
     [
       "Google / News / Articles",
       5,
-      0,
-      5,
+      3,
+      8,
       0,
       0,
       0
@@ -265,19 +265,19 @@
       [
         [
           "Dated sources",
-          21
+          27
         ],
         [
           "Pending leads",
-          3
+          7
         ],
         [
           "Unique source URLs",
-          23
+          32
         ],
         [
           "Days captured",
-          "5/30"
+          "9/30"
         ]
       ]
     ],
@@ -286,7 +286,7 @@
       [
         [
           "Views",
-          6337
+          6555
         ],
         [
           "Likes",
@@ -307,7 +307,7 @@
       [
         [
           "Positive",
-          1
+          4
         ],
         [
           "Negative",
@@ -315,7 +315,7 @@
         ],
         [
           "Neutral",
-          9
+          12
         ],
         [
           "Questions",
@@ -332,7 +332,7 @@
         ],
         [
           "Videos",
-          6
+          12
         ],
         [
           "Reels",
@@ -361,7 +361,7 @@
         ],
         [
           "Cached images",
-          7
+          13
         ]
       ]
     ],
@@ -387,14 +387,15 @@
       ]
     ]
   ],
+  "pending_reference_metrics": {},
   "rejected_synthetic_example_urls": [
     "https://www.facebook.com/AtomosTech/posts/1234567890"
   ],
   "overall_kpi": {
-    "dated_records": 21,
-    "pending_leads": 3,
+    "dated_records": 27,
+    "pending_leads": 7,
     "metrics": {
-      "views": 6337,
+      "views": 6555,
       "likes": 153,
       "comments": 34,
       "shares": null,
@@ -402,17 +403,17 @@
       "reposts": null
     },
     "metric_source_counts": {
-      "views": 6,
-      "likes": 8,
-      "comments": 7,
+      "views": 12,
+      "likes": 14,
+      "comments": 13,
       "shares": 0,
       "reactions": 0,
       "reposts": 0
     },
     "sentiment": {
-      "positive": 1,
+      "positive": 4,
       "negative": 4,
-      "neutral": 9,
+      "neutral": 12,
       "question": 5,
       "not_applicable": 2
     }
@@ -460,9 +461,9 @@
     ],
     [
       "YouTube",
+      3,
       0,
-      0,
-      4,
+      7,
       3,
       0
     ],

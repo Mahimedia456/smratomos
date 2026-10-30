@@ -20,7 +20,7 @@
         "comments": 33
       },
       "engagement_source": "Third-party mirror snapshot, not original Instagram API",
-      "verification_note": "Publication date and engagement from third-party mirror https://imginn.com/p/Dej_LfMuqD7/; direct original post not accessible. Source is not independently verified through Instagram.",
+      "verification_note": "Publication date and engagement from third-party mirror https://imginn.com/p/Dej_LfMuqD7/; direct original post not accessible. Source is not independently verified through Instagram. Caption handle mentions are indexed text; no Instagram native tagged-person metadata independently verified.",
       "comments": [
         {
           "author": "@marcestrellamedia",
@@ -34,7 +34,12 @@
           "author": "@joerowlands_films",
           "text": "Mentions Ninja V high power consumption and asks how Shinobi compares (summary)."
         }
-      ]
+      ],
+      "mentioned_accounts": [
+        "@atomos.global",
+        "@holdannews"
+      ],
+      "tagged_accounts": []
     },
     {
       "title": "Atomos Q1 FY27 quarterly activity update references Shinobi II and Sumo PRO-19 demand",

@@ -1,5 +1,5 @@
 name: Atomos Website Build Validation
-# Final October source archive: validate 31 daily + weekly + monthly published PDFs.
+# Final October source archive: validate 33 PDFs and updated brand-wide search test.
 on:
   push:
     branches: [main, atomos-report-clone-ready]

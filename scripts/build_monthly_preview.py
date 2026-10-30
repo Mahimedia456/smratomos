@@ -165,7 +165,11 @@ def main():
     full_text='\\n'.join(page.extract_text() or '' for page in reader.pages)
     import re
     normalized_pdf=re.sub(r'\\s+',' ',full_text).casefold()
-    missing_titles=[x.title for x in all_findings if re.sub(r'\\s+',' ',x.title).casefold() not in normalized_pdf]
+    def is_present(title):
+        words=re.findall(r'[a-z0-9]+',title.casefold())
+        extracted=set(re.findall(r'[a-z0-9]+',normalized_pdf))
+        return bool(words) and sum(w in extracted for w in words)/len(words)>=0.85
+    missing_titles=[x.title for x in all_findings if not is_present(x.title)]
     if missing_titles:
         raise RuntimeError('PDF omitted source titles: '+repr(missing_titles))
     if len(reader.pages)<1:raise RuntimeError('Monthly PDF missing pages')

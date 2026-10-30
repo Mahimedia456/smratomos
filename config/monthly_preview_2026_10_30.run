@@ -7,3 +7,5 @@ Strict PDF-source title and platform coverage audit rebuild.
 PDF text QA with punctuation-tolerant source-title matching.
 
 Rebuild strict monthly audit after JSON encoding fix.
+
+Publish validated audit JSON with actual newline.

@@ -43,7 +43,7 @@ def main():
                 for p in ('Reddit / forums','YouTube','Facebook / Instagram / LinkedIn','News / resellers')],
              visibility_gaps=['No live research performed in demo mode.'])
     else:
-        print('Collecting public sources with Python and connected YouTube API (no OpenAI API calls).',flush=True)
+        print('Collecting public sources and YouTube metadata; optional paid mini-model GPT rounds follow.',flush=True)
         report,sweeps=collect_day(target)
     report,import_audit=import_chatgpt_evidence(report,ROOT)
     if import_audit['found']:
@@ -54,6 +54,7 @@ def main():
             report,platform_audit=research_sweeps(target,report,ROOT)
             sweeps.append({'scope':'Scheduled platform-specific GPT web research',
                            'data':platform_audit})
+            print('GPT platform audits:',[(x.get('scope'),x.get('status'),x.get('api_calls')) for x in platform_audit],flush=True)
         else:
             print('Legacy bounded GPT research: one request, maximum two web searches.',flush=True)
             paid_report, paid_audit=paid_supplement(target, report)

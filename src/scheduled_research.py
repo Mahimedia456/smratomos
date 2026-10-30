@@ -50,7 +50,7 @@ def _write(path,data):
 def _instructions(day, scope, targets):
     return (
         f'You are doing SCHEDULED Atomos brand monitoring for {day}, in Asia/Karachi. '
-        'Do the public web search NOW; never give advice to search later. '
+        'Do the public web search NOW; never give advice to search later. Atomos means Atomos PROFESSIONAL VIDEO production hardware (Ninja, Shogun, Shinobi, Sumo, AtomOS firmware, ATOMOSphere). EXCLUDE Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. Require explicit Atomos brand plus camera/recording context in an ORIGINAL source. '
         f'This sweep targets {scope}: {targets} '
         'Explore at least two distinct targeted query themes with the available '
         'search capacity, when supported. Prefer original post/comment URL not '

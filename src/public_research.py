@@ -17,6 +17,7 @@ from xml.etree import ElementTree
 import requests
 from bs4 import BeautifulSoup
 from .schema import Finding, Coverage, ResearchReport
+from .brand_scope import is_atomos_equipment
 
 ROOT=Path(__file__).resolve().parents[1]
 BRAND=re.compile(r'\batomos\b|\batomosphere\b|\batom[- ]?os\b',re.I)
@@ -112,6 +113,7 @@ def sentiment(text):
 
 def classify(url, content, group, when, evidence, title='',author='',image='',stats=None):
     content=html.unescape(content or '')
+    if not is_atomos_equipment(content,title=title,url=url):return None
     snippet=excerpt(content)
     if not snippet:return None
     if not valid_url(url):return None
@@ -178,7 +180,7 @@ class PublicResearch:
             return
         # Do not use source-fetch budget on unrelated indexed search results.
         indexed_text=str(item.get('title') or '')+' '+str(item.get('snippet') or '')
-        if not BRAND.search(indexed_text):
+        if not is_atomos_equipment(indexed_text,title=item.get('title',''),url=url):
             self.counts[group+'.irrelevant_index_hits']+=1
             return
         self.candidates[url]={**item,'url':url,'group':group,'discovery':discovery,'search_date':search_date}
@@ -354,7 +356,7 @@ class PublicResearch:
             sn=obj.get('snippet') or {}
             if not re.fullmatch('[a-zA-Z0-9_-]{11}',str(vid or '')):continue
             content=sn.get('title','')+' '+sn.get('description','')
-            if not BRAND.search(content):continue
+            if not is_atomos_equipment(content,title=sn.get('title','')):continue
             url=f'https://www.youtube.com/watch?v={vid}'
             thumb=(sn.get('thumbnails',{}).get('medium') or {}).get('url','')
             day=youtube_date_pkt(sn.get('publishedAt'))
@@ -432,7 +434,7 @@ class PublicResearch:
                 if f:self.accept(f,'YouTube API original public comment')
 
     def accept(self, item, origin):
-        if not item or not BRAND.search(item.source_excerpt):return
+        if not item or not is_atomos_equipment(item.source_excerpt,title=item.title,url=item.url):return
         if item.published_date!=self.date:
             self.counts[item.platform+'.other_dates']+=1
             return

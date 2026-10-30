@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from .schema import ResearchReport
 from .public_research import PublicResearch, BRAND
+from .brand_scope import is_atomos_equipment
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -40,7 +41,7 @@ def _normalize_response(raw, day):
             item['url']=str(item.get('url') or item.get('permalink') or '').strip()
             if not item['url'].startswith(('http://','https://')):continue
             host=(urlparse(item['url']).hostname or '').lower()
-            if not re.search(r'\batomos\b|\batomosphere\b',str(item.get('source_excerpt') or ''),re.I):
+            if not is_atomos_equipment(item.get('source_excerpt') or '',title=item.get('title',''),url=item['url']):
                 continue
             if not isinstance(item.get('engagement'),dict):
                 stats=item.get('engagement')
@@ -101,7 +102,7 @@ def verify_ai_candidates(report, already_verified):
         if item.url.rstrip('/').lower() in original:
             keep.append(item)
             continue
-        if checked<7 and BRAND.search(item.source_excerpt):
+        if checked<7 and is_atomos_equipment(item.source_excerpt,title=item.title,url=item.url):
             checked+=1
             checker.page({'url':item.url,'group':item.platform or 'Industry articles',
                           'title':item.title,'snippet':item.source_excerpt})

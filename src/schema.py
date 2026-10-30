@@ -5,6 +5,7 @@ import re
 from typing import Literal
 from urllib.parse import urlparse
 from pydantic import BaseModel, Field, field_validator, model_validator
+from .brand_scope import is_atomos_equipment
 
 def text_value(value):
     if value is None:
@@ -165,7 +166,7 @@ class ResearchReport(BaseModel):
             # A generic platform article is NOT an Atomos mention. An excerpt
             # of the actual source wording is required before the verified KPI.
             excerpt=item.source_excerpt or ''
-            direct=bool(re.search(r'\batomos\b|\batomosphere\b|\batom[- ]?os\b',excerpt,re.I))
+            direct=is_atomos_equipment(excerpt,title=item.title,url=item.url)
             if not direct:
                 exclusions+=1
                 continue
@@ -176,7 +177,7 @@ class ResearchReport(BaseModel):
                 item.status='unverified'
                 self.unverified_leads.append(item)
         if exclusions:
-            self.visibility_gaps.append(f'{exclusions} candidate items excluded: no direct Atomos mention in original-source excerpt.')
+            self.visibility_gaps.append(f'{exclusions} candidate items excluded: no substantiated Atomos video-equipment mention in original-source excerpt.')
         seen=set()
         self.today_findings=[]
         for item in verified:

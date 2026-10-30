@@ -1,0 +1,4 @@
+2026-10-30 Atomos source-accuracy repair and saved GPT evidence recovery.
+Fetch failed run 41070159605 artifact, filter unrelated names, run tests,
+publish source-linked 2026-10-30 PDF and update smratomos website calendar.
+No OPENAI_API_KEY or YOUTUBE_API_KEY calls during this PDF-only recovery.

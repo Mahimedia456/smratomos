@@ -2,53 +2,75 @@ name: Atomos PDF Rebuild (No AI Cost)
 on:
   push:
     branches: [main]
-    paths: ['config/final_2026_10_30_render.run']
+    paths:
+      - 'config/final_2026_10_30_render.run'
   workflow_dispatch:
     inputs:
       report_date:
-        description: 'Existing report date (YYYY-MM-DD)'
-        required: true
-        default: ''
+        description: 'Saved report date (YYYY-MM-DD)'
+        required: false
+        default: '2026-10-30'
         type: string
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: atomos-report-main
   cancel-in-progress: false
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      REPORT_DATE: ${{ inputs.report_date || '2026-10-30' }}
+      REPORT_ONLY: 'true'
+      GPT_RESEARCH_ENABLED: 'false'
+      GPT_FORCE_RESEARCH: 'false'
+      FETCH_EVIDENCE_IMAGES: 'false'
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
+          cache: pip
       - run: pip install -r requirements.txt
-      - name: Run evidence and history tests
+      - name: Recover saved research and media from existing failed run (zero API calls)
+        if: ${{ env.REPORT_DATE == '2026-10-30' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: atomos-failed-run
+          run-id: 41070159605
+          github-token: ${{ github.token }}
+          path: .
+      - name: Filter homonyms and restore single-day evidence
+        if: ${{ env.REPORT_DATE == '2026-10-30' }}
+        run: python scripts/recover_saved_evidence.py "$REPORT_DATE"
+      - name: Validate real Atomos equipment filtering
         run: python -m unittest discover -s tests -v
-      - name: Regenerate latest-date PDF from saved JSON + prior references
-        env:
-          REPORT_ONLY: 'true'
-          FETCH_EVIDENCE_IMAGES: 'true'
-          MAX_REPORT_IMAGES: '10'
-          REPORT_DATE: ${{ inputs.report_date }}
+      - name: Generate corrected original-source PDF from saved JSON, not paid GPT
         run: python -m src.main
-      - name: Verify PDF contains each source link under its platform
-        env:
-          REPORT_DATE: ${{ inputs.report_date || '2026-10-30' }}
-        run: |
-          DAY="${REPORT_DATE:-$(TZ=Asia/Karachi date +%F)}"
-          python -m src.verify_pdf "$DAY"
-      - name: Refresh public website reports index
+      - name: Validate post-to-platform section placement and clickable original links
+        run: python -m src.verify_pdf "$REPORT_DATE"
+      - name: Generate website calendar manifest
         run: python scripts/update_report_index.py
-      - name: Commit regenerated PDF and cumulative JSON
+      - name: Publish corrected report to smratomos main
         run: |
           git config user.name 'atomos-report-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/ data/ assets/ reports-index.json || true
+          git add reports/ data/ assets/ reports-index.json
           if ! git diff --cached --quiet; then
-            git commit -m "Rebuild Atomos PDF ${{ inputs.report_date }} (without AI)"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "${GITHUB_REF_NAME}"
+            git commit -m "Publish Atomos 2026-10-30 verified findings and report (cached GPT evidence)"
+            git pull --rebase origin main
+            git push origin main
           fi
+      - name: Preserve debugging artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atomos-pdf-rebuild-debug
+          path: |
+            reports/
+            data/
+          if-no-files-found: ignore

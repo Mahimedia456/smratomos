@@ -258,5 +258,106 @@
       0,
       0
     ]
+  ],
+  "overall_kpi": {
+    "dated_records": 21,
+    "pending_leads": 4,
+    "metrics": {
+      "views": 6337,
+      "likes": 153,
+      "comments": 34,
+      "shares": null,
+      "reactions": null,
+      "reposts": null
+    },
+    "metric_source_counts": {
+      "views": 6,
+      "likes": 8,
+      "comments": 7,
+      "shares": 0,
+      "reactions": 0,
+      "reposts": 0
+    },
+    "sentiment": {
+      "positive": 1,
+      "negative": 4,
+      "neutral": 9,
+      "question": 5,
+      "not_applicable": 2
+    }
+  },
+  "platform_sentiment_rows": [
+    [
+      "Facebook",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Instagram",
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "X / Twitter",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "LinkedIn",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Reddit",
+      0,
+      4,
+      2,
+      2,
+      0
+    ],
+    [
+      "YouTube",
+      0,
+      0,
+      4,
+      3,
+      0
+    ],
+    [
+      "Camera Forums",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "Google / News / Articles",
+      0,
+      0,
+      3,
+      0,
+      2
+    ],
+    [
+      "Retailers",
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   ]
 }

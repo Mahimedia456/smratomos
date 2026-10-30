@@ -26,6 +26,7 @@ def inside(d):
 
 def main():
     findings,offers,leads=[],[],[]
+    undated_leads=[]
     seen=set()
     saved_dates=[]
     for day_offset in range(7):
@@ -46,6 +47,25 @@ def main():
                 key=(('retail' if target is offers else 'lead' if target is leads else 'finding'),item.url.rstrip('/').lower())
                 if key in seen:continue
                 seen.add(key);target.append(item)
+    # Import auxiliary GPT evidence as leads only. These files are not authoritative
+    # date proof, so never promote them to the verified weekly KPI.
+    for p in sorted((ROOT/'data').glob('2026/10/*-gpt-*-evidence.json')):
+        try:aux=json.loads(p.read_text(encoding='utf-8'))
+        except (OSError,ValueError):continue
+        if not isinstance(aux,dict):continue
+        for bucket in ('today_findings','historical_findings','unverified_leads','older_leads'):
+            for obj in aux.get(bucket,[]):
+                if not isinstance(obj,dict) or not str(obj.get('url','')).startswith(('https://','http://')):continue
+                from src.schema import Finding
+                try:item=Finding.model_validate(dict(obj,status='unverified'))
+                except Exception:continue
+                key=('lead',item.url.rstrip('/').lower())
+                if key in seen or ('finding',item.url.rstrip('/').lower()) in seen:continue
+                seen.add(key)
+                if inside(item.published_date) and item.date_evidence:
+                    leads.append(item)
+                else:
+                    undated_leads.append(item)
     findings.sort(key=lambda x:(x.published_date,x.platform,x.url),reverse=True)
     dest=ROOT/'reports'/'2026'/'10'/f'{BRAND.title()}-Social-Monitoring-Weekly-2026-10-24_to_2026-10-30.pdf'
     dest.parent.mkdir(parents=True,exist_ok=True)
@@ -60,7 +80,7 @@ def main():
     story.extend([pdf.P(f'Verified unique dated items: {len(findings)}  |  Retail snapshots: {len(offers)}  |  Positive: {counts["Positive"]}  |  Neutral: {counts["Neutral"]}  |  Negative: {counts["Negative"]}  |  Questions: {counts["Question"]}','small'),Spacer(1,10),
                   pdf.band('WEEKLY PLATFORM KPIS AND INDIVIDUAL EVIDENCE','POST / COMMENT / STORY / VIDEO / ARTICLE')])
     grouped=platform_summary(findings)
-    uncertain=platform_summary(leads)
+    uncertain=platform_summary(leads+undated_leads)
     for platform in PLATFORMS:
         records=grouped[platform]
         story.append(Spacer(1,13))
@@ -72,18 +92,19 @@ def main():
         else:
             story.extend([pdf.P('No date-verified item available in the saved weekly dataset. This does not establish that no posts existed.','small'),Spacer(1,7)])
         if uncertain.get(platform):
-            story.append(pdf.P('UNVERIFIED LEADS (EXCLUDED FROM KPI COUNTS)','caption'))
+            story.append(pdf.P('UNVERIFIED / UNDATED SOURCE LEADS (EXCLUDED FROM KPI COUNTS)','caption'))
             for i,item in enumerate(uncertain[platform],1):story.extend(pdf.finding_card(item,'U'+str(i)))
         if platform=='Retailers':
             story.extend([pdf.P(f'{len(offers)} dated retailer snapshots; excluded from social post KPIs.','small'),Spacer(1,7)])
             for i,item in enumerate(offers,1):story.extend(pdf.simple_card(item,i))
+    story.extend([Spacer(1,9),pdf.P(f'Auxiliary source leads surfaced: {len(undated_leads)} undated and {len(leads)} date-attributed; all excluded from verified post KPIs. An unobserved public metric is N/A, not a confirmed zero.','small')])
     story.extend([Spacer(1,10),pdf.band('WEEKLY COVERAGE AND VERIFICATION NOTES'),Spacer(1,9),
                   pdf.P('This is a one-time manual weekly compilation. The 7-day window is not a claim that seven daily scans were completed. Missing metrics are unavailable, not zero. The saved evidence may contain inaccessible Instagram Stories or other platforms; URLs alone are never proof of content, media or publication date.','small'),
                   Spacer(1,8),pdf.P('No weekly schedule, cron trigger, research API call or modifications to daily reports are introduced.','small')])
     doc.build(story,onFirstPage=pdf.footer,onLaterPages=pdf.footer)
     manifest=ROOT/'weekly-reports-index.json'
     manifest.write_text(json.dumps([{'brand':BRAND,'start':START.isoformat(),'end':END.isoformat(),'path':dest.relative_to(ROOT).as_posix(),
-                                   'saved_source_dates':saved_dates,'verified_items':len(findings),'retail_snapshots':len(offers)}],indent=2)+'\n')
-    print(f'CREATED {dest} | verified={len(findings)} | source_days={len(saved_dates)} | retail={len(offers)}')
+                                   'saved_source_dates':saved_dates,'verified_items':len(findings),'undated_leads':len(undated_leads),'dated_unverified_leads':len(leads),'retail_snapshots':len(offers)}],indent=2)+'\n')
+    print(f'CREATED {dest} | verified={len(findings)} | source_days={len(saved_dates)} | retail={len(offers)} | unverified_leads={len(undated_leads)+len(leads)}')
 
 if __name__=='__main__':main()

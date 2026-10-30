@@ -163,7 +163,9 @@ def main():
     from src.platform_analytics import category
     reader=PdfReader(str(dest),strict=True)
     full_text='\\n'.join(page.extract_text() or '' for page in reader.pages)
-    missing_titles=[x.title for x in all_findings if x.title.lower() not in full_text.lower()]
+    import re
+    normalized_pdf=re.sub(r'\\s+',' ',full_text).casefold()
+    missing_titles=[x.title for x in all_findings if re.sub(r'\\s+',' ',x.title).casefold() not in normalized_pdf]
     if missing_titles:
         raise RuntimeError('PDF omitted source titles: '+repr(missing_titles))
     if len(reader.pages)<1:raise RuntimeError('Monthly PDF missing pages')

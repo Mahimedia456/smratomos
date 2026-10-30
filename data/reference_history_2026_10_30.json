@@ -1,0 +1,58 @@
+{
+  "source": "Public original Reddit discussions reviewed 2026-10-30; historical window 2026-10-24 to 2026-10-30",
+  "source_note": "Reddit public posts as dated by source. Original poster alleges mismatch; support assertion reported by customer, not independently authenticated. Cross-posts from one issue are separate URLs but one topic cluster.",
+  "findings": [
+    {
+      "title": "Shinobi 7 II 4K60 packaging versus 4K30 support complaint (r/videography)",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/videography/comments/1xegbe9/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+      "author": "Reddit user (original poster)",
+      "published_date": "2026-10-24",
+      "date_evidence": "Original Reddit post dated Saturday October 24 2026",
+      "summary": "Customer says Shinobi 7 II packaging advertised 4K UHD 60, while later online specifications showed 4K30. Customer reports support said hardware cannot enable 4K60. Public replies discuss UI, ghosting and image concerns. These are user allegations, not an independently established technical finding.",
+      "sentiment": "Negative",
+      "priority": "High",
+      "status": "older",
+      "source_excerpt": "I purchased the Atomos Shinobi 7 II choosing it based on its advertised specifications",
+      "product": "Shinobi 7 II",
+      "content_type": "post",
+      "verification_note": "Original public post date and brand context checked; one issue cross-posted in multiple subreddits.",
+      "response_action": "Review customer support case and published technical specifications.",
+      "engagement": {}
+    },
+    {
+      "title": "Shinobi 7 II HDMI input limitation complaint (r/Atomos)",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Atomos/comments/1xeaj0n/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+      "author": "Reddit user (original poster)",
+      "published_date": "2026-10-24",
+      "date_evidence": "Original Reddit post dated Saturday October 24 2026",
+      "summary": "Customer raises the 4K60 versus 4K30 hardware limitation concern and dissatisfaction with offered exchange support. Cross-post of the same reported case.",
+      "sentiment": "Negative",
+      "priority": "High",
+      "status": "older",
+      "source_excerpt": "I purchased the Shinobi 7 II choosing it based on its advertised specifications",
+      "product": "Shinobi 7 II",
+      "content_type": "post",
+      "verification_note": "Original Reddit post visible, same incident cluster as r/videography.",
+      "engagement": {}
+    },
+    {
+      "title": "Shinobi 7 II specification complaint and Atomos community reply (r/AtomosCommunity)",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/AtomosCommunity/comments/1xeal8o/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
+      "author": "Reddit customer post; brand response in thread",
+      "published_date": "2026-10-24",
+      "date_evidence": "Original Reddit post and moderator/brand reply dated Saturday October 24 2026",
+      "summary": "Customer repeats concern about advertised HDMI capabilities and lack of direct exchange. A visible Atomos-branded reply offers to revisit the case via direct message. Same underlying issue as other cross-posts.",
+      "sentiment": "Negative",
+      "priority": "High",
+      "status": "older",
+      "source_excerpt": "Our new Shinobi 7 II complaint about 4K60 HDMI support",
+      "product": "Shinobi 7 II",
+      "content_type": "post",
+      "verification_note": "Visible public community reply from Atomos-labeled account; cannot establish resolution.",
+      "engagement": {}
+    }
+  ]
+}

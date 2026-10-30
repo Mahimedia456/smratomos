@@ -1,6 +1,6 @@
 {
   "report_date": "2026-10-30",
-  "generated_at_pkt": "2026-10-30 19:59 PKT",
+  "generated_at_pkt": "2026-10-30 20:11 PKT",
   "research_as_of_pkt": "2026-10-30 19:15 PKT",
   "status": "PARTIAL DAY | original-source research remains time-limited until midnight PKT",
   "headline": "2 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-30. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
@@ -28,6 +28,10 @@
       "reference_date": "",
       "engagement_source": "YouTube Data API videos.list statistics",
       "publisher": "",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
       "engagement": {
         "views": 25,
         "likes": 1,
@@ -69,6 +73,10 @@
       "reference_date": "",
       "engagement_source": "",
       "publisher": "",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
       "engagement": {
         "likes": 0,
         "replies": 0

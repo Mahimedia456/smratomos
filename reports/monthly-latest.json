@@ -259,6 +259,134 @@
       0
     ]
   ],
+  "kpi_card_groups": [
+    [
+      "SOURCE COVERAGE",
+      [
+        [
+          "Dated sources",
+          21
+        ],
+        [
+          "Pending leads",
+          3
+        ],
+        [
+          "Unique source URLs",
+          23
+        ],
+        [
+          "Days captured",
+          "5/30"
+        ]
+      ]
+    ],
+    [
+      "OBSERVED ENGAGEMENT",
+      [
+        [
+          "Views",
+          6337
+        ],
+        [
+          "Likes",
+          153
+        ],
+        [
+          "Comments",
+          34
+        ],
+        [
+          "Shares",
+          null
+        ]
+      ]
+    ],
+    [
+      "OVERALL SENTIMENT",
+      [
+        [
+          "Positive",
+          1
+        ],
+        [
+          "Negative",
+          4
+        ],
+        [
+          "Neutral",
+          9
+        ],
+        [
+          "Questions",
+          5
+        ]
+      ]
+    ],
+    [
+      "POST FORMATS",
+      [
+        [
+          "Posts",
+          6
+        ],
+        [
+          "Videos",
+          6
+        ],
+        [
+          "Reels",
+          0
+        ],
+        [
+          "Stories",
+          0
+        ]
+      ]
+    ],
+    [
+      "ADDITIONAL ENGAGEMENT AND EVIDENCE",
+      [
+        [
+          "Reactions",
+          null
+        ],
+        [
+          "Reposts",
+          null
+        ],
+        [
+          "Linked replies",
+          16
+        ],
+        [
+          "Cached images",
+          7
+        ]
+      ]
+    ],
+    [
+      "SUPPORTING RECORDS",
+      [
+        [
+          "Retail entries",
+          0
+        ],
+        [
+          "Articles",
+          5
+        ],
+        [
+          "Comment findings",
+          4
+        ],
+        [
+          "Not classified",
+          2
+        ]
+      ]
+    ]
+  ],
   "rejected_synthetic_example_urls": [
     "https://www.facebook.com/AtomosTech/posts/1234567890"
   ],

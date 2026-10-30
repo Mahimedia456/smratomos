@@ -17,5 +17,30 @@
     "Camera Forums": 0,
     "Google / News / Articles": 5,
     "Retailers": 0
+  },
+  "sentiment_counts": {
+    "Question": 5,
+    "Neutral": 9,
+    "Not applicable": 2,
+    "Negative": 4,
+    "Positive": 1
+  },
+  "observed_product_labels": {
+    "Shinobi 7 II": 3,
+    "Shinobi II": 2,
+    "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me": 1,
+    "AtomOS 12": 1,
+    "Shinobi 7 II; Sumo PRO-19": 1,
+    "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
+    "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
+    "Shinobi II; Shinobi GO": 1,
+    "Atomos Shinobi II \ud83d\udd25\ud83c\udfac | El monitor que todo filmmaker necesita Un buen plano empi": 1,
+    "Sumo PRO-19": 1
+  },
+  "record_type_counts": {
+    "video": 6,
+    "comment": 4,
+    "article": 5,
+    "post": 6
   }
 }

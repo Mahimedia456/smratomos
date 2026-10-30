@@ -8,3 +8,5 @@ Split-safe full-length report build; retain all available comments and images.
 Run weekly PDF strict reader + page integrity validation.
 
 Import dated Reddit original-source Atomos historical mentions (crossposts).
+
+Rebuild weekly source-integrity and conversation-context fix 2026-10-30.

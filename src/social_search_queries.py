@@ -33,3 +33,7 @@ GROUPS={
     'site:bhphotovideo.com "Atomos" {month} {year}',
     'site:cvp.com "Atomos" {month} {year}']
 }
+
+# Extra device-level public discovery. Candidates remain unverified until original-source validation.
+for _group,_queries in {"Facebook":["site:facebook.com \"Shinobi II\" \"Atomos\" {month} {year}","site:facebook.com \"Shogun Ultra\" \"Atomos\" {month} {year}","site:facebook.com/groups/ \"Atomos\" \"firmware\" {month} {year}"],"Instagram":["site:instagram.com/p/ \"Ninja V\" \"Atomos\" {month} {year}","site:instagram.com/reel/ \"Shinobi\" \"Atomos\" {month} {year}","site:instagram.com \"atomos.global\" \"{month}\" \"{year}\""],"LinkedIn":["site:linkedin.com/posts/ \"Shinobi\" \"Atomos\" {month} {year}","site:linkedin.com/posts/ \"Shogun\" \"Atomos\" {month} {year}"],"X / Twitter":["site:x.com/ \"Shinobi\" \"Atomos\" {month} {year}","site:x.com/ \"Ninja V\" \"Atomos\" {month} {year}","site:twitter.com/ \"Shogun\" \"Atomos\" {month} {year}"],"Camera forums":["site:forum.blackmagicdesign.com \"Atomos\" \"{month}\" \"{year}\"","site:dpreview.com/forums \"Shinobi\" \"{month}\" \"{year}\"","site:reddit.com/r/videography \"Atomos\" \"support\" {month} {year}"]}.items():
+    GROUPS[_group].extend(_queries)

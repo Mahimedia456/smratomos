@@ -1,8 +1,8 @@
 {
   "report_date": "2026-10-31",
-  "generated_at_pkt": "2026-10-31 23:08 PKT",
-  "research_as_of_pkt": "2026-10-31 23:08 PKT",
-  "status": "PARTIAL DAY | original-source research remains time-limited until midnight PKT",
+  "generated_at_pkt": "2026-11-01 14:57 PKT",
+  "research_as_of_pkt": "2026-11-01 14:57 PKT",
+  "status": "Completed calendar day | coverage limited to accessible public sources",
   "headline": "3 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-10-31. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
   "today_findings": [
     {
@@ -36,8 +36,8 @@
       "mentioned_accounts": [],
       "tagged_accounts": [],
       "engagement": {
-        "views": 0,
-        "likes": 0,
+        "views": 9,
+        "likes": 1,
         "comments": 0
       },
       "images": [],
@@ -80,8 +80,8 @@
       "mentioned_accounts": [],
       "tagged_accounts": [],
       "engagement": {
-        "views": 41,
-        "likes": 1,
+        "views": 284,
+        "likes": 9,
         "comments": 0
       },
       "images": [],
@@ -118,8 +118,8 @@
       "mentioned_accounts": [],
       "tagged_accounts": [],
       "engagement": {
-        "views": 2302,
-        "likes": 41,
+        "views": 3240,
+        "likes": 55,
         "comments": 3
       },
       "images": [],
@@ -180,6 +180,40 @@
       "engagement": {},
       "images": [],
       "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "ATOMOS - YouTube",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/channel/UCGlDF0dNjKJnZPYviPXCj6Q",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "",
+      "summary": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC ATOMOS - YouTube",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "unverified",
+      "image_url": "https://yt3.googleusercontent.com/4SFLLckiYxiGXqkUf6dgmkAIHCovA-DKi0FWRBjh31wRfcxF-AoX-ESn2FTPjNiyFAYkn8Bi6QQ=s900-c-k-c0x00ffffff-no-rj",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "ATOMOS - YouTube",
+      "details": "",
+      "source_excerpt": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket © 2026 Google LLC ATOMOS - YouTube",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "Original page mentions Atomos but no original publish date was proven.",
+      "reference_date": "2026-10-31",
+      "engagement_source": "",
+      "publisher": "YouTube",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [
+        "assets/2026/10/2026-10-31/source_004.jpg"
+      ],
       "comments": []
     },
     {
@@ -279,38 +313,6 @@
       "comments": []
     },
     {
-      "title": "Windows, Without the Bullsh*t.",
-      "platform": "Industry articles",
-      "url": "https://www.atom-os.com/",
-      "author": "Project Atom Team",
-      "published_date": "",
-      "date_evidence": "",
-      "summary": "Out of Your Current Hardware with Professional Optimizations. Download Builds Benchmarks 250K+ Downloads 2 Years of experience +25% Avg FPS Gain Key Features What Makes AtomOS Special? A performance tuned builds with our playbook pre-applied. Stripped of bloatware, made for ultra-low latency, and optimized for raw gaming performance right out of the box. Low Latency Optimized to reduce delay and give you instant mouse and keyboard response. No Bloatware Removes useless background apps and tracki",
-      "sentiment": "Question",
-      "priority": "Medium",
-      "status": "unverified",
-      "image_url": "http://localhost/og.png",
-      "image_context": "",
-      "image_credit_url": "",
-      "product": "AtomOS Special? A performance tuned builds with our playbook pre-applie",
-      "details": "",
-      "source_excerpt": "Out of Your Current Hardware with Professional Optimizations. Download Builds Benchmarks 250K+ Downloads 2 Years of experience +25% Avg FPS Gain Key Features What Makes AtomOS Special? A performance tuned builds with our playbook pre-applied. Stripped of bloatware, made for ultra-low latency, and optimized for raw gaming performance right out of the box. Low Latency Optimized to reduce delay and give you instant mouse and keyboard response. No Bloatware Removes useless background apps and tracking to keep your system clean. Max F",
-      "response_action": "Optional review.",
-      "impact": "Public brand or product mention; contextual relevance only.",
-      "verification_note": "Original page mentions Atomos but no original publish date was proven.",
-      "reference_date": "2026-10-31",
-      "engagement_source": "",
-      "publisher": "www.atom-os.com",
-      "content_type": "article",
-      "hashtags": [],
-      "mentioned_accounts": [],
-      "tagged_accounts": [],
-      "engagement": {},
-      "images": [],
-      "image_files": [],
-      "comments": []
-    },
-    {
       "title": "Exposure assist blue overlay issue on Atomos Ninja monitor",
       "platform": "Reddit",
       "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
@@ -398,6 +400,38 @@
       "engagement_source": "",
       "publisher": "",
       "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Atomos",
+      "platform": "Industry articles",
+      "url": "https://www.digitalcameraworld.com/tag/atomos",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "",
+      "summary": "Atomos News The new 7-inch 2,800-nit monitor brings camera control, pro monitoring tools, and a larger view to on-camera shooting. News News Camera monitor specialist wants a stake in every stage of video capture and production News News Get a better view of your video, and bypass in-camera recording restrictions News Review The Atomos Shinobi Go is a photo and vi",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos News The new 7-inch 2",
+      "details": "",
+      "source_excerpt": "Atomos News The new 7-inch 2,800-nit monitor brings camera control, pro monitoring tools, and a larger view to on-camera shooting. News News Camera monitor specialist wants a stake in every stage of video capture and production News News Get a better view of your video, and bypass in-camera recording restrictions News Review The Atomos Shinobi Go is a photo and vi",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "Original page mentions Atomos but no original publish date was proven.",
+      "reference_date": "2026-10-31",
+      "engagement_source": "",
+      "publisher": "Digital Camera World",
+      "content_type": "article",
       "hashtags": [],
       "mentioned_accounts": [],
       "tagged_accounts": [],
@@ -536,7 +570,7 @@
     },
     {
       "platform": "YouTube",
-      "summary": "4 indexed query attempt(s), 4 index response(s), 2 original source fetch(es), 0 inaccessible; 3 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "summary": "4 indexed query attempt(s), 4 index response(s), 3 original source fetch(es), 0 inaccessible; 3 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
       "checked": true
     },
     {
@@ -555,43 +589,38 @@
       "checked": false
     },
     {
-      "platform": "DV Info Net Forum",
-      "summary": "User discusses SSD formatting issues on Atomos Shogun and recommends firmware update.",
+      "platform": "Website",
+      "summary": "Atomos published an article on October 20, 2026, featuring filmmaker Monnelle Britt discussing her use of the Shinobi monitor for on-set monitoring and decision-making.",
       "checked": true
     },
     {
-      "platform": "Newsshooter",
-      "summary": "Article on Atomos firmware updates for Shinobi II and Shinobi 7 RX adding camera control support.",
+      "platform": "Website",
+      "summary": "On October 19, 2026, Atomos announced a proposed 20:1 consolidation of its capital to simplify its capital structure.",
       "checked": true
     },
     {
-      "platform": "Newsshooter",
-      "summary": "Article on Atomos firmware update 12.7.4 introducing new gamma options for Ninja RAW, Ninja TX GO, Ninja TX, Shogun AV-19, and Sumo Pro-19.",
+      "platform": "Website",
+      "summary": "On October 14, 2026, Atomos announced that co-founder and former CEO Jeromy Young will retire from the Atomos Board in November 2026.",
       "checked": true
     },
     {
-      "platform": "CineD",
-      "summary": "Article on Atomos Shinobi II and Shinobi 7 RX firmware 11.07.00 expanding camera control.",
+      "platform": "DPReview",
+      "summary": "An article discussing firmware updates for Nikon Z8 and other cameras, highlighting compatibility issues and new features, including support for Atomos external recorders.",
       "checked": true
     },
     {
-      "platform": "Newsshooter",
-      "summary": "Firmware updates for Atomos devices Shinobi II and Shinobi 7 RX, expanding camera control support.",
+      "platform": "Cinematography.com",
+      "summary": "A forum post inquiring about the compatibility between Tilta's Nucleus-M lens control system and Atomos recorders, specifically the Ninja Assassin model.",
       "checked": true
     },
     {
-      "platform": "CineD",
-      "summary": "Details on Atomos firmware update 11.07.00 for Shinobi II and Shinobi 7 RX, enhancing camera control features.",
+      "platform": "Investor Relations",
+      "summary": "Atomos released its quarterly activities and cash flow report on October 29, 2026.",
       "checked": true
     },
     {
-      "platform": "Atomos",
-      "summary": "Information on Atomos firmware updates for Shogun and Sumo devices, including improvements and fixes.",
-      "checked": true
-    },
-    {
-      "platform": "Newsshooter",
-      "summary": "Overview of Atomos AtomOS 12.7.4 firmware update, introducing new gamma options and false color tables.",
+      "platform": "Official Website",
+      "summary": "Atomos Japan announced participation in Amazon's Prime Day, offering up to 20% off on select products, including the Ninja TX monitor recorder.",
       "checked": true
     }
   ],
@@ -601,18 +630,13 @@
     "LinkedIn: alternate public index HTTP 202",
     "X / Twitter: alternate public index HTTP 202",
     "Reddit: alternate public index HTTP 202",
-    "YouTube: alternate public index HTTP 202",
     "Camera forums: alternate public index HTTP 202",
     "Retailers: alternate public index HTTP 202",
+    "YouTube: alternate public index HTTP 202",
     "Industry articles: alternate public index HTTP 202",
-    "GDELT free news index: HTTP 429",
     "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
     "No result does not establish no brand activity on a platform.",
-    "Facebook",
-    "Instagram",
-    "X/Twitter",
-    "LinkedIn",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Python collector: 56 public search query attempts, 21 original-page attempts, 4 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+  "methodology": "Python collector: 56 public search query attempts, 22 original-page attempts, 5 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
 }

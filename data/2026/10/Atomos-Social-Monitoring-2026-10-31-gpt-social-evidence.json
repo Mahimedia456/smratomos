@@ -14,32 +14,23 @@
   "report_period_end": "",
   "coverage": [
     {
-      "platform": "Facebook",
-      "summary": "No relevant posts found on Facebook for Atomos brand monitoring on October 31, 2026.",
-      "checked": false
+      "platform": "Website",
+      "summary": "Atomos published an article on October 20, 2026, featuring filmmaker Monnelle Britt discussing her use of the Shinobi monitor for on-set monitoring and decision-making.",
+      "checked": true
     },
     {
-      "platform": "Instagram",
-      "summary": "No relevant posts found on Instagram for Atomos brand monitoring on October 31, 2026.",
-      "checked": false
+      "platform": "Website",
+      "summary": "On October 19, 2026, Atomos announced a proposed 20:1 consolidation of its capital to simplify its capital structure.",
+      "checked": true
     },
     {
-      "platform": "X/Twitter",
-      "summary": "No relevant posts found on X/Twitter for Atomos brand monitoring on October 31, 2026.",
-      "checked": false
-    },
-    {
-      "platform": "LinkedIn",
-      "summary": "No relevant posts found on LinkedIn for Atomos brand monitoring on October 31, 2026.",
-      "checked": false
+      "platform": "Website",
+      "summary": "On October 14, 2026, Atomos announced that co-founder and former CEO Jeromy Young will retire from the Atomos Board in November 2026.",
+      "checked": true
     }
   ],
   "visibility_gaps": [
-    "Facebook",
-    "Instagram",
-    "X/Twitter",
-    "LinkedIn",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search across Facebook, Instagram, X/Twitter, and LinkedIn for public posts, stories, reels, hashtags, creator mentions, and tagged accounts related to Atomos brand products (Ninja, Shogun, Shinobi, Sumo, AtomOS firmware, ATOMOSphere) on October 31, 2026. Excluded content related to Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. No relevant posts were found on the specified date."
+  "methodology": "Conducted a comprehensive search for Atomos brand mentions on October 31, 2026, across various platforms, including official Atomos communications and investor announcements. Verified findings include official Atomos publications and investor announcements dated October 20, 2026, October 19, 2026, and October 14, 2026. No relevant social media posts or other public mentions were identified for the specified date."
 }

@@ -5,7 +5,7 @@
   "path": "reports/2026/10/Atomos-Social-Monitoring-Monthly-2026-10-01_to_2026-10-31.pdf",
   "snapshots": 31,
   "archived_findings": 18,
-  "dated_findings": 87,
+  "dated_findings": 90,
   "unverified_leads": 7,
   "platform_counts": {
     "Facebook": 0,
@@ -13,14 +13,14 @@
     "X / Twitter": 0,
     "LinkedIn": 0,
     "Reddit": 8,
-    "YouTube": 70,
+    "YouTube": 73,
     "Camera Forums": 0,
     "Google / News / Articles": 8,
     "Retailers": 0
   },
   "sentiment_counts": {
+    "Neutral": 62,
     "Question": 14,
-    "Neutral": 59,
     "Not applicable": 2,
     "Positive": 7,
     "Negative": 5
@@ -30,15 +30,15 @@
     "Sumo PRO-19": 2,
     "Shinobi II": 2,
     "Atomos Ninja V \u2013 Unboxing Deschidem cutia \u0219i descoperim Atomos Ninja V": 2,
+    "Atomos Shinobi 7 Monitor 7po HDMI/SDI #shinobi #monitor Atomos Shinobi 7 Review": 1,
+    "atomos Papiro 040 \u2014 Eres casi puro VAC\u00cdO M\u00e1s del noventa y nueve coma n": 1,
+    "atomos se pusieron de acuerdo": 1,
     "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me": 1,
     "AtomOS 12": 1,
-    "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
-    "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
-    "Atomos sees Shinobi 7 II demand build as cash flow turns positive Consu": 1,
-    "Atomos Ninja TX GO 5": 1
+    "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1
   },
   "record_type_counts": {
-    "video": 67,
+    "video": 70,
     "comment": 6,
     "article": 8,
     "post": 6
@@ -54,12 +54,12 @@
     "Google / News / Articles": 3,
     "Retailers": 0
   },
-  "unique_social_url_groups": 80,
-  "linked_reply_excerpts": 63,
+  "unique_social_url_groups": 83,
+  "linked_reply_excerpts": 66,
   "daily_coverage_percent": 100.0,
   "source_media": {
-    "embedded_verified": 71,
-    "linked_verified": 71,
+    "embedded_verified": 74,
+    "linked_verified": 74,
     "embedded_leads": 0,
     "linked_leads": 0,
     "missing_media_verified": 16
@@ -138,14 +138,14 @@
     [
       "YouTube",
       0,
-      67,
+      70,
       0,
       0,
       3,
-      48,
-      "101474",
-      "3243",
-      "143"
+      51,
+      "105007",
+      "3308",
+      "146"
     ],
     [
       "Camera Forums",
@@ -232,11 +232,11 @@
     ],
     [
       "YouTube",
-      70,
+      73,
       0,
-      70,
-      70,
-      70,
+      73,
+      73,
+      73,
       0
     ],
     [
@@ -273,7 +273,7 @@
       [
         [
           "Dated sources",
-          87
+          90
         ],
         [
           "Pending leads",
@@ -281,7 +281,7 @@
         ],
         [
           "Unique source URLs",
-          92
+          95
         ],
         [
           "Days captured",
@@ -294,15 +294,15 @@
       [
         [
           "Views",
-          101474
+          105007
         ],
         [
           "Likes",
-          3386
+          3451
         ],
         [
           "Comments",
-          176
+          179
         ],
         [
           "Shares",
@@ -323,7 +323,7 @@
         ],
         [
           "Neutral",
-          59
+          62
         ],
         [
           "Questions",
@@ -340,7 +340,7 @@
         ],
         [
           "Videos",
-          67
+          70
         ],
         [
           "Reels",
@@ -365,11 +365,11 @@
         ],
         [
           "Linked replies",
-          63
+          66
         ],
         [
           "Cached images",
-          71
+          74
         ]
       ]
     ],
@@ -421,20 +421,20 @@
     "https://www.facebook.com/AtomosTech/posts/1234567890"
   ],
   "overall_kpi": {
-    "dated_records": 87,
+    "dated_records": 90,
     "pending_leads": 7,
     "metrics": {
-      "views": 101474,
-      "likes": 3386,
-      "comments": 176,
+      "views": 105007,
+      "likes": 3451,
+      "comments": 179,
       "shares": null,
       "reactions": null,
       "reposts": null
     },
     "metric_source_counts": {
-      "views": 67,
-      "likes": 71,
-      "comments": 67,
+      "views": 70,
+      "likes": 74,
+      "comments": 70,
       "shares": 0,
       "reactions": 0,
       "reposts": 0
@@ -442,7 +442,7 @@
     "sentiment": {
       "positive": 7,
       "negative": 5,
-      "neutral": 59,
+      "neutral": 62,
       "question": 14,
       "not_applicable": 2
     }
@@ -492,7 +492,7 @@
       "YouTube",
       3,
       1,
-      54,
+      57,
       12,
       0
     ],

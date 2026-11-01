@@ -2,76 +2,11 @@
   "report_date": "2026-10-31",
   "generated_at_pkt": "",
   "research_as_of_pkt": "",
-  "status": "success",
+  "status": "complete",
   "headline": "Atomos Brand Monitoring Report for October 31, 2026",
   "today_findings": [],
   "retail_observations": [],
-  "unverified_leads": [
-    {
-      "title": "Product Support | Atomos",
-      "platform": "Atomos",
-      "url": "https://www.atomos.com/product-support/?parent=shogun",
-      "author": "",
-      "published_date": "",
-      "date_evidence": "",
-      "summary": "AtomOS 11.19.00 firmware update for Shogun introduces raw support for Panasonic DC-S1M2NT and enhances EL Zone performance.",
-      "sentiment": "Neutral",
-      "priority": "High",
-      "status": "unverified",
-      "image_url": "",
-      "image_context": "",
-      "image_credit_url": "",
-      "product": "Shogun",
-      "details": "",
-      "source_excerpt": "Current Firmware\nAtomOS 11.19.00\nDownload Firmware update Download Release Notes\nImprovements:\n\nRaw support for Panasonic DC-S1M2NT\nImprove EL Zone performance\nImproved Log handling for HLG, FLog, FLog2, and FLog2-C",
-      "response_action": "",
-      "impact": "high",
-      "verification_note": "GPT search lead with original publication date not independently proven.",
-      "reference_date": "",
-      "engagement_source": "",
-      "publisher": "Atomos",
-      "content_type": "article",
-      "hashtags": [],
-      "mentioned_accounts": [],
-      "tagged_accounts": [],
-      "engagement": {},
-      "images": [],
-      "image_files": [],
-      "comments": []
-    },
-    {
-      "title": "Product Support | Atomos",
-      "platform": "Atomos",
-      "url": "https://www.atomos.com/product-support/?parent=sumo",
-      "author": "",
-      "published_date": "",
-      "date_evidence": "",
-      "summary": "AtomOS 09.40.02 firmware update for Sumo 19SE addresses an issue with monitoring video in 4x ISO mode.",
-      "sentiment": "Neutral",
-      "priority": "High",
-      "status": "unverified",
-      "image_url": "",
-      "image_context": "",
-      "image_credit_url": "",
-      "product": "Sumo 19SE",
-      "details": "",
-      "source_excerpt": "Firmware\nAtomOS 09.40.02\nDownload Firmware update Download Release Notes\nFixes:\n\nFix for issue with Monitoring Video in 4x ISO Mode",
-      "response_action": "",
-      "impact": "high",
-      "verification_note": "GPT search lead with original publication date not independently proven.",
-      "reference_date": "",
-      "engagement_source": "",
-      "publisher": "Atomos",
-      "content_type": "article",
-      "hashtags": [],
-      "mentioned_accounts": [],
-      "tagged_accounts": [],
-      "engagement": {},
-      "images": [],
-      "image_files": [],
-      "comments": []
-    }
-  ],
+  "unverified_leads": [],
   "older_leads": [],
   "historical_findings": [],
   "historical_retail": [],
@@ -79,28 +14,18 @@
   "report_period_end": "",
   "coverage": [
     {
-      "platform": "Newsshooter",
-      "summary": "Firmware updates for Atomos devices Shinobi II and Shinobi 7 RX, expanding camera control support.",
+      "platform": "Investor Relations",
+      "summary": "Atomos released its quarterly activities and cash flow report on October 29, 2026.",
       "checked": true
     },
     {
-      "platform": "CineD",
-      "summary": "Details on Atomos firmware update 11.07.00 for Shinobi II and Shinobi 7 RX, enhancing camera control features.",
-      "checked": true
-    },
-    {
-      "platform": "Atomos",
-      "summary": "Information on Atomos firmware updates for Shogun and Sumo devices, including improvements and fixes.",
-      "checked": true
-    },
-    {
-      "platform": "Newsshooter",
-      "summary": "Overview of Atomos AtomOS 12.7.4 firmware update, introducing new gamma options and false color tables.",
+      "platform": "Official Website",
+      "summary": "Atomos Japan announced participation in Amazon's Prime Day, offering up to 20% off on select products, including the Ninja TX monitor recorder.",
       "checked": true
     }
   ],
   "visibility_gaps": [
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search for Atomos-related news, firmware updates, and product announcements dated October 31, 2026, focusing on professional video production hardware and excluding unrelated topics. Verified findings include firmware updates for various Atomos devices, with publication dates ranging from April to August 2026."
+  "methodology": "Conducted a comprehensive search for Atomos-related news and announcements on October 31, 2026, focusing on official sources and reputable news outlets. Verified findings include financial reports and promotional announcements from Atomos Japan."
 }

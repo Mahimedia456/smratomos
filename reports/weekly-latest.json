@@ -1,47 +1,45 @@
 {
   "period": "weekly",
-  "start": "2026-10-24",
-  "end": "2026-10-30",
-  "path": "reports/2026/10/Atomos-Social-Monitoring-Weekly-2026-10-24_to_2026-10-30.pdf",
+  "start": "2026-10-27",
+  "end": "2026-11-02",
+  "path": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-10-27_to_2026-11-02.pdf",
   "snapshots": 7,
-  "archived_findings": 8,
-  "dated_findings": 16,
-  "unverified_leads": 7,
+  "archived_findings": 5,
+  "dated_findings": 22,
+  "unverified_leads": 5,
   "platform_counts": {
     "Facebook": 0,
     "Instagram": 0,
     "X / Twitter": 0,
     "LinkedIn": 0,
-    "Reddit": 3,
-    "YouTube": 9,
+    "Reddit": 0,
+    "YouTube": 18,
     "Camera Forums": 0,
     "Google / News / Articles": 4,
     "Retailers": 0
   },
   "sentiment_counts": {
+    "Neutral": 18,
     "Question": 2,
-    "Neutral": 6,
     "Not applicable": 1,
-    "Positive": 4,
-    "Negative": 3
+    "Positive": 1
   },
   "observed_product_labels": {
-    "Shinobi 7 II": 3,
-    "Atomos Ninja RAW to Work LUT Out grayed out on your Atomos Ninja RAW? The LUT me": 1,
-    "AtomOS 12": 1,
-    "Shinobi II; Sumo PRO-19; Shinobi 7 II": 1,
-    "Atomos Shinobi II \ud83c\udfac\ud83d\udd25 This isn't an accessory": 1,
-    "Atomos sees Shinobi 7 II demand build as cash flow turns positive Consu": 1,
-    "Atomos Ninja TX GO 5": 1,
-    "Shinobi II; Shinobi GO": 1,
-    "Ninja RAW": 1,
-    "Atomos Sumo PRO-19 in the Real World | On Location with Dan Flinter See the Atom": 1
+    "atomos patata subacuatica en monopatin": 1,
+    "Atomos Ninja V (Full Guide) Learn how to activate your Atomos Ninja V correct": 1,
+    "atomos#imanes#metales": 1,
+    "ATOMOS HAY EN EL UNIVERSO \u00e1tomos #universo #cu\u00e1ntos\u00e1tomoshay #universoo": 1,
+    "atomos #shorts #shortsfeed": 1,
+    "ATOMOS  - POTROS 1 VS": 1,
+    "atomos": 1,
+    "Atomos Drawing Demo P2 Part 2 of my Atomos Drawing Demo": 1,
+    "Atomos Drawing Demo P1 Hello everyone! This is my first drawing demo": 1,
+    "Atomos MFL Flag #blitzregio #SnapHDFA": 1
   },
   "record_type_counts": {
-    "video": 8,
+    "video": 17,
     "comment": 1,
-    "article": 4,
-    "post": 3
+    "article": 4
   },
   "platform_discovery_leads": {
     "Facebook": 0,
@@ -51,26 +49,29 @@
     "Reddit": 0,
     "YouTube": 0,
     "Camera Forums": 0,
-    "Google / News / Articles": 3,
+    "Google / News / Articles": 2,
     "Retailers": 0
   },
-  "unique_social_url_groups": 13,
-  "linked_reply_excerpts": 7,
+  "unique_social_url_groups": 19,
+  "linked_reply_excerpts": 6,
   "daily_coverage_percent": 100.0,
   "source_media": {
-    "embedded_verified": 10,
-    "linked_verified": 10,
+    "embedded_verified": 19,
+    "linked_verified": 19,
     "embedded_leads": 0,
     "linked_leads": 0,
-    "missing_media_verified": 6
+    "missing_media_verified": 3
   },
-  "retail_observations_count": 0,
+  "retail_observations_count": 6,
   "official_catalog_items": 0,
   "official_catalog_pages": 0,
   "brand_scope_mode": "brand_wide_all_products_services_and_mentions",
-  "retailer_store_counts": {},
-  "retailer_price_reference_count": 0,
-  "retail_unique_urls": 0,
+  "retailer_store_counts": {
+    "CVP": 4,
+    "B&H Photo": 2
+  },
+  "retailer_price_reference_count": 6,
+  "retail_unique_urls": 6,
   "post_analytics_rows": [
     [
       "Facebook",
@@ -122,12 +123,12 @@
     ],
     [
       "Reddit",
-      3,
       0,
       0,
       0,
       0,
-      6,
+      0,
+      0,
       "N/A",
       "N/A",
       "N/A"
@@ -135,14 +136,14 @@
     [
       "YouTube",
       0,
-      8,
+      17,
       0,
       0,
       1,
-      1,
-      "1866",
-      "17",
-      "1"
+      6,
+      "5246",
+      "89",
+      "8"
     ],
     [
       "Camera Forums",
@@ -220,20 +221,20 @@
     ],
     [
       "Reddit",
-      3,
       0,
-      3,
+      0,
+      0,
       0,
       0,
       0
     ],
     [
       "YouTube",
-      9,
+      18,
       0,
-      9,
-      9,
-      9,
+      18,
+      18,
+      18,
       0
     ],
     [
@@ -248,8 +249,8 @@
     [
       "Google / News / Articles",
       4,
-      3,
-      7,
+      2,
+      6,
       1,
       1,
       0
@@ -270,15 +271,15 @@
       [
         [
           "Dated sources",
-          16
+          22
         ],
         [
           "Pending leads",
-          7
+          5
         ],
         [
           "Unique source URLs",
-          21
+          26
         ],
         [
           "Days captured",
@@ -291,15 +292,15 @@
       [
         [
           "Views",
-          1866
+          5246
         ],
         [
           "Likes",
-          17
+          89
         ],
         [
           "Comments",
-          1
+          8
         ],
         [
           "Shares",
@@ -312,15 +313,15 @@
       [
         [
           "Positive",
-          4
+          1
         ],
         [
           "Negative",
-          3
+          0
         ],
         [
           "Neutral",
-          6
+          18
         ],
         [
           "Questions",
@@ -333,11 +334,11 @@
       [
         [
           "Posts",
-          3
+          0
         ],
         [
           "Videos",
-          8
+          17
         ],
         [
           "Reels",
@@ -362,11 +363,11 @@
         ],
         [
           "Linked replies",
-          7
+          6
         ],
         [
           "Cached images",
-          10
+          19
         ]
       ]
     ],
@@ -375,7 +376,7 @@
       [
         [
           "Retail entries",
-          0
+          6
         ],
         [
           "Articles",
@@ -414,32 +415,30 @@
     ]
   ],
   "pending_reference_metrics": {},
-  "rejected_synthetic_example_urls": [
-    "https://www.facebook.com/AtomosTech/posts/1234567890"
-  ],
+  "rejected_synthetic_example_urls": [],
   "overall_kpi": {
-    "dated_records": 16,
-    "pending_leads": 7,
+    "dated_records": 22,
+    "pending_leads": 5,
     "metrics": {
-      "views": 1866,
-      "likes": 17,
-      "comments": 1,
+      "views": 5246,
+      "likes": 89,
+      "comments": 8,
       "shares": null,
       "reactions": null,
       "reposts": null
     },
     "metric_source_counts": {
-      "views": 8,
-      "likes": 9,
-      "comments": 8,
+      "views": 17,
+      "likes": 18,
+      "comments": 17,
       "shares": 0,
       "reactions": 0,
       "reposts": 0
     },
     "sentiment": {
-      "positive": 4,
-      "negative": 3,
-      "neutral": 6,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 18,
       "question": 2,
       "not_applicable": 1
     }
@@ -480,16 +479,16 @@
     [
       "Reddit",
       0,
-      3,
+      0,
       0,
       0,
       0
     ],
     [
       "YouTube",
-      3,
       0,
-      4,
+      0,
+      16,
       2,
       0
     ],

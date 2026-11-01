@@ -1,0 +1,31 @@
+{
+  "report_date": "2026-11-02",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for 2026-11-02",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "DPReview",
+      "summary": "DPReview has covered firmware updates for various cameras, including Nikon Z8 and DJI Osmo Pocket 4, with no direct mentions of Atomos products on 2026-11-02.",
+      "checked": true
+    },
+    {
+      "platform": "Blackmagic Design",
+      "summary": "Blackmagic Design's official website provides information on ATEM Switchers 11.0 SDK and ATEM SDI setup, but there are no direct mentions of Atomos products on 2026-11-02.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search across multiple platforms, including Reddit, YouTube, DPReview, Blackmagic Design, and other videography forums, focusing on content published on 2026-11-02. Prioritized original sources with explicit mentions of Atomos products in the context of professional video production hardware."
+}

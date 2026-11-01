@@ -1,0 +1,74 @@
+{
+  "report_date": "2026-11-02",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "Completed",
+  "headline": "Atomos Brand Monitoring Report for November 2, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "ATOMOS – アトモス",
+      "platform": "Website",
+      "url": "https://www.atomos-japan.com/",
+      "author": "Atomos Japan",
+      "published_date": "",
+      "date_evidence": "2026-11-02",
+      "summary": "Atomos Japan participated in Amazon's 'Prime Appreciation Festival' on October 13, 2026, offering discounts up to 20% on select products, including the CFexpress™ Type B compatible monitor-recorder 'NINJA TX'.",
+      "sentiment": "Positive",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "2026年10月13日 Amazon「プライム感謝祭」参加のお知らせ ～CFexpress™ Type B対応のモニターレコーダー「NINJA TX」をはじめとする対象製品を最大20％OFFで販売～",
+      "response_action": "Monitor sales performance",
+      "impact": "Medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos Japan",
+      "content_type": "article",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Official Atomos website provides information on camera control features and firmware updates.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Digital Camera World article discusses the launch of Atomos Ninja RAW monitor-recorder.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Atomos Japan website announces participation in Amazon's 'Prime Appreciation Festival' with product discounts.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Newsshooter article details Atomos firmware update adding camera control support for Shinobi II & Shinobi 7 RX.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos brand mentions on November 2, 2026, across various platforms, including official websites, news articles, and social media. Verified sources include official Atomos communications and reputable news outlets. Unverified leads are excluded from the findings."
+}

@@ -1,4 +1,5 @@
 name: Atomos Website Build Validation
+# Verify one-day archive: only 2026-11-02 PDF is currently published.
 # Final October source archive: validate 33 PDFs and updated brand-wide search test.
 on:
   push:

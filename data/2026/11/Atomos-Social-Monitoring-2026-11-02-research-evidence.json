@@ -3,12 +3,6 @@
     "scope": "Python public source audit",
     "data": [
       {
-        "group": "YouTube",
-        "url": "https://www.youtube.com/watch?v=J922wdPDKtk",
-        "stage": "comments",
-        "result": "HTTP 403"
-      },
-      {
         "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com \"Atomos\" 2026-11-02",
@@ -173,7 +167,7 @@
         "group": "YouTube",
         "stage": "search",
         "query": "site:youtube.com/watch \"Atomos\" 2026-11-02",
-        "results": 10,
+        "results": 7,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -417,8 +411,8 @@
         "stage": "source-fetch",
         "group": "YouTube",
         "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y",
-        "result": "OK",
-        "final_url": "https://www.youtube.com/watch?v=roEMkfDDC0Y"
+        "result": "HTTP 429",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
@@ -438,8 +432,8 @@
         "stage": "source-fetch",
         "group": "YouTube",
         "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg",
-        "result": "OK",
-        "final_url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg"
+        "result": "HTTP 429",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
@@ -458,7 +452,7 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://en.wikipedia.org/wiki/Atomos_(company)",
+        "url": "https://en.m.wikipedia.org/wiki/Atomos_(company)",
         "result": "OK",
         "final_url": "https://en.wikipedia.org/wiki/Atomos_(company)"
       },
@@ -479,16 +473,9 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://www.atom-os.com/",
-        "result": "OK",
-        "final_url": "https://www.atom-os.com/"
-      },
-      {
-        "stage": "unverified-date",
-        "group": "Industry articles",
-        "url": "https://www.atom-os.com/",
-        "source_date": "",
-        "title": "Windows, Without the Bullsh*t."
+        "url": "https://my.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
@@ -500,7 +487,7 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://www.bhphotovideo.com/c/browse/atomos/ci/32668/N/3614572192",
+        "url": "https://www.atomos.com/about/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -514,7 +501,7 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://my.atomos.com/",
+        "url": "https://www.atomos.com/shop/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -528,7 +515,14 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://www.adorama.com/brands/Atomos",
+        "url": "https://www.atomos.com/wp-content/uploads/2026/06/ATOMOS_PRODUCT_OVERVIEW_JULY_2026.pdf",
+        "result": "Content larger than 3MB",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.com/product-category/new/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -563,20 +557,6 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://www.atomos-japan.com/category/news",
-        "result": "OK",
-        "final_url": "https://www.atomos-japan.com/category/news"
-      },
-      {
-        "stage": "unverified-date",
-        "group": "Industry articles",
-        "url": "https://www.atomos-japan.com/category/news",
-        "source_date": "",
-        "title": ""
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
         "url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints",
         "result": "OK",
         "final_url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints"
@@ -597,98 +577,70 @@
       },
       {
         "stage": "image",
-        "url": "https://i.ytimg.com/vi/5uMRz2Cud6w/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/B3Gskt5kXDY/mqdefault.jpg",
         "result": "cached attributed thumbnail",
         "asset": "assets/2026/11/2026-11-02/source_001.jpg"
       },
       {
         "stage": "image",
-        "url": "https://i.ytimg.com/vi/J922wdPDKtk/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/oSfpH6sAziQ/mqdefault.jpg",
         "result": "cached attributed thumbnail",
         "asset": "assets/2026/11/2026-11-02/source_002.jpg"
       },
       {
         "stage": "image",
-        "url": "https://i.ytimg.com/vi/BrkmdKZ7vCQ/mqdefault.jpg",
-        "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_003.jpg"
-      },
-      {
-        "stage": "image",
-        "url": "https://i.ytimg.com/vi/HuVhENVgcJY/mqdefault.jpg",
-        "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_004.jpg"
-      },
-      {
-        "stage": "image",
-        "url": "https://i.ytimg.com/vi/B3Gskt5kXDY/mqdefault.jpg",
-        "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_005.jpg"
-      },
-      {
-        "stage": "image",
-        "url": "https://i.ytimg.com/vi/oSfpH6sAziQ/mqdefault.jpg",
-        "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_006.jpg"
-      },
-      {
-        "stage": "image",
-        "url": "http://localhost/og.png",
-        "result": "HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /og.png (Caused by New"
-      },
-      {
-        "stage": "image",
         "url": "https://cdn.middle.news/article-images/c48d3911-74e5-494b-ba06-a2f52b03fa4c-min.png",
         "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_007.jpg"
+        "asset": "assets/2026/11/2026-11-02/source_003.jpg"
       }
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "YouTube.verified": 6,
+      "YouTube.verified": 2,
       "YouTube.statistics_calls": 1,
-      "YouTube.comments_calls": 5,
-      "Facebook.wrong_source_domain": 28,
+      "YouTube.comments_calls": 2,
+      "Facebook.wrong_source_domain": 22,
       "Facebook.successful_queries": 7,
       "Facebook.brave_not_configured": 7,
       "Facebook.fallback_attempts": 1,
       "Facebook.queries": 7,
-      "Instagram.wrong_source_domain": 42,
+      "Instagram.wrong_source_domain": 38,
       "Instagram.successful_queries": 7,
       "Instagram.brave_not_configured": 7,
       "Instagram.fallback_attempts": 1,
       "Instagram.queries": 7,
-      "LinkedIn.wrong_source_domain": 42,
+      "LinkedIn.wrong_source_domain": 38,
       "LinkedIn.successful_queries": 7,
       "LinkedIn.brave_not_configured": 7,
       "LinkedIn.fallback_attempts": 1,
       "LinkedIn.queries": 7,
-      "X / Twitter.wrong_source_domain": 49,
+      "X / Twitter.wrong_source_domain": 46,
       "X / Twitter.successful_queries": 7,
       "X / Twitter.brave_not_configured": 7,
       "X / Twitter.fallback_attempts": 1,
       "X / Twitter.queries": 7,
-      "Reddit.wrong_source_domain": 22,
+      "Reddit.wrong_source_domain": 18,
       "Reddit.successful_queries": 5,
       "Reddit.brave_not_configured": 5,
       "Reddit.fallback_attempts": 1,
       "Reddit.queries": 5,
-      "YouTube.wrong_source_domain": 19,
+      "YouTube.wrong_source_domain": 21,
       "YouTube.successful_queries": 4,
       "YouTube.brave_not_configured": 4,
       "YouTube.fallback_attempts": 1,
       "YouTube.queries": 4,
-      "Camera forums.wrong_source_domain": 35,
+      "Camera forums.wrong_source_domain": 30,
       "Camera forums.successful_queries": 7,
       "Camera forums.brave_not_configured": 7,
       "Camera forums.fallback_attempts": 1,
       "Camera forums.queries": 7,
       "Industry articles.candidates": 13,
-      "Industry articles.irrelevant_index_hits": 8,
-      "Industry articles.wrong_source_domain": 12,
+      "Industry articles.wrong_source_domain": 6,
+      "Industry articles.irrelevant_index_hits": 9,
       "Industry articles.successful_queries": 6,
       "Industry articles.queries": 6,
-      "Retailers.wrong_source_domain": 18,
+      "Retailers.wrong_source_domain": 6,
+      "Retailers.irrelevant_index_hits": 6,
       "Retailers.successful_queries": 6,
       "Retailers.brave_not_configured": 6,
       "Retailers.fallback_attempts": 1,
@@ -702,14 +654,15 @@
       "Reddit.fetch_failed": 7,
       "Reddit.index_only_leads": 7,
       "YouTube.source_attempts": 2,
-      "YouTube.no_brand_original": 2,
+      "YouTube.fetch_failed": 2,
+      "YouTube.index_only_leads": 2,
       "Industry articles.source_attempts": 12,
-      "Industry articles.fetch_failed": 6,
-      "Industry articles.not_dated_today": 6
+      "Industry articles.fetch_failed": 8,
+      "Industry articles.not_dated_today": 4
     },
     "search_queries": 56,
     "original_pages_attempted": 21,
-    "cached_images": 7,
+    "cached_images": 3,
     "undated_brand_sources": 11,
     "previous_five_day_brand_sources": 1
   },
@@ -764,8 +717,18 @@
         },
         {
           "stage": "post-image-discovery",
+          "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y",
+          "status": "HTTP 429"
+        },
+        {
+          "stage": "post-image-discovery",
           "url": "https://www.reddit.com/r/Atomos/comments/1xeaj0n/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
           "status": "HTTP 403"
+        },
+        {
+          "stage": "post-image-discovery",
+          "url": "https://www.youtube.com/watch?v=roEMkfDDC0Y&lc=UgzUK-kUHr29ZdoA0kR4AaABAg",
+          "status": "HTTP 429"
         },
         {
           "stage": "post-image-discovery",
@@ -791,11 +754,6 @@
           "stage": "post-image-discovery",
           "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
           "status": "HTTP 403"
-        },
-        {
-          "stage": "image",
-          "url": "http://localhost/og.png",
-          "result": "HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /og.png (Caused by New"
         }
       ]
     }

@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 BRAND=re.compile(r'\batomos\b|\batom[- ]?os\b|\batomosphere\b',re.I)
 PRODUCT=re.compile(r'\b(?:ninja(?:\s+(?:tx(?:\s+go)?|raw|ultra|v\+?))?|shogun(?:\s+(?:ultra|classic|av[- ]?19m?))?|shinobi(?:\s+(?:ii|go|7(?:\s+rx)?))?|sumo(?:\s+pro[- ]?19)?|ultrasync|atomosphere|a[- ]?eye|tx[- ]?rx|studiosonic)\b',re.I)
 VIDEO=re.compile(r'\b(?:camera|cameras|videograph(?:er|y)|filmmak(?:er|ing)|monitor[- ]?recorder|video\s+production|monitor|hdmi|sdi|lut|prores|codec|raw\s+video|hdr|cfexpress|ssd|firmware|recorder|recording|timecode|sync|wireless\s+video|livestream|broadcast|atomos\s+connect|atomos\s+(?:ninja|shogun|shinobi|sumo))\b',re.I)
-NON_EQUIPMENT=re.compile(r'\b(?:ff14|ffxiv|final\s+fantasy|dj\s+atomos|atomos\s+y\s+ruinas|democritus|leucippus|greek\s+atom|atomic\s+theory|alkheadz|nukranox|atomism)\b|暁月|ネタバレ',re.I)
+NON_EQUIPMENT=re.compile(r'\b(?:ff14|ffxiv|final\s+fantasy|dj\s+atomos|atomos\s+y\s+ruinas|democritus|leucippus|greek\s+atom|atomic\s+theory|alkheadz|nukranox|atomism|arma\s*3\s*\|\s*no\s+fusiones\s+dos\s+atomos)\b|暁月|ネタバレ',re.I)
 SPECIFIC=re.compile(r'\b(?:atomos\s+(?:ninja|shogun|shinobi|sumo|connect|monitor|recorder|camera|recording)|(?:ninja|shogun|shinobi|sumo)\s+(?:tx|raw|ultra|go|ii|v\+?|7|pro[- ]?19)|atom[- ]?os\s*\d+(?:\.\d+)+|atomosphere)\b',re.I)
 
 def is_atomos_equipment(text:str,*,title:str='',url:str='')->bool:

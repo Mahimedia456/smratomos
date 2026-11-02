@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 from .schema import ResearchReport,Coverage
 from .public_research import collect_day,cache_historical_images
 from .report_scope import scope_to_day
+from .brand_scope import is_atomos_equipment
 from .chatgpt_import import import_chatgpt_evidence
 from .paid_gpt import supplement as paid_supplement, merge as merge_paid
 from .scheduled_research import research_sweeps
@@ -73,7 +74,8 @@ def main():
             for item in previous.today_findings:
                 key=(item.url.rstrip('/').lower(),item.published_date)
                 if (item.status=='verified' and item.date_evidence and
-                    item.published_date==target and key not in current):
+                    item.published_date==target and key not in current and
+                    is_atomos_equipment(item.source_excerpt or '',title=item.title,url=item.url)):
                     report.today_findings.append(item)
                     current.add(key)
                     recovered+=1

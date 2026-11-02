@@ -9,3 +9,5 @@ Check report source links and 7 PM PKT daily cron after completion.
 Retry actual autonomous searches after correcting equipment-specific original-source regression test; old Story examples excluded.
 
 One-time original-source cross-platform search test on 2026-10-30; daily schedule unchanged.
+
+USER REQUEST 2026-11-02: run fresh Atomos single-day research only for 2026-11-02 (Pakistan date). All previous report outputs removed. Keep verified original source title/date/link; no prior-day entries in generated PDF. Restore exactly one daily PDF; no monthly or weekly creation in this one-off run.

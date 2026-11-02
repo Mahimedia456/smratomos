@@ -21,4 +21,7 @@ def is_atomos_equipment(text:str,*,title:str='',url:str='')->bool:
     # New/legacy products, software, audio, PTZ, service and accessory mentions
     # are valid candidates even if no classic monitor/recorder term occurs.
     # Homonyms above remain excluded; original content/date is checked later.
-    return bool(BRAND.search(raw))
+    # Generic homonyms occur frequently in music, school sports, gaming and
+    # unrelated software. A real original-source production-video context
+    # must be present; bare "atomos" keyword alone is NOT a verified mention.
+    return bool(VIDEO.search(raw))

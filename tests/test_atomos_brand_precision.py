@@ -7,7 +7,11 @@ class TestAtomosBrandPrecision(unittest.TestCase):
         for title in ('【FF14】#4 暁月からまいります ※ネタバレ注意【Atomos】',
                       'The End - Alkheadz & DJ Atomos Feat. Mischimaschine',
                       'atomos y ruinas rap','The Seeds of Atomic Theory Democritus Leucippus Atomos',
-                      'Arma 3 | No fusiones dos atomos'):
+                      'Arma 3 | No fusiones dos atomos',
+                      'ATOMOS 1 - HALCONES VS BÚFALOS',
+                      'Atomos Provided to YouTube by DistroKid',
+                      'JORNADA #5 - FOOTBALL TACKLE - ATOMOS - POTROS',
+                      '#androidserver #atomos #hostingsolution'):
             with self.subTest(title=title):
                 self.assertFalse(is_atomos_equipment(title))
     def test_real_video_equipment(self):

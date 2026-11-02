@@ -4,7 +4,7 @@
     "data": [
       {
         "group": "YouTube",
-        "url": "https://www.youtube.com/watch?v=xJnc54_G3y8",
+        "url": "https://www.youtube.com/watch?v=J922wdPDKtk",
         "stage": "comments",
         "result": "HTTP 403"
       },
@@ -401,6 +401,12 @@
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
+        "stage": "free-news-search",
+        "provider": "GDELT",
+        "state": "HTTP 429",
+        "source_verified": false
+      },
+      {
         "stage": "source-fetch",
         "group": "Reddit",
         "url": "https://www.reddit.com/r/videography/comments/1xegbe9/atomos_shinobi_7_ii_advertised_as_4k60_but_only/",
@@ -591,15 +597,39 @@
       },
       {
         "stage": "image",
-        "url": "https://i.ytimg.com/vi/xJnc54_G3y8/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/5uMRz2Cud6w/mqdefault.jpg",
         "result": "cached attributed thumbnail",
         "asset": "assets/2026/11/2026-11-02/source_001.jpg"
       },
       {
         "stage": "image",
-        "url": "https://i.ytimg.com/vi/oSfpH6sAziQ/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/J922wdPDKtk/mqdefault.jpg",
         "result": "cached attributed thumbnail",
         "asset": "assets/2026/11/2026-11-02/source_002.jpg"
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/BrkmdKZ7vCQ/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/11/2026-11-02/source_003.jpg"
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/HuVhENVgcJY/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/11/2026-11-02/source_004.jpg"
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/B3Gskt5kXDY/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/11/2026-11-02/source_005.jpg"
+      },
+      {
+        "stage": "image",
+        "url": "https://i.ytimg.com/vi/oSfpH6sAziQ/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/11/2026-11-02/source_006.jpg"
       },
       {
         "stage": "image",
@@ -610,14 +640,14 @@
         "stage": "image",
         "url": "https://cdn.middle.news/article-images/c48d3911-74e5-494b-ba06-a2f52b03fa4c-min.png",
         "result": "cached attributed thumbnail",
-        "asset": "assets/2026/11/2026-11-02/source_003.jpg"
+        "asset": "assets/2026/11/2026-11-02/source_007.jpg"
       }
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "YouTube.verified": 2,
+      "YouTube.verified": 6,
       "YouTube.statistics_calls": 1,
-      "YouTube.comments_calls": 1,
+      "YouTube.comments_calls": 5,
       "Facebook.wrong_source_domain": 28,
       "Facebook.successful_queries": 7,
       "Facebook.brave_not_configured": 7,
@@ -679,7 +709,7 @@
     },
     "search_queries": 56,
     "original_pages_attempted": 21,
-    "cached_images": 3,
+    "cached_images": 7,
     "undated_brand_sources": 11,
     "previous_five_day_brand_sources": 1
   },
@@ -688,9 +718,8 @@
     "data": [
       {
         "scope": "social",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 1,
@@ -700,9 +729,8 @@
       },
       {
         "scope": "community",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -712,9 +740,8 @@
       },
       {
         "scope": "editorial",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 2,

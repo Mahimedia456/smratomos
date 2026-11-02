@@ -1,27 +1,27 @@
 {
   "report_date": "2026-11-02",
-  "generated_at_pkt": "2026-11-02 02:59 PKT",
-  "research_as_of_pkt": "2026-11-02 02:59 PKT",
+  "generated_at_pkt": "2026-11-02 13:34 PKT",
+  "research_as_of_pkt": "2026-11-02 13:34 PKT",
   "status": "PARTIAL DAY | original-source research remains time-limited until midnight PKT",
-  "headline": "2 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-11-02. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
+  "headline": "6 date-verified Atomos post/article finding(s) and 0 dated retail observation(s) on 2026-11-02. Earlier dates are excluded; inaccessible networks cannot be claimed fully monitored.",
   "today_findings": [
     {
-      "title": "Arma 3 | No fusiones dos atomos",
+      "title": "ATOMOS 1 - HALCONES VS BÚFALOS",
       "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=xJnc54_G3y8",
-      "author": "Vertedero de Sui",
+      "url": "https://www.youtube.com/watch?v=5uMRz2Cud6w",
+      "author": "HalconesTV",
       "published_date": "2026-11-02",
       "date_evidence": "YouTube Data API publishedAt converted to PKT",
-      "summary": "Arma 3 | No fusiones dos atomos patata subacuatica en monopatin.",
+      "summary": "ATOMOS 1 - HALCONES VS BÚFALOS",
       "sentiment": "Neutral",
       "priority": "Low",
       "status": "verified",
-      "image_url": "https://i.ytimg.com/vi/xJnc54_G3y8/mqdefault.jpg",
+      "image_url": "https://i.ytimg.com/vi/5uMRz2Cud6w/mqdefault.jpg",
       "image_context": "",
       "image_credit_url": "",
-      "product": "atomos patata subacuatica en monopatin",
+      "product": "ATOMOS 1 - HALCONES VS BÚFALOS",
       "details": "",
-      "source_excerpt": "Arma 3 | No fusiones dos atomos patata subacuatica en monopatin.",
+      "source_excerpt": "ATOMOS 1 - HALCONES VS BÚFALOS",
       "response_action": "Not required.",
       "impact": "Public brand or product mention; contextual relevance only.",
       "verification_note": "YouTube official API original video metadata",
@@ -33,13 +33,178 @@
       "mentioned_accounts": [],
       "tagged_accounts": [],
       "engagement": {
-        "views": 4,
+        "views": 111,
         "likes": 0,
         "comments": 0
       },
       "images": [],
       "image_files": [
         "assets/2026/11/2026-11-02/source_001.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "title": "Atomos",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=J922wdPDKtk",
+      "author": "Baby Rose - Topic",
+      "published_date": "2026-11-02",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Atomos Provided to YouTube by DistroKid Atomos · Baby Rose Atomos ℗ 13480734 Records DK Released on: 2026-10-29 Claves: ...",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/J922wdPDKtk/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Provided to YouTube by DistroKid Atomos · Baby Rose Atomos ℗ 134",
+      "details": "",
+      "source_excerpt": "Atomos Provided to YouTube by DistroKid Atomos · Baby Rose Atomos ℗ 13480734 Records DK Released on: 2026-10-29 Claves: ...",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/11/2026-11-02/source_002.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "title": "JORNADA #5 - FOOTBALL TACKLE - ATOMOS  - POTROS 1 VS. TITANES",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=BrkmdKZ7vCQ",
+      "author": "Club Potros de la Anahuac Football",
+      "published_date": "2026-11-02",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "JORNADA #5 - FOOTBALL TACKLE - ATOMOS - POTROS 1 VS. TITANES JORNADA #5 - FOOTBALL TACKLE - ATOMOS - POTROS 1 VS. TITANES.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/BrkmdKZ7vCQ/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "ATOMOS  - POTROS 1 VS",
+      "details": "",
+      "source_excerpt": "JORNADA #5 - FOOTBALL TACKLE - ATOMOS - POTROS 1 VS. TITANES JORNADA #5 - FOOTBALL TACKLE - ATOMOS - POTROS 1 VS. TITANES.",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 107,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/11/2026-11-02/source_003.jpg"
+      ],
+      "comments": []
+    },
+    {
+      "title": "আপনার পকেটেই এখন ডেটা সেন্টার! 🌌  #androidserver #atomos #hostingsolution #innovation #techmagic",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=HuVhENVgcJY",
+      "author": "ATOM OS",
+      "published_date": "2026-11-02",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "আপনার পকেটেই এখন ডেটা সেন্টার! 🌌 #androidserver #atomos #hostingsolution #innovation #techmagic টাকা দিয়ে হোস্টিং কেন কিনবেন, যখন আপনার পকেটের ফোনটিই হতে পারে ...",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/HuVhENVgcJY/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "atomos #hostingsolution #innovation #techmagic টাকা দিয়ে হোস্টিং কেন ক",
+      "details": "",
+      "source_excerpt": "আপনার পকেটেই এখন ডেটা সেন্টার! 🌌 #androidserver #atomos #hostingsolution #innovation #techmagic টাকা দিয়ে হোস্টিং কেন কিনবেন, যখন আপনার পকেটের ফোনটিই হতে পারে ...",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [
+        "#androidserver",
+        "#atomos",
+        "#hostingsolution",
+        "#innovation",
+        "#techmagic"
+      ],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 8,
+        "likes": 0,
+        "comments": 1
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/11/2026-11-02/source_004.jpg"
+      ],
+      "comments": [
+        {
+          "author": "@AtomOS-VPS",
+          "text": "https://app.shoykat.com/",
+          "date": "2026-11-02",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "title": "Atomos Shinobi 5 - Review - Surprisingly Good",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=B3Gskt5kXDY",
+      "author": "Smart Buy Reviews",
+      "published_date": "2026-11-02",
+      "date_evidence": "YouTube Data API publishedAt converted to PKT",
+      "summary": "Atomos Shinobi 5 - Review - Surprisingly Good Welcome to our channel! In today's video, we're diving deep into the Atomos Shinobi 5-inch HDMI 4K Monitor. This sleek and ...",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "verified",
+      "image_url": "https://i.ytimg.com/vi/B3Gskt5kXDY/mqdefault.jpg",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Atomos Shinobi 5 - Review - Surprisingly Good Welcome to our channel! In today'",
+      "details": "",
+      "source_excerpt": "Atomos Shinobi 5 - Review - Surprisingly Good Welcome to our channel! In today's video, we're diving deep into the Atomos Shinobi 5-inch HDMI 4K Monitor. This sleek and ...",
+      "response_action": "Not required.",
+      "impact": "Public brand or product mention; contextual relevance only.",
+      "verification_note": "YouTube official API original video metadata",
+      "reference_date": "",
+      "engagement_source": "YouTube Data API videos.list statistics",
+      "publisher": "",
+      "content_type": "video",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [
+        "assets/2026/11/2026-11-02/source_005.jpg"
       ],
       "comments": []
     },
@@ -71,13 +236,13 @@
       "mentioned_accounts": [],
       "tagged_accounts": [],
       "engagement": {
-        "views": 0,
+        "views": 1,
         "likes": 0,
         "comments": 0
       },
       "images": [],
       "image_files": [
-        "assets/2026/11/2026-11-02/source_002.jpg"
+        "assets/2026/11/2026-11-02/source_006.jpg"
       ],
       "comments": []
     }
@@ -470,7 +635,7 @@
     },
     {
       "platform": "YouTube",
-      "summary": "4 indexed query attempt(s), 4 index response(s), 2 original source fetch(es), 0 inaccessible; 2 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
+      "summary": "4 indexed query attempt(s), 4 index response(s), 2 original source fetch(es), 0 inaccessible; 6 exact-day source-verified mention(s). A blocked index or missing official API is not a negative search result.",
       "checked": true
     },
     {
@@ -534,10 +699,10 @@
     "Camera forums: alternate public index HTTP 202",
     "Retailers: alternate public index HTTP 202",
     "Industry articles: alternate public index HTTP 202",
-    "GDELT free news response could not be parsed",
+    "GDELT free news index: HTTP 429",
     "Public indexes do not expose all posts and comments; private/login-only content is not collected.",
     "No result does not establish no brand activity on a platform.",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Python collector: 56 public search query attempts, 21 original-page attempts, 3 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
+  "methodology": "Python collector: 56 public search query attempts, 21 original-page attempts, 7 attributable image thumbnails; YouTube Data API when connected, no Reddit OAuth. New verified posts require original source dates and direct Atomos text. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence. | Optional one-request GPT web-search supplement, original-URL checks and cached evidence."
 }

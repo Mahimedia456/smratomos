@@ -1,0 +1,50 @@
+{
+  "report_date": "2026-11-07",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 7, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Atomos' official website provides detailed information on their latest product releases and company announcements.",
+      "checked": true
+    },
+    {
+      "platform": "Facebook",
+      "summary": "No relevant posts found on Facebook for November 7, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "No relevant posts found on Instagram for November 7, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "X/Twitter",
+      "summary": "No relevant posts found on X/Twitter for November 7, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "No relevant posts found on LinkedIn for November 7, 2026.",
+      "checked": false
+    }
+  ],
+  "visibility_gaps": [
+    "Facebook",
+    "Instagram",
+    "X/Twitter",
+    "LinkedIn",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring focused on Atomos' official website and major social media platforms for posts dated November 7, 2026. No relevant posts were found on social media platforms for the specified date. All findings are based on information available up to the current date."
+}

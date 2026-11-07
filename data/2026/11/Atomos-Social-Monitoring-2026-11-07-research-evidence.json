@@ -397,7 +397,8 @@
       {
         "stage": "free-news-search",
         "provider": "GDELT",
-        "state": "HTTP 429",
+        "returned": 0,
+        "candidates": 0,
         "source_verified": false
       },
       {
@@ -452,21 +453,7 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://my.atomos.com/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
-        "url": "https://en.wikipedia.org/wiki/Atomos_(company)",
+        "url": "https://en.m.wikipedia.org/wiki/Atomos_(company)",
         "result": "OK",
         "final_url": "https://en.wikipedia.org/wiki/Atomos_(company)"
       },
@@ -480,6 +467,20 @@
       {
         "stage": "source-fetch",
         "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://my.atomos.com/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
         "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
         "result": "HTTP 403",
         "final_url": null
@@ -487,49 +488,14 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://www.atomos.co.uk/log-in",
-        "result": "OK",
-        "final_url": "https://www.atomos.co.uk/log-in"
-      },
-      {
-        "stage": "unverified-date",
-        "group": "Industry articles",
-        "url": "https://www.atomos.co.uk/log-in",
-        "source_date": "",
-        "title": "Login"
+        "url": "https://www.bhphotovideo.com/c/browse/atomos/ci/32668/N/3614572192",
+        "result": "HTTP 403",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
         "group": "Reddit",
         "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
-        "url": "https://support.atomos.com/hc/en-us",
-        "result": "OK",
-        "final_url": "https://support.atomos.com/hc/en-us"
-      },
-      {
-        "stage": "unverified-date",
-        "group": "Industry articles",
-        "url": "https://support.atomos.com/hc/en-us",
-        "source_date": "",
-        "title": "HOW CAN WE HELP?"
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
-        "url": "https://www.bhphotovideo.com/c/browse/atomos/ci/32668/N/3614572192",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -546,6 +512,13 @@
         "url": "https://www.cameraegg.org/camerareview/best-external-monitor-for-canon-eos-r5-mark-ii/",
         "source_date": "",
         "title": "Best External Monitor for Canon EOS R5 Mark II"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
+        "result": "HTTP 403",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
@@ -591,59 +564,64 @@
       },
       {
         "stage": "image",
-        "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
-        "result": "Content larger than 3MB"
+        "url": "https://i.ytimg.com/vi/eoVxKalR6Oc/mqdefault.jpg",
+        "result": "cached attributed thumbnail",
+        "asset": "assets/2026/11/2026-11-07/source_001.jpg"
       }
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "Facebook.wrong_source_domain": 35,
+      "YouTube.verified": 1,
+      "YouTube.statistics_calls": 1,
+      "YouTube.comments_calls": 1,
+      "Facebook.wrong_source_domain": 45,
       "Facebook.successful_queries": 7,
       "Facebook.brave_not_configured": 7,
       "Facebook.fallback_attempts": 1,
       "Facebook.queries": 7,
-      "Instagram.wrong_source_domain": 28,
+      "Instagram.wrong_source_domain": 40,
       "Instagram.successful_queries": 7,
       "Instagram.brave_not_configured": 7,
       "Instagram.fallback_attempts": 1,
       "Instagram.queries": 7,
-      "LinkedIn.wrong_source_domain": 42,
+      "LinkedIn.wrong_source_domain": 50,
       "LinkedIn.successful_queries": 7,
       "LinkedIn.brave_not_configured": 7,
       "LinkedIn.fallback_attempts": 1,
       "LinkedIn.queries": 7,
-      "X / Twitter.wrong_source_domain": 49,
+      "X / Twitter.wrong_source_domain": 55,
       "X / Twitter.successful_queries": 7,
       "X / Twitter.brave_not_configured": 7,
       "X / Twitter.fallback_attempts": 1,
       "X / Twitter.queries": 7,
-      "Reddit.wrong_source_domain": 22,
+      "Reddit.wrong_source_domain": 30,
       "Reddit.successful_queries": 5,
       "Reddit.brave_not_configured": 5,
       "Reddit.fallback_attempts": 1,
       "Reddit.queries": 5,
-      "YouTube.wrong_source_domain": 19,
+      "YouTube.wrong_source_domain": 25,
       "YouTube.successful_queries": 4,
       "YouTube.brave_not_configured": 4,
       "YouTube.fallback_attempts": 1,
       "YouTube.queries": 4,
-      "Camera forums.wrong_source_domain": 28,
+      "Camera forums.wrong_source_domain": 40,
       "Camera forums.successful_queries": 7,
       "Camera forums.brave_not_configured": 7,
       "Camera forums.fallback_attempts": 1,
       "Camera forums.queries": 7,
-      "Industry articles.candidates": 12,
-      "Industry articles.irrelevant_index_hits": 15,
-      "Industry articles.wrong_source_domain": 6,
+      "Industry articles.candidates": 10,
+      "Industry articles.irrelevant_index_hits": 21,
+      "Industry articles.wrong_source_domain": 12,
       "Industry articles.successful_queries": 6,
       "Industry articles.queries": 6,
-      "Retailers.wrong_source_domain": 18,
+      "Retailers.wrong_source_domain": 30,
       "Retailers.successful_queries": 6,
       "Retailers.brave_not_configured": 6,
       "Retailers.fallback_attempts": 1,
       "Retailers.queries": 6,
       "Industry articles.brave_not_configured": 5,
       "Industry articles.fallback_attempts": 1,
+      "Industry articles.gdelt_queries": 1,
       "Reddit.candidates": 7,
       "YouTube.candidates": 2,
       "Reddit.irrelevant_index_hits": 1,
@@ -652,14 +630,14 @@
       "Reddit.index_only_leads": 7,
       "YouTube.source_attempts": 2,
       "YouTube.no_brand_original": 2,
-      "Industry articles.source_attempts": 12,
+      "Industry articles.source_attempts": 10,
       "Industry articles.fetch_failed": 6,
-      "Industry articles.not_dated_today": 6
+      "Industry articles.not_dated_today": 4
     },
     "search_queries": 56,
-    "original_pages_attempted": 21,
-    "cached_images": 0,
-    "undated_brand_sources": 11,
+    "original_pages_attempted": 19,
+    "cached_images": 1,
+    "undated_brand_sources": 9,
     "previous_five_day_brand_sources": 0
   },
   {
@@ -667,9 +645,8 @@
     "data": [
       {
         "scope": "social",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -679,9 +656,8 @@
       },
       {
         "scope": "community",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -691,9 +667,8 @@
       },
       {
         "scope": "editorial",
-        "status": "failed",
-        "api_calls": "attempted",
-        "reason": "Expecting value: line 1 column 1 (char 0)"
+        "status": "previous_attempt_protected",
+        "api_calls": 0
       }
     ]
   },
@@ -701,7 +676,7 @@
     "scope": "Historical source image cache",
     "data": {
       "cached_report_images": 0,
-      "original_post_preview_checks": 10,
+      "original_post_preview_checks": 9,
       "image_audit": [
         {
           "stage": "post-image-discovery",
@@ -737,11 +712,6 @@
           "stage": "post-image-discovery",
           "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
           "status": "HTTP 403"
-        },
-        {
-          "stage": "image",
-          "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
-          "result": "Content larger than 3MB"
         }
       ]
     }

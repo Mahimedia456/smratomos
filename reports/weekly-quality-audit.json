@@ -1,0 +1,31 @@
+{
+  "period": "weekly",
+  "report": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-11-03_to_2026-11-09.pdf",
+  "pages": 8,
+  "pdf_bytes": 103455,
+  "expected_dated_records": 2,
+  "expected_leads": 13,
+  "original_source_links_in_pdf": 38,
+  "embedded_pdf_image_xobjects": 2,
+  "images_reported_in_manifest": 2,
+  "required_sections_checked": [
+    "EXECUTIVE KPI DASHBOARD",
+    "OVERALL SENTIMENT",
+    "SOCIAL MEDIA SENTIMENT",
+    "POST ANALYTICS",
+    "PLATFORM KPI",
+    "ADDITIONAL ENGAGEMENT",
+    "FACEBOOK",
+    "INSTAGRAM",
+    "X / TWITTER",
+    "LINKEDIN",
+    "REDDIT",
+    "YOUTUBE",
+    "CAMERA FORUMS",
+    "RETAILERS"
+  ],
+  "missing_sections": [],
+  "synthetic_placeholder_urls_found": false,
+  "no_page_cap": true,
+  "source_dated_coverage_percent": 100.0
+}

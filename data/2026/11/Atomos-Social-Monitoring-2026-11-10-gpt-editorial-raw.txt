@@ -1,0 +1,27 @@
+As of November 10, 2026, Atomos has made several notable announcements and updates in the professional video production sector:
+
+**Product Launches and Updates:**
+
+- **Shinobi 7 II – 7" Camera Monitor:** Atomos has introduced the Shinobi 7 II, a 7-inch camera monitor designed to provide filmmakers with enhanced monitoring capabilities. ([atomos.com](https://www.atomos.com/?utm_source=openai))
+
+- **Shogun AV-19M – 19" Rack 4K Monitor:** The company has also launched the Shogun AV-19M, a 19-inch rack-mounted 4K monitor tailored for professional video production environments. ([atomos.com](https://www.atomos.com/?utm_source=openai))
+
+- **A-Eye HD-20X – PTZ Camera:** Atomos has expanded its product lineup with the A-Eye HD-20X, a Pan-Tilt-Zoom (PTZ) camera aimed at providing versatile shooting options for various production needs. ([atomos.com](https://www.atomos.com/?utm_source=openai))
+
+**Firmware Updates:**
+
+- **AtomOS 11.19.00:** The latest firmware update, AtomOS 11.19.00, introduces raw support for the Panasonic DC-S1M2NT and enhances the performance of the EL Zone. Additionally, it improves log handling for HLG, FLog, FLog2, and FLog2-C formats. ([atomos.com](https://www.atomos.com/product-support/?utm_source=openai))
+
+**Promotions:**
+
+- **Black Friday 2026 Promotions:** From November 9 through December 20, 2026, Atomos is offering special promotional pricing on select products. Customers can purchase any Ninja model and receive a free kit of choice, which includes two 5200mAh batteries and a fast battery charger. ([news.broadfield.com](https://news.broadfield.com/atomos-black-friday-2026-promotions/?utm_source=openai))
+
+**Events:**
+
+- **ProFusion Expo:** Atomos is scheduled to participate in the ProFusion Expo on November 11-12, 2026, in Toronto, Canada. The event will be held at the ADI Pro booth. ([atomos.com](https://www.atomos.com/upcoming-events/?utm_source=openai))
+
+**Corporate Announcements:**
+
+- **Annual General Meeting:** The Annual General Meeting for Atomos Limited is set for November 19, 2026, at 3:00 pm AEDT. The meeting will be conducted virtually, allowing shareholders to participate remotely. ([investors.atomos.com](https://investors.atomos.com/announcements/5RXjn6-notice-of-annual-general-meeting-proxy-form?utm_source=openai))
+
+These developments reflect Atomos's ongoing commitment to advancing professional video production tools and services. 

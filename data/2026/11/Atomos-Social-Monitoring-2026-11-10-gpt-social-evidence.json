@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-11-10",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 10, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Atomos Showcases Professional Camera Monitors and Monitor-Recorders at NAB New York 2026",
+      "platform": "Website",
+      "url": "https://news.broadfield.com/atomos-showcases-professional-camera-monitors-and-monitor-recorders-at-nab-new-york-2026/",
+      "author": "Stephanie R",
+      "published_date": "",
+      "date_evidence": "2026-11-09",
+      "summary": "At NAB Show New York 2026, Atomos showcased its range of on-camera monitors and monitor-recorders, emphasizing their role in enhancing video capture and monitoring for professionals.",
+      "sentiment": "Positive",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "At NAB Show New York 2026, Atomos highlighted its lineup of on-camera monitors and monitor-recorders, designed to give filmmakers, broadcasters, and production teams greater control over video capture and monitoring.",
+      "response_action": "",
+      "impact": "",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Broadfield News",
+      "content_type": "article",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Atomos Products Overview",
+      "platform": "Website",
+      "url": "https://www.fotokoch.de/atomos-uebersicht.html",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-09",
+      "summary": "Fotokoch offers a range of Atomos products, including the Shinobi II 5.2-inch monitor, highlighting its popularity in their inventory.",
+      "sentiment": "Neutral",
+      "priority": "Low",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "Atomos Shinobi II 5,2 Zoll Monitor Bestseller in dieser Warengruppe.",
+      "response_action": "",
+      "impact": "",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Fotokoch",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0
+      },
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Reviewed Atomos' official website and recent news articles for updates on product releases and promotions.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Checked Fotokoch's website for current Atomos product listings and availability.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos brand mentions on November 10, 2026, focusing on official announcements, product listings, and promotions. Excluded unrelated topics such as Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. Prioritized original sources with explicit Atomos brand mentions in the context of professional video production hardware."
+}

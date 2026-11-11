@@ -1,0 +1,21 @@
+As of November 12, 2026, Atomos has announced several new products and updates in the professional video production hardware sector:
+
+**New Product Releases:**
+
+- **Shinobi 7 II:** Introduced as the brightest Shinobi monitor to date, the Shinobi 7 II offers enhanced brightness and improved features for on-set monitoring. ([atomos.com](https://www.atomos.com/news-feed/?utm_source=openai))
+
+- **Shogun AV-19M:** This 19-inch rack-mounted 4K monitor integrates IP-based functionality, catering to the evolving needs of broadcast and live production environments. ([atomos.com](https://www.atomos.com/news-feed/?utm_source=openai))
+
+- **A-Eye HD-20X PTZ Camera:** A new addition to Atomos' lineup, the A-Eye HD-20X is a Pan-Tilt-Zoom camera designed for versatile shooting scenarios. ([atomos.com](https://www.atomos.com/?utm_source=openai))
+
+- **StudioSonic Shotgun Microphone:** Complementing Atomos' audio accessories, the StudioSonic shotgun microphone is engineered for high-quality audio capture in various recording settings. ([atomos.com](https://www.atomos.com/?utm_source=openai))
+
+**Firmware Updates:**
+
+- **Shinobi II and Shinobi 7 RX:** A firmware update (version 11.07.00) has been released, expanding camera control support to include touch-to-focus functionality for a broader range of popular camera models. ([newsshooter.com](https://www.newsshooter.com/2026/04/09/atomos-firmware-update-adds-additional-camera-control-support-for-shinobi-ii-shinobi-7-rx/?utm_source=openai))
+
+**Sales and Promotions:**
+
+- **Black Friday 2026 Deals:** Atomos is offering significant discounts and promotions, including free Creator Kits with select Ninja monitor-recorders and up to 50% off on various products, running through December 20, 2026. ([videoguys.com](https://videoguys.com/blogs/news-and-sales/atomos-black-friday-deals-2026?utm_source=openai))
+
+These developments reflect Atomos' ongoing commitment to enhancing professional video production capabilities through innovative hardware and software solutions. 

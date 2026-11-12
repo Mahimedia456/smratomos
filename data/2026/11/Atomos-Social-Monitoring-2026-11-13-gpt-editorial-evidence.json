@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-11-13",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 13, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Atomos Online Store",
+      "platform": "Website",
+      "url": "https://www.atomos.com/shop/",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-13",
+      "summary": "Current product listings and prices on the Atomos online store as of November 13, 2026.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "Various Atomos Products",
+      "details": "",
+      "source_excerpt": "Shogun AV-19M – 19″ Rack 4K Monitor $1,899.00 ex. TAX Add to Bag. Shinobi 7 II – 7″ Camera Monitor $499.00 ex. TAX Add to Bag. Ninja TX – 5″ HDMI/12G-SDI & Wi-Fi Monitor-Recorder $999.00 ex. TAX Add to Bag.",
+      "response_action": "",
+      "impact": "medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "retailer",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Reviewed Atomos' official website for product specifications and announcements.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Checked Atomos' online store for current product listings and prices.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 13, 2026, focusing on official sources and reputable publications. Verified product specifications, compatibility information, and current product listings to provide an accurate and up-to-date overview of Atomos' offerings."
+}

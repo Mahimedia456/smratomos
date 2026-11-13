@@ -1,0 +1,106 @@
+{
+  "report_date": "2026-11-14",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 14, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Home | Atomos",
+      "platform": "Website",
+      "url": "https://www.atomos.com/",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-14",
+      "summary": "Atomos' official website showcases a range of products, including the Shogun AV-19M 4K Monitor, Ninja RAW HDMI Monitor-Recorder, Shinobi 7 II Camera Monitor, A-Eye HD-20X PTZ Camera, StudioSonic Shotgun Microphone, and Shinobi 7 RX Monitor & Receiver.",
+      "sentiment": "Neutral",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "https://www.atomos.com/wp-content/uploads/2026/11/Atomos-Product-Lineup.jpg",
+      "image_context": "Atomos product lineup",
+      "image_credit_url": "https://www.atomos.com/",
+      "product": "[\"Shogun AV-19M\", \"Ninja RAW\", \"Shinobi 7 II\", \"A-Eye HD-20X\", \"StudioSonic Shotgun Microphone\", \"Shinobi 7 RX\"]",
+      "details": "",
+      "source_excerpt": "Shogun AV-19M – 19″ Rack 4K Monitor\n\nNinja RAW – 5″ HDMI Monitor-Recorder\n\nShinobi 7 II – 7″ Camera Monitor\n\nA-Eye HD-20X – PTZ Camera\n\nStudioSonic Shotgun Microphone\n\nShinobi 7 RX – 7″ Monitor & Receiver",
+      "response_action": "monitor",
+      "impact": "high",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Announcements | Atomos Investor Hub",
+      "platform": "Investor Hub",
+      "url": "https://investors.atomos.com/Announcements",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-13",
+      "summary": "Recent announcements on Atomos' Investor Hub include changes in director's interest notices for Simon Traynor and Jeromy Young, both dated November 13, 2026.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "[]",
+      "details": "",
+      "source_excerpt": "13 Nov 2026 • 4:08 PM Change of Director's Interest Notice - Simon Traynor\n\n13 Nov 2026 • 4:06 PM Change of Director's Interest Notice - Jeromy Young",
+      "response_action": "monitor",
+      "impact": "medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Atomos' official website showcases a range of products, including the Shogun AV-19M 4K Monitor, Ninja RAW HDMI Monitor-Recorder, Shinobi 7 II Camera Monitor, A-Eye HD-20X PTZ Camera, StudioSonic Shotgun Microphone, and Shinobi 7 RX Monitor & Receiver.",
+      "checked": true
+    },
+    {
+      "platform": "Investor Hub",
+      "summary": "Recent announcements on Atomos' Investor Hub include changes in director's interest notices for Simon Traynor and Jeromy Young, both dated November 13, 2026.",
+      "checked": true
+    },
+    {
+      "platform": "Digital Camera World",
+      "summary": "In February 2026, Atomos introduced the Ninja RAW, a 5.2-inch Full HD on-camera monitor and recorder designed for both amateur and professional videographers. It features a 1500-nit HDR touchscreen display with focus peaking, zebras, false color, waveforms, framing guides, and an on-screen scroll wheel for adjusting camera settings.",
+      "checked": true
+    },
+    {
+      "platform": "Retailer",
+      "summary": "As of November 12, 2026, Atomos products are priced at their usual levels, with no current sales or discounts.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring was conducted by reviewing Atomos' official website, investor announcements, and reputable industry publications for any brand mentions or product updates related to Atomos on November 14, 2026."
+}

@@ -1,0 +1,88 @@
+```json
+{
+  "report_date": "2026-11-14",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 14, 2026",
+  "today_findings": [
+    {
+      "url": "https://investors.atomos.com/announcements/zX8wx2-change-of-directors-interest-notice-jeromy-young",
+      "platform": "Website",
+      "title": "Change of Director's Interest Notice - Jeromy Young",
+      "author": "Atomos Limited",
+      "publisher": "Atomos Limited",
+      "published_date": "2026-11-13",
+      "date_evidence": "2026-11-13",
+      "source_excerpt": "Atomos Limited (ASX:AMS) advises the following in relation to the lodgement of the attached Appendix 3Y for Jeromy Young: The Appendix 3Y in relation to the lapse of his listed options is being lodged late due to administrative oversights.",
+      "summary": "Atomos Limited announced a late filing of an Appendix 3Y for director Jeromy Young, disclosing the lapse of listed options and an off-market disposal of shares, attributing the delay to administrative oversights.",
+      "sentiment": "neutral",
+      "priority": "high",
+      "status": "verified",
+      "content_type": "article",
+      "hashtags": [],
+      "mentioned_accounts": ["@AtomosLimited"],
+      "tagged_accounts": ["@JeromyYoung"],
+      "image_url": "https://investors.atomos.com/announcements/zX8wx2-change-of-directors-interest-notice-jeromy-young",
+      "image_credit_url": "https://investors.atomos.com/announcements/zX8wx2-change-of-directors-interest-notice-jeromy-young",
+      "image_context": "Change of Director's Interest Notice - Jeromy Young",
+      "product": "Atomos Limited",
+      "impact": "Corporate governance",
+      "response_action": "Monitor for further updates",
+      "engagement": 0,
+      "engagement_source": "Atomos Limited Investor Hub",
+      "comments": [],
+      "verification_note": "Original source date evidence is mandatory for verified."
+    },
+    {
+      "url": "https://www.atomos.com/ndi/",
+      "platform": "Website",
+      "title": "NDI | Atomos",
+      "author": "Atomos Limited",
+      "publisher": "Atomos Limited",
+      "published_date": "2026-11-14",
+      "date_evidence": "2026-11-14",
+      "source_excerpt": "With the introduction of AtomOS 11.11.00 for the Ninja and Shogun series, both modes are supported for NDI6 HX3.",
+      "summary": "Atomos announced the introduction of AtomOS 11.11.00 for the Ninja and Shogun series, supporting NDI6 HX3 modes, enhancing video streaming capabilities with HDR and 10-bit color depth.",
+      "sentiment": "positive",
+      "priority": "medium",
+      "status": "verified",
+      "content_type": "announcement",
+      "hashtags": ["#AtomOS", "#NDI6HX3", "#Ninja", "#Shogun"],
+      "mentioned_accounts": ["@AtomosLimited"],
+      "tagged_accounts": [],
+      "image_url": "https://www.atomos.com/ndi/",
+      "image_credit_url": "https://www.atomos.com/ndi/",
+      "image_context": "NDI support for Ninja and Shogun series",
+      "product": "AtomOS 11.11.00, Ninja series, Shogun series",
+      "impact": "Product enhancement",
+      "response_action": "Update devices to latest firmware",
+      "engagement": 0,
+      "engagement_source": "Atomos Limited Website",
+      "comments": [],
+      "verification_note": "Original source date evidence is mandatory for verified."
+    }
+  ],
+  "unverified_leads": [],
+  "older_leads": [],
+  "retail_observations": [],
+  "coverage": [
+    {
+      "platform": "Website",
+      "checked": true,
+      "summary": "Atomos Limited announced a late filing of an Appendix 3Y for director Jeromy Young, disclosing the lapse of listed options and an off-market disposal of shares, attributing the delay to administrative oversights.",
+      "image": "https://investors.atomos.com/announcements/zX8wx2-change-of-directors-interest-notice-jeromy-young",
+      "image_credit": "Atomos Limited Investor Hub",
+      "image_context": "Change of Director's Interest Notice - Jeromy Young"
+    },
+    {
+      "platform": "Website",
+      "checked": true,
+      "summary": "Atomos announced the introduction of AtomOS 11.11.00 for the Ninja and Shogun series, supporting NDI6 HX3 modes, enhancing video streaming capabilities with HDR and 10-bit color depth.",
+      "image": "https://www.atomos.com/ndi/",
+      "image_credit": "Atomos Limited Website",
+      "image_context": "NDI support for Ninja and Shogun series"
+    }
+  ],
+  "visibility_gaps": ["Retailer listings and price snapshots with observation timestamp for the reporting date."],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 14, 2026, focusing on official announcements, product updates, and corporate communications. Excluded content unrelated to Atomos professional video production hardware, such as Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. Prioritized original-source articles with explicit mentions of Atomos in a camera or recording context."
+}
+``` 

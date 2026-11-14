@@ -4,6 +4,13 @@
     "data": [
       {
         "group": "Facebook",
+        "stage": "search-fallback",
+        "query": "site:facebook.com \"Atomos\" 2026-11-14",
+        "relevant_index_candidates": 4,
+        "index": "DuckDuckGo HTML"
+      },
+      {
+        "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com \"Atomos\" 2026-11-14",
         "results": 10,
@@ -363,7 +370,7 @@
         "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com/ \"Sumo PRO 19\" \"Atomos\" November 2026",
-        "results": 9,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -473,41 +480,6 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
-        "url": "https://my.atomos.com/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
-        "url": "https://www.atomos.co.uk/log-in",
-        "result": "OK",
-        "final_url": "https://www.atomos.co.uk/log-in"
-      },
-      {
-        "stage": "unverified-date",
-        "group": "Industry articles",
-        "url": "https://www.atomos.co.uk/log-in",
-        "source_date": "",
-        "title": "Login"
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
-        "group": "Industry articles",
         "url": "https://investors.atomos.com/",
         "result": "HTTP 429",
         "final_url": null
@@ -515,7 +487,7 @@
       {
         "stage": "source-fetch",
         "group": "Reddit",
-        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
+        "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -535,6 +507,13 @@
       },
       {
         "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
         "group": "Industry articles",
         "url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/",
         "result": "OK",
@@ -546,6 +525,13 @@
         "url": "https://larryjordan.com/articles/latest-news-from-nab-ny-2026-for-media-creators/",
         "source_date": "",
         "title": "Latest News from NAB-NY 2026 for Media Creators"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
+        "result": "HTTP 403",
+        "final_url": null
       },
       {
         "stage": "source-fetch",
@@ -574,55 +560,53 @@
         "url": "https://www.atomos.com/2026/10/20/seeing-the-final-look-shinobi/",
         "result": "HTTP 403",
         "final_url": null
-      },
-      {
-        "stage": "image",
-        "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
-        "result": "Content larger than 3MB"
       }
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "Facebook.wrong_source_domain": 63,
+      "Facebook.wrong_source_domain": 66,
       "Facebook.successful_queries": 7,
       "Facebook.brave_not_configured": 7,
       "Facebook.fallback_attempts": 1,
+      "Facebook.irrelevant_index_hits": 4,
+      "Facebook.fallback_candidates": 4,
       "Facebook.queries": 7,
-      "Instagram.wrong_source_domain": 34,
+      "Instagram.wrong_source_domain": 46,
       "Instagram.successful_queries": 7,
       "Instagram.brave_not_configured": 7,
       "Instagram.fallback_attempts": 1,
       "Instagram.queries": 7,
-      "LinkedIn.wrong_source_domain": 46,
+      "LinkedIn.wrong_source_domain": 58,
       "LinkedIn.successful_queries": 7,
       "LinkedIn.brave_not_configured": 7,
       "LinkedIn.fallback_attempts": 1,
       "LinkedIn.queries": 7,
-      "X / Twitter.wrong_source_domain": 52,
+      "X / Twitter.wrong_source_domain": 58,
       "X / Twitter.successful_queries": 7,
       "X / Twitter.brave_not_configured": 7,
       "X / Twitter.fallback_attempts": 1,
       "X / Twitter.queries": 7,
-      "Reddit.wrong_source_domain": 26,
+      "Reddit.wrong_source_domain": 38,
       "Reddit.successful_queries": 5,
       "Reddit.brave_not_configured": 5,
       "Reddit.fallback_attempts": 1,
       "Reddit.queries": 5,
-      "YouTube.wrong_source_domain": 22,
+      "YouTube.wrong_source_domain": 32,
       "YouTube.successful_queries": 4,
       "YouTube.brave_not_configured": 4,
       "YouTube.fallback_attempts": 1,
       "YouTube.queries": 4,
-      "Camera forums.wrong_source_domain": 40,
+      "Camera forums.wrong_source_domain": 54,
       "Camera forums.successful_queries": 7,
       "Camera forums.brave_not_configured": 7,
       "Camera forums.fallback_attempts": 1,
       "Camera forums.queries": 7,
-      "Industry articles.candidates": 11,
-      "Industry articles.irrelevant_index_hits": 27,
+      "Industry articles.candidates": 9,
+      "Industry articles.irrelevant_index_hits": 33,
+      "Industry articles.wrong_source_domain": 6,
       "Industry articles.successful_queries": 6,
       "Industry articles.queries": 6,
-      "Retailers.wrong_source_domain": 24,
+      "Retailers.wrong_source_domain": 36,
       "Retailers.successful_queries": 6,
       "Retailers.brave_not_configured": 6,
       "Retailers.fallback_attempts": 1,
@@ -637,14 +621,14 @@
       "Reddit.index_only_leads": 7,
       "YouTube.source_attempts": 2,
       "YouTube.no_brand_original": 2,
-      "Industry articles.source_attempts": 11,
-      "Industry articles.fetch_failed": 6,
-      "Industry articles.not_dated_today": 5
+      "Industry articles.source_attempts": 9,
+      "Industry articles.fetch_failed": 5,
+      "Industry articles.not_dated_today": 4
     },
     "search_queries": 56,
-    "original_pages_attempted": 20,
+    "original_pages_attempted": 18,
     "cached_images": 0,
-    "undated_brand_sources": 10,
+    "undated_brand_sources": 9,
     "previous_five_day_brand_sources": 0
   },
   {
@@ -652,9 +636,8 @@
     "data": [
       {
         "scope": "social",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 2,
@@ -664,9 +647,8 @@
       },
       {
         "scope": "community",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 0,
@@ -676,9 +658,8 @@
       },
       {
         "scope": "editorial",
-        "status": "completed",
-        "api_calls": 1,
-        "search_events": 1,
+        "status": "cached_evidence",
+        "api_calls": 0,
         "merged": {
           "today_findings": 0,
           "unverified_leads": 2,
@@ -728,11 +709,6 @@
           "stage": "post-image-discovery",
           "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
           "status": "HTTP 403"
-        },
-        {
-          "stage": "image",
-          "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
-          "result": "Content larger than 3MB"
         }
       ]
     }

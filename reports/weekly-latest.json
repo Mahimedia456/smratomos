@@ -1,12 +1,12 @@
 {
   "period": "weekly",
-  "start": "2026-11-03",
-  "end": "2026-11-09",
-  "path": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-11-03_to_2026-11-09.pdf",
-  "snapshots": 7,
+  "start": "2026-11-10",
+  "end": "2026-11-16",
+  "path": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-11-10_to_2026-11-16.pdf",
+  "snapshots": 6,
   "archived_findings": 0,
   "dated_findings": 2,
-  "unverified_leads": 13,
+  "unverified_leads": 21,
   "platform_counts": {
     "Facebook": 0,
     "Instagram": 0,
@@ -19,12 +19,12 @@
     "Retailers": 0
   },
   "sentiment_counts": {
-    "Negative": 1,
-    "Neutral": 1
+    "Neutral": 1,
+    "Question": 1
   },
   "observed_product_labels": {
-    "ATOMOS 7\u201d HDMI not working!": 1,
-    "ATOMOSphere Explained: Cloud Storage": 1
+    "Atomos Ninja V/Ninja V+ with Cage Sunhood Screen Protector Silicone Case for": 1,
+    "Atomos Ninja V Review | Do You Need a Monitor?  #videography #filmmakersfamil": 1
   },
   "record_type_counts": {
     "video": 2
@@ -37,17 +37,17 @@
     "Reddit": 0,
     "YouTube": 0,
     "Camera Forums": 0,
-    "Google / News / Articles": 9,
-    "Retailers": 0
+    "Google / News / Articles": 15,
+    "Retailers": 1
   },
   "unique_social_url_groups": 2,
-  "linked_reply_excerpts": 1,
-  "daily_coverage_percent": 100.0,
+  "linked_reply_excerpts": 0,
+  "daily_coverage_percent": 85.7,
   "source_media": {
     "embedded_verified": 2,
     "linked_verified": 2,
     "embedded_leads": 0,
-    "linked_leads": 1,
+    "linked_leads": 4,
     "missing_media_verified": 0
   },
   "retail_observations_count": 0,
@@ -125,10 +125,10 @@
       0,
       0,
       0,
-      1,
-      "921",
-      "3",
-      "1"
+      0,
+      "5",
+      "0",
+      "0"
     ],
     [
       "Camera Forums",
@@ -234,8 +234,8 @@
     [
       "Google / News / Articles",
       0,
-      9,
-      9,
+      15,
+      15,
       0,
       0,
       1
@@ -243,8 +243,8 @@
     [
       "Retailers",
       0,
-      0,
-      0,
+      1,
+      1,
       0,
       0,
       0
@@ -260,15 +260,15 @@
         ],
         [
           "Pending leads",
-          13
+          21
         ],
         [
           "Unique source URLs",
-          13
+          20
         ],
         [
           "Days captured",
-          "7/7"
+          "6/7"
         ]
       ]
     ],
@@ -277,15 +277,15 @@
       [
         [
           "Views",
-          921
+          5
         ],
         [
           "Likes",
-          3
+          0
         ],
         [
           "Comments",
-          1
+          0
         ],
         [
           "Shares",
@@ -302,7 +302,7 @@
         ],
         [
           "Negative",
-          1
+          0
         ],
         [
           "Neutral",
@@ -310,7 +310,7 @@
         ],
         [
           "Questions",
-          0
+          1
         ]
       ]
     ],
@@ -348,7 +348,7 @@
         ],
         [
           "Linked replies",
-          1
+          0
         ],
         [
           "Cached images",
@@ -378,6 +378,27 @@
       ]
     ],
     [
+      "UNVERIFIED REFERENCE METRICS",
+      [
+        [
+          "Reference views",
+          0
+        ],
+        [
+          "Reference likes",
+          0
+        ],
+        [
+          "Reference comments",
+          0
+        ],
+        [
+          "Reference shares",
+          null
+        ]
+      ]
+    ],
+    [
       "OFFICIAL PRODUCT CATALOG | SEPARATE SNAPSHOT",
       [
         [
@@ -399,15 +420,19 @@
       ]
     ]
   ],
-  "pending_reference_metrics": {},
+  "pending_reference_metrics": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0
+  },
   "rejected_synthetic_example_urls": [],
   "overall_kpi": {
     "dated_records": 2,
-    "pending_leads": 13,
+    "pending_leads": 21,
     "metrics": {
-      "views": 921,
-      "likes": 3,
-      "comments": 1,
+      "views": 5,
+      "likes": 0,
+      "comments": 0,
       "shares": null,
       "reactions": null,
       "reposts": null
@@ -415,16 +440,16 @@
     "metric_source_counts": {
       "views": 2,
       "likes": 2,
-      "comments": 2,
+      "comments": 1,
       "shares": 0,
       "reactions": 0,
       "reposts": 0
     },
     "sentiment": {
       "positive": 0,
-      "negative": 1,
+      "negative": 0,
       "neutral": 1,
-      "question": 0,
+      "question": 1,
       "not_applicable": 0
     }
   },
@@ -472,9 +497,9 @@
     [
       "YouTube",
       0,
-      1,
-      1,
       0,
+      1,
+      1,
       0
     ],
     [

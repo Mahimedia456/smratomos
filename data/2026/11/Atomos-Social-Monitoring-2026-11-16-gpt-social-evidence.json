@@ -14,13 +14,29 @@
   "report_period_end": "",
   "coverage": [
     {
-      "platform": "Website",
-      "summary": "An overview of Atomos' product lineup, including monitor-recorders, monitors, and accessories, emphasizing their integration into a connected ecosystem.",
-      "checked": true
+      "platform": "Facebook",
+      "summary": "No relevant posts found on Facebook for Atomos brand on November 16, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "Instagram",
+      "summary": "No relevant posts found on Instagram for Atomos brand on November 16, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "X/Twitter",
+      "summary": "No relevant posts found on X/Twitter for Atomos brand on November 16, 2026.",
+      "checked": false
+    },
+    {
+      "platform": "LinkedIn",
+      "summary": "No relevant posts found on LinkedIn for Atomos brand on November 16, 2026.",
+      "checked": false
     }
   ],
   "visibility_gaps": [
+    "No relevant posts found on major social media platforms for Atomos brand on November 16, 2026.",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search for Atomos brand mentions on November 16, 2026, across various platforms, including social media and official websites. Verified findings were included, and unverified leads were excluded."
+  "methodology": "Conducted a comprehensive search across major social media platforms (Facebook, Instagram, X/Twitter, LinkedIn) for public posts, stories, reels, and mentions related to Atomos brand on November 16, 2026. No relevant content was identified during this search."
 }

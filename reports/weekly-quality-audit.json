@@ -1,11 +1,11 @@
 {
   "period": "weekly",
-  "report": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-11-03_to_2026-11-09.pdf",
-  "pages": 8,
-  "pdf_bytes": 103455,
+  "report": "reports/2026/11/Atomos-Social-Monitoring-Weekly-2026-11-10_to_2026-11-16.pdf",
+  "pages": 10,
+  "pdf_bytes": 98055,
   "expected_dated_records": 2,
-  "expected_leads": 13,
-  "original_source_links_in_pdf": 38,
+  "expected_leads": 21,
+  "original_source_links_in_pdf": 60,
   "embedded_pdf_image_xobjects": 2,
   "images_reported_in_manifest": 2,
   "required_sections_checked": [
@@ -27,5 +27,5 @@
   "missing_sections": [],
   "synthetic_placeholder_urls_found": false,
   "no_page_cap": true,
-  "source_dated_coverage_percent": 100.0
+  "source_dated_coverage_percent": 85.7
 }

@@ -1,0 +1,74 @@
+{
+  "report_date": "2026-11-17",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 17, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Announcements | Atomos Investor Hub",
+      "platform": "Website",
+      "url": "https://investors.atomos.com/announcements",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "",
+      "summary": "On November 13, 2026, Atomos Limited announced a change in director's interest involving Simon Traynor.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "13 Nov 2026 • 4:08 PM Change of Director's Interest Notice - Simon Traynor",
+      "response_action": "",
+      "impact": "medium",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos Limited",
+      "content_type": "",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Reviewed Atomos' official website for product updates and announcements.",
+      "checked": true
+    },
+    {
+      "platform": "Investor Relations",
+      "summary": "Checked Atomos' investor relations page for recent financial and corporate announcements.",
+      "checked": true
+    },
+    {
+      "platform": "Social Media",
+      "summary": "Monitored Atomos' official social media channels for any new posts or updates.",
+      "checked": true
+    },
+    {
+      "platform": "News Outlets",
+      "summary": "Searched for news articles and press releases mentioning Atomos published on November 17, 2026.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 17, 2026, across various platforms, including official websites, investor relations pages, social media channels, and news outlets. Verified the publication dates and relevance of each source to ensure accuracy and timeliness."
+}

@@ -1,0 +1,101 @@
+{
+  "report_date": "2026-11-18",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 18, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Firmware Updates",
+      "platform": "Website",
+      "url": "https://www.atomos.com/product-support/?parent=shogun",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "",
+      "summary": "Atomos provides firmware updates for its products, including Shogun, Shogun AV-19, Shogun AV-19M, Shogun Classic, Shogun CONNECT, Shogun Studio 2, Shogun Ultra, and UltraSync devices.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "Download the latest AtomOS & UltraSync firmware",
+      "response_action": "",
+      "impact": "",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "post",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "Firmware Updates",
+      "platform": "Website",
+      "url": "https://www.atomos.com/product-support/?parent=shogun",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "",
+      "summary": "Atomos provides firmware updates for its products, including Shogun, Shogun AV-19, Shogun AV-19M, Shogun Classic, Shogun CONNECT, Shogun Studio 2, Shogun Ultra, and UltraSync devices.",
+      "sentiment": "Neutral",
+      "priority": "Medium",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "",
+      "details": "",
+      "source_excerpt": "Download the latest AtomOS & UltraSync firmware",
+      "response_action": "",
+      "impact": "",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "Atomos",
+      "content_type": "post",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Atomos Japan announced its participation in Inter BEE 2026, scheduled from November 18 to November 20, 2026.",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Atomos provides firmware updates for its products, including Shogun, Shogun AV-19, Shogun AV-19M, Shogun Classic, Shogun CONNECT, Shogun Studio 2, Shogun Ultra, and UltraSync devices.",
+      "checked": true
+    },
+    {
+      "platform": "PDF",
+      "summary": "An overview of Atomos' mission and product offerings, including monitor-recorders, camera control, cloud collaboration, and more.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring was conducted by searching for Atomos-related news, product announcements, and stock information on November 18, 2026. Sources were verified for relevance and accuracy, with a focus on original content from reputable platforms."
+}

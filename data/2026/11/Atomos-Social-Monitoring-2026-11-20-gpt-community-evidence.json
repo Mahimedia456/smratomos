@@ -1,0 +1,37 @@
+{
+  "report_date": "2026-11-20",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 20, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "DPReview",
+      "summary": "Article detailing Atomos Shinobi II's expanded touch-to-focus feature.",
+      "checked": true
+    },
+    {
+      "platform": "YouTube",
+      "summary": "Video tutorial on pairing Atomos devices with ATOMOSphere.",
+      "checked": false
+    },
+    {
+      "platform": "YouTube",
+      "summary": "Instructional video on updating firmware on Atomos recorders.",
+      "checked": false
+    }
+  ],
+  "visibility_gaps": [
+    "YouTube videos not available",
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 20, 2026, across various platforms, including DPReview, YouTube, and other videography forums. Prioritized original sources and included detailed metadata for each finding."
+}

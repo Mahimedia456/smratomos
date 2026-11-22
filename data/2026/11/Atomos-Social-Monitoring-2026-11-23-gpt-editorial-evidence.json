@@ -2,7 +2,7 @@
   "report_date": "2026-11-23",
   "generated_at_pkt": "",
   "research_as_of_pkt": "",
-  "status": "complete",
+  "status": "success",
   "headline": "Atomos Brand Monitoring Report for November 23, 2026",
   "today_findings": [],
   "retail_observations": [],
@@ -14,13 +14,18 @@
   "report_period_end": "",
   "coverage": [
     {
-      "platform": "web",
-      "summary": "Atomos Limited announced a proposed 20:1 consolidation of its issued capital, pending shareholder approval at the Annual General Meeting on November 19, 2026.",
+      "platform": "Atomos Support",
+      "summary": "Announcement regarding third-party compatibility issues with Atomos CONNECT devices.",
+      "checked": true
+    },
+    {
+      "platform": "Atomos Investor Hub",
+      "summary": "Announcement about proposed capital consolidation by Atomos Limited.",
       "checked": true
     }
   ],
   "visibility_gaps": [
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 23, 2026, focusing on official announcements, product releases, and relevant news articles. Verified sources include Atomos Investor Hub and other reputable financial news outlets."
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 23, 2026, focusing on official announcements, product updates, and relevant news articles. Verified sources include Atomos Support and Atomos Investor Hub."
 }

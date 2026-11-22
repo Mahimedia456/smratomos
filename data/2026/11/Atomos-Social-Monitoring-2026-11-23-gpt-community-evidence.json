@@ -15,22 +15,17 @@
   "coverage": [
     {
       "platform": "DPReview",
-      "summary": "An article detailing the expanded touch-to-focus functionality of the Atomos Shinobi II monitor.",
+      "summary": "An article detailing the expanded touch-to-focus feature of the Atomos Shinobi II monitor.",
       "checked": true
     },
     {
       "platform": "YouTube",
-      "summary": "A video tutorial on updating firmware on Atomos recorders.",
-      "checked": false
-    },
-    {
-      "platform": "YouTube",
-      "summary": "A video guide on pairing Atomos devices with ATOMOSphere.",
-      "checked": false
+      "summary": "A tutorial video on pairing Atomos devices with the ATOMOSphere workspace.",
+      "checked": true
     }
   ],
   "visibility_gaps": [
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 23, 2026, across various platforms, including DPReview, YouTube, and other videography forums. Prioritized original-source articles and posts that explicitly mention Atomos products in the context of camera and recording equipment."
+  "methodology": "Conducted a comprehensive search for Atomos-related content published on November 23, 2026, across various platforms, including DPReview, YouTube, Reddit, and specialized camera forums. Prioritized original sources and direct links to ensure accuracy and relevance."
 }

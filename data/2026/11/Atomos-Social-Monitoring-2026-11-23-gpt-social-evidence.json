@@ -14,32 +14,13 @@
   "report_period_end": "",
   "coverage": [
     {
-      "platform": "Facebook",
-      "summary": "No relevant posts found on Facebook for November 23, 2026.",
-      "checked": false
-    },
-    {
-      "platform": "Instagram",
-      "summary": "No relevant posts found on Instagram for November 23, 2026.",
-      "checked": false
-    },
-    {
-      "platform": "X/Twitter",
-      "summary": "No relevant posts found on X/Twitter for November 23, 2026.",
-      "checked": false
-    },
-    {
-      "platform": "LinkedIn",
-      "summary": "No relevant posts found on LinkedIn for November 23, 2026.",
-      "checked": false
+      "platform": "Website",
+      "summary": "Official Atomos product overview and financial announcement.",
+      "checked": true
     }
   ],
   "visibility_gaps": [
-    "Facebook",
-    "Instagram",
-    "X/Twitter",
-    "LinkedIn",
     "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
   ],
-  "methodology": "Conducted a comprehensive search across major social media platforms (Facebook, Instagram, X/Twitter, LinkedIn) for public posts, comments, and mentions related to Atomos brand and products on November 23, 2026. No relevant content was identified on the specified date."
+  "methodology": "Conducted a comprehensive search for Atomos brand mentions across various platforms, focusing on original sources dated November 23, 2026. Verified findings include official Atomos publications and financial announcements."
 }

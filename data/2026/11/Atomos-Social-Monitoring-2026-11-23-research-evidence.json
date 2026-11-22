@@ -6,7 +6,7 @@
         "group": "Facebook",
         "stage": "search-fallback",
         "query": "site:facebook.com \"Atomos\" 2026-11-23",
-        "relevant_index_candidates": 6,
+        "relevant_index_candidates": 5,
         "index": "DuckDuckGo HTML"
       },
       {
@@ -139,7 +139,7 @@
         "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com/atomos/posts/ November 2026",
-        "results": 11,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -202,7 +202,7 @@
         "group": "Facebook",
         "stage": "search",
         "query": "site:facebook.com/AtomosTech/posts/ November 2026",
-        "results": 11,
+        "results": 10,
         "index": "Bing public RSS, optional DDG fallback"
       },
       {
@@ -459,6 +459,48 @@
       {
         "stage": "source-fetch",
         "group": "Industry articles",
+        "url": "https://en.wikipedia.org/wiki/Atomos_(company)",
+        "result": "OK",
+        "final_url": "https://en.wikipedia.org/wiki/Atomos_(company)"
+      },
+      {
+        "stage": "unverified-date",
+        "group": "Industry articles",
+        "url": "https://en.wikipedia.org/wiki/Atomos_(company)",
+        "source_date": "2023-11-16",
+        "title": "Atomos (company)"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
+        "url": "https://www.atomos.co.uk/log-in",
+        "result": "OK",
+        "final_url": "https://www.atomos.co.uk/log-in"
+      },
+      {
+        "stage": "unverified-date",
+        "group": "Industry articles",
+        "url": "https://www.atomos.co.uk/log-in",
+        "source_date": "",
+        "title": "Login"
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Reddit",
+        "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
+        "result": "HTTP 403",
+        "final_url": null
+      },
+      {
+        "stage": "source-fetch",
+        "group": "Industry articles",
         "url": "https://my.atomos.com/",
         "result": "HTTP 403",
         "final_url": null
@@ -466,7 +508,7 @@
       {
         "stage": "source-fetch",
         "group": "Reddit",
-        "url": "https://www.reddit.com/r/Atomos/comments/1wwuwm3/shinobi_ii_touch_to_focus/",
+        "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -487,7 +529,7 @@
       {
         "stage": "source-fetch",
         "group": "Reddit",
-        "url": "https://www.reddit.com/r/Atomos/comments/1x0rx9n/exposure_assist_issue/",
+        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
         "result": "HTTP 403",
         "final_url": null
       },
@@ -507,13 +549,6 @@
       },
       {
         "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/Lumix/comments/1x58125/s1rii_vs_s5iix_i_rented_the_monster_for_a/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
         "group": "Industry articles",
         "url": "https://www.middle.news/articles/2026/10/28/atomos-posts-positive-cash-flow-as-shinobi-7-ii-demand-meets-supply-constraints",
         "result": "OK",
@@ -528,13 +563,6 @@
       },
       {
         "stage": "source-fetch",
-        "group": "Reddit",
-        "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
-        "result": "HTTP 403",
-        "final_url": null
-      },
-      {
-        "stage": "source-fetch",
         "group": "Industry articles",
         "url": "https://investors.atomos.com/announcements/JnKoqE-quarterly-activities-appendix-4c-cash-flow-report",
         "result": "HTTP 429",
@@ -546,52 +574,57 @@
         "url": "https://www.atomos.com/2026/10/20/seeing-the-final-look-shinobi/",
         "result": "HTTP 403",
         "final_url": null
+      },
+      {
+        "stage": "image",
+        "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
+        "result": "Content larger than 3MB"
       }
     ],
     "counts": {
       "YouTube.api_searches": 1,
-      "Facebook.wrong_source_domain": 60,
+      "Facebook.wrong_source_domain": 50,
       "Facebook.successful_queries": 7,
       "Facebook.brave_not_configured": 7,
       "Facebook.fallback_attempts": 1,
-      "Facebook.irrelevant_index_hits": 6,
-      "Facebook.fallback_candidates": 6,
+      "Facebook.irrelevant_index_hits": 5,
+      "Facebook.fallback_candidates": 5,
       "Facebook.queries": 7,
-      "Instagram.wrong_source_domain": 52,
+      "Instagram.wrong_source_domain": 40,
       "Instagram.successful_queries": 7,
       "Instagram.brave_not_configured": 7,
       "Instagram.fallback_attempts": 1,
       "Instagram.queries": 7,
-      "LinkedIn.wrong_source_domain": 61,
+      "LinkedIn.wrong_source_domain": 55,
       "LinkedIn.successful_queries": 7,
       "LinkedIn.brave_not_configured": 7,
       "LinkedIn.fallback_attempts": 1,
       "LinkedIn.queries": 7,
-      "X / Twitter.wrong_source_domain": 61,
+      "X / Twitter.wrong_source_domain": 55,
       "X / Twitter.successful_queries": 7,
       "X / Twitter.brave_not_configured": 7,
       "X / Twitter.fallback_attempts": 1,
       "X / Twitter.queries": 7,
-      "Reddit.wrong_source_domain": 41,
+      "Reddit.wrong_source_domain": 35,
       "Reddit.successful_queries": 5,
       "Reddit.brave_not_configured": 5,
       "Reddit.fallback_attempts": 1,
       "Reddit.queries": 5,
-      "YouTube.wrong_source_domain": 31,
+      "YouTube.wrong_source_domain": 30,
       "YouTube.successful_queries": 4,
       "YouTube.brave_not_configured": 4,
       "YouTube.fallback_attempts": 1,
       "YouTube.queries": 4,
-      "Camera forums.wrong_source_domain": 58,
+      "Camera forums.wrong_source_domain": 50,
       "Camera forums.successful_queries": 7,
       "Camera forums.brave_not_configured": 7,
       "Camera forums.fallback_attempts": 1,
       "Camera forums.queries": 7,
-      "Industry articles.candidates": 8,
-      "Industry articles.irrelevant_index_hits": 45,
+      "Industry articles.candidates": 10,
+      "Industry articles.irrelevant_index_hits": 33,
       "Industry articles.successful_queries": 6,
       "Industry articles.queries": 6,
-      "Retailers.wrong_source_domain": 42,
+      "Retailers.wrong_source_domain": 30,
       "Retailers.successful_queries": 6,
       "Retailers.brave_not_configured": 6,
       "Retailers.fallback_attempts": 1,
@@ -606,14 +639,14 @@
       "Reddit.index_only_leads": 7,
       "YouTube.source_attempts": 2,
       "YouTube.no_brand_original": 2,
-      "Industry articles.source_attempts": 8,
+      "Industry articles.source_attempts": 10,
       "Industry articles.fetch_failed": 5,
-      "Industry articles.not_dated_today": 3
+      "Industry articles.not_dated_today": 5
     },
     "search_queries": 56,
-    "original_pages_attempted": 17,
+    "original_pages_attempted": 19,
     "cached_images": 0,
-    "undated_brand_sources": 9,
+    "undated_brand_sources": 10,
     "previous_five_day_brand_sources": 0
   },
   {
@@ -697,6 +730,11 @@
           "stage": "post-image-discovery",
           "url": "https://www.reddit.com/r/AtomosCommunity/comments/1wdc6e0/introducing_the_shinobi_7_ii_just_announced_at/",
           "status": "HTTP 403"
+        },
+        {
+          "stage": "image",
+          "url": "https://cdn.sanity.io/images/qys2rh41/development/ca58c5700e93c997e27e64908bed15672e760929-3544x3544.png",
+          "result": "Content larger than 3MB"
         }
       ]
     }

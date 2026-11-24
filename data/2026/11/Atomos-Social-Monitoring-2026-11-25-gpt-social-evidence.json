@@ -1,0 +1,26 @@
+{
+  "report_date": "2026-11-25",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 25, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "LinkedIn",
+      "summary": "Tavistock Investments Plc announced an agreement for the disposal of King Financial Planning to Atomos, with an exclusivity agreement for the potential sale of Tavistock Group Holdings Limited to Atomos. Atomos has completed and is satisfied with its due diligence process.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring focused on publicly available sources, including social media platforms and news outlets, for mentions of Atomos brand products and services on November 25, 2026. The search excluded unrelated topics such as Final Fantasy XIV Atomos server, DJ Atomos, rap music, and ancient Greek atomism. The findings are based on original sources with explicit Atomos brand mentions in the context of camera and recording hardware."
+}

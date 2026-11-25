@@ -1,0 +1,41 @@
+{
+  "report_date": "2026-11-26",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "complete",
+  "headline": "Atomos Brand Monitoring Report for November 26, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Investor Relations",
+      "summary": "Atomos Limited announced a consolidation of its capital, resulting in a 20-to-1 consolidation of its issued capital. This consolidation does not affect the company's market capitalization, underlying value, assets, liabilities, cash position, strategy, or operations.",
+      "checked": true
+    },
+    {
+      "platform": "Investor Relations",
+      "summary": "Following the Annual General Meeting, Atomos Limited's shareholders approved the consolidation of capital, leading to a 20-to-1 consolidation of its issued capital. This consolidation is a mechanical adjustment and does not change the company's market capitalization, underlying value, assets, liabilities, cash position, strategy, or operations.",
+      "checked": true
+    },
+    {
+      "platform": "Investor Relations",
+      "summary": "In the CEO's address at the Annual General Meeting, Atomos Limited reported a 22.5% increase in revenue to $40.0 million for FY26, a turnaround from a loss of $11.8 million to an EBITDA of $3.7 million, and a return to statutory profitability with a net profit after tax of $0.9 million.",
+      "checked": true
+    },
+    {
+      "platform": "Investor Relations",
+      "summary": "In the Chairman's address at the Annual General Meeting, Atomos Limited highlighted a significant turnaround in financial and operational performance for FY26, including a 22.5% increase in revenue to $40.0 million, an improvement in EBITDA to $3.7 million, and a return to statutory profitability with a net profit after tax of $0.9 million.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring report for November 26, 2026, focuses on Atomos Limited's recent corporate announcements, including the consolidation of capital and financial performance highlights from the Annual General Meeting. No new product releases or significant brand mentions were identified on this date."
+}

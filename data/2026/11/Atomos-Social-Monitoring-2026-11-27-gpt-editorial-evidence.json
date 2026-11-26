@@ -1,0 +1,106 @@
+{
+  "report_date": "2026-11-27",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 27, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "ATOMOS NINJA TX Amazonブラックフライデーで20%オフの128,920円 11月27日から先行セール│SHINOBI IIは10%オフの50,688円 全6製品の価格一覧",
+      "platform": "Website",
+      "url": "https://imagingpress.jp/atomos-amazon-black-friday-2026-ninja-tx-shinobi-ii/",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-26",
+      "summary": "Nextorage株式会社が、AmazonのブラックフライデーセールでATOMOS製品を最大20％OFFで提供することを発表しました。",
+      "sentiment": "Positive",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "ATOMOS製品",
+      "details": "",
+      "source_excerpt": "ATOMOSの日本総代理店のNextorage株式会社は、Amazonの「ブラックフライデー」に参加します。モニターレコーダー「NINJA TX」と「NINJA TX GO」が20%オフになるなど、NINJAシリーズとSHINOBIシリーズの6製品が、最大20%オフで販売されます。",
+      "response_action": "",
+      "impact": "high",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "IMAGING PRESS",
+      "content_type": "post",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    },
+    {
+      "title": "ATOMOS NINJA TX Amazonブラックフライデーで20%オフの128,920円 11月27日から先行セール│SHINOBI IIは10%オフの50,688円 全6製品の価格一覧",
+      "platform": "Website",
+      "url": "https://imagingpress.jp/atomos-amazon-black-friday-2026-ninja-tx-shinobi-ii/",
+      "author": "",
+      "published_date": "",
+      "date_evidence": "2026-11-26",
+      "summary": "Nextorage株式会社が、AmazonのブラックフライデーセールでATOMOS製品を最大20％OFFで提供することを発表しました。",
+      "sentiment": "Positive",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "",
+      "image_context": "",
+      "image_credit_url": "",
+      "product": "ATOMOS製品",
+      "details": "",
+      "source_excerpt": "ATOMOSの日本総代理店のNextorage株式会社は、Amazonの「ブラックフライデー」に参加します。モニターレコーダー「NINJA TX」と「NINJA TX GO」が20%オフになるなど、NINJAシリーズとSHINOBIシリーズの6製品が、最大20%オフで販売されます。",
+      "response_action": "",
+      "impact": "high",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "",
+      "publisher": "IMAGING PRESS",
+      "content_type": "post",
+      "hashtags": [],
+      "mentioned_accounts": [],
+      "tagged_accounts": [],
+      "engagement": {},
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Nextorage株式会社が、Amazonのブラックフライデーセールに参加し、ATOMOS製品を最大20％OFFで提供することを発表しました。",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Nextorage株式会社が、AmazonのブラックフライデーセールでATOMOS製品を最大20％OFFで提供することを発表しました。",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Nextorage株式会社が、Amazonのブラックフライデーセールに参加し、ATOMOS製品を最大20％OFFで提供することを発表しました。",
+      "checked": true
+    },
+    {
+      "platform": "Website",
+      "summary": "Nextorage株式会社が、ATOMOS製品の最新ラインナップをまとめた「ATOMOS製品カタログ2026」を公開しました。",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "The monitoring was conducted by searching for Atomos-related news, product announcements, and retailer listings published on November 27, 2026."
+}

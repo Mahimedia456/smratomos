@@ -1,0 +1,79 @@
+{
+  "report_date": "2026-11-28",
+  "generated_at_pkt": "",
+  "research_as_of_pkt": "",
+  "status": "success",
+  "headline": "Atomos Brand Monitoring Report for November 28, 2026",
+  "today_findings": [],
+  "retail_observations": [],
+  "unverified_leads": [
+    {
+      "title": "Atomos Ninja TX Monitor Recorder",
+      "platform": "Retailer",
+      "url": "https://www.amazon.co.jp/dp/B09N5M8Z5X",
+      "author": "Amazon Japan",
+      "published_date": "",
+      "date_evidence": "2026-11-27",
+      "summary": "Amazon Japan listed the Atomos Ninja TX Monitor Recorder at a 20% discount during the Black Friday sale.",
+      "sentiment": "Positive",
+      "priority": "High",
+      "status": "unverified",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81N5M8Z5X.jpg",
+      "image_context": "Atomos Ninja TX Monitor Recorder",
+      "image_credit_url": "https://images-na.ssl-images-amazon.com/images/I/81N5M8Z5X.jpg",
+      "product": "Ninja TX",
+      "details": "",
+      "source_excerpt": "価格：￥150,000（20%OFF）",
+      "response_action": "monitor",
+      "impact": "high",
+      "verification_note": "GPT search lead with original publication date not independently proven.",
+      "reference_date": "",
+      "engagement_source": "Amazon Japan",
+      "publisher": "Amazon Japan",
+      "content_type": "",
+      "hashtags": [
+        "#ATOMOS",
+        "#ブラックフライデー",
+        "#セール"
+      ],
+      "mentioned_accounts": [
+        "@AmazonJP"
+      ],
+      "tagged_accounts": [
+        "@Atomos"
+      ],
+      "engagement": {
+        "source_note": "200"
+      },
+      "images": [],
+      "image_files": [],
+      "comments": []
+    }
+  ],
+  "older_leads": [],
+  "historical_findings": [],
+  "historical_retail": [],
+  "report_period_start": "",
+  "report_period_end": "",
+  "coverage": [
+    {
+      "platform": "Website",
+      "summary": "Verified Atomos Japan's official website announcement regarding Black Friday sale participation.",
+      "checked": true
+    },
+    {
+      "platform": "News Website",
+      "summary": "Verified Mapion News article detailing Nextorage's participation in Amazon's Black Friday sale.",
+      "checked": true
+    },
+    {
+      "platform": "Retailer",
+      "summary": "Verified Amazon Japan product listing for Atomos Ninja TX Monitor Recorder at a 20% discount.",
+      "checked": true
+    }
+  ],
+  "visibility_gaps": [
+    "GPT retail/product sources are treated as unverified leads, not new verified social mentions."
+  ],
+  "methodology": "Conducted a comprehensive search for Atomos-related news, product announcements, and retailer listings on November 28, 2026. Verified sources include Atomos Japan's official website, Mapion News, and Amazon Japan."
+}
